@@ -1,71 +1,71 @@
 var myObject= {"customers":[
-    {"Name" : "Single Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-    {"Name" : "Double Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-    {"Name" : "Best Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-    {"Name" : "New Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+    {"Name" : "Single Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/shimla-manali-travel-package.webp"},
+    {"Name" : "Double Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+    {"Name" : "Best Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+    {"Name" : "New Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
     
     ]};
 
     var myObject2= {"customers2":[
-        {"Name" : "Single Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-        {"Name" : "Double Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-        {"Name" : "Best Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-        {"Name" : "New Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+        {"Name" : "Single Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+        {"Name" : "Double Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+        {"Name" : "Best Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+        {"Name" : "New Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
         
         ]};
 
         var myObject3= {"customers3":[
-            {"Name" : "Single Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-            {"Name" : "Double Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-            {"Name" : "Best Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-            {"Name" : "New Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+            {"Name" : "Single Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+            {"Name" : "Double Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+            {"Name" : "Best Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+            {"Name" : "New Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
             
             ]};
 
             var Popular= {"packages":[
-                {"Name" : "Single Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                {"Name" : "Double Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                {"Name" : "Best Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                {"Name" : "New Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                {"Name" : "Single Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                {"Name" : "Double Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                {"Name" : "Best Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                {"Name" : "New Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
                 
                 ]};
 
                 var Dest= {"Dest":[
-                    {"Name" : "Shimla","link" : "packages/pa1.html","img" : "images/placeholder.webp"},
-                    {"Name" : "Manali","link" : "packages/pa1.html","img" : "images/placeholder.webp"},
-                    {"Name" : "Dharamshala","link" : "packages/pa1.html","img" : "images/placeholder.webp"},
-                    {"Name" : "Dalhousie","link" : "packages/pa1.html","img" : "images/placeholder.webp"},
+                    {"Name" : "Shimla","link" : "shimla-manali-travel-package.html","img" : "images/placeholder.webp"},
+                    {"Name" : "Manali","link" : "shimla-manali-travel-package.html","img" : "images/placeholder.webp"},
+                    {"Name" : "Dharamshala","link" : "shimla-manali-travel-package.html","img" : "images/placeholder.webp"},
+                    {"Name" : "Dalhousie","link" : "shimla-manali-travel-package.html","img" : "images/placeholder.webp"},
                     
                     ]};
 
                     var Shimla= {"Shimla":[
-                        {"Name" : "Single Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                        {"Name" : "Double Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                        {"Name" : "Best Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                        {"Name" : "New Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                        {"Name" : "Single Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                        {"Name" : "Double Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                        {"Name" : "Best Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                        {"Name" : "New Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
                         
                         ]};
 
                         var Manali= {"Manali":[
-                            {"Name" : "Single Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                            {"Name" : "Double Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                            {"Name" : "Best Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                            {"Name" : "New Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                            {"Name" : "Single Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                            {"Name" : "Double Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                            {"Name" : "Best Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                            {"Name" : "New Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
                             
                             ]};
                             var Dharamshala= {"Dharamshala":[
-                                {"Name" : "Single Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                                {"Name" : "Double Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                                {"Name" : "Best Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                                {"Name" : "New Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                                {"Name" : "Single Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                                {"Name" : "Double Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                                {"Name" : "Best Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                                {"Name" : "New Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
                                 
                                 ]};
         
                                 var Dalhousie= {"Dalhousie":[
-                                    {"Name" : "Single Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                                    {"Name" : "Double Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                                    {"Name" : "Best Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
-                                    {"Name" : "New Family Suite","price" : "6,000.00","link" : "packages/pa1.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                                    {"Name" : "Single Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                                    {"Name" : "Double Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                                    {"Name" : "Best Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
+                                    {"Name" : "New Family Suite","price" : "6,000.00","link" : "shimla-manali-travel-package.html","d1" : "De Mount Castle","d2" : "With Balcony","img" : "images/placeholder.webp"},
                                     
                                     ]};
 
