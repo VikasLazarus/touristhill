@@ -149,7 +149,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 .w3-hover-none:hover{box-shadow:none!important}
 /* Colors */
-.w3-amber,.w3-hover-amber:hover{color:#000!important;background-color:#FF5A5F20!important}
+.w3-amber,.w3-hover-amber:hover{color:#000!important;background-color:#4CA77120!important}
 .w3-aqua,.w3-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
 .w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#00A69920!important}
 .w3-light-blue,.w3-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
@@ -166,9 +166,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-pink,.w3-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
 .w3-purple,.w3-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
 .w3-deep-purple,.w3-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
-.w3-red,.w3-hover-red:hover{color:#FF5A5F!important;background-color:#FF5A5F20!important}
+.w3-red,.w3-hover-red:hover{color:#4CA771!important;background-color:#4CA77120!important}
 .w3-sand,.w3-hover-sand:hover{color:#484848!important;background-color:#f9f9f9!important}
-.w3-teal,.w3-hover-teal:hover{color:#ffffff!important;background-color:#FF5A5F!important}
+.w3-teal,.w3-hover-teal:hover{color:#ffffff!important;background-color:#4CA771!important}
 .w3-yellow,.w3-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
 .w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
 .w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
@@ -179,7 +179,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-pale-green,.w3-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
 .w3-pale-yellow,.w3-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
 .w3-pale-blue,.w3-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
-.w3-text-amber,.w3-hover-text-amber:hover{color:#FF5A5F20!important}
+.w3-text-amber,.w3-hover-text-amber:hover{color:#4CA77120!important}
 .w3-text-aqua,.w3-hover-text-aqua:hover{color:#00ffff!important}
 .w3-text-blue,.w3-hover-text-blue:hover{color:#00A69960!important}
 .w3-text-light-blue,.w3-hover-text-light-blue:hover{color:#87CEEB!important}
@@ -196,16 +196,16 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-text-pink,.w3-hover-text-pink:hover{color:#e91e63!important}
 .w3-text-purple,.w3-hover-text-purple:hover{color:#9c27b0!important}
 .w3-text-deep-purple,.w3-hover-text-deep-purple:hover{color:#673ab7!important}
-.w3-text-red,.w3-hover-text-red:hover{color:#FF5A5F20!important}
+.w3-text-red,.w3-hover-text-red:hover{color:#4CA77120!important}
 .w3-text-sand,.w3-hover-text-sand:hover{color:#f9f9f9!important}
-.w3-text-teal,.w3-hover-text-teal:hover{color:#FF5A5F!important}
+.w3-text-teal,.w3-hover-text-teal:hover{color:#4CA771!important}
 .w3-text-yellow,.w3-hover-text-yellow:hover{color:#d2be0e!important}
 .w3-text-white,.w3-hover-text-white:hover{color:#fff!important}
 .w3-text-black,.w3-hover-text-black:hover{color:#000!important}
 .w3-text-grey,.w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover{color:#757575!important}
 .w3-text-light-grey,.w3-hover-text-light-grey:hover,.w3-text-light-gray,.w3-hover-text-light-gray:hover{color:#f1f1f1!important}
 .w3-text-dark-grey,.w3-hover-text-dark-grey:hover,.w3-text-dark-gray,.w3-hover-text-dark-gray:hover{color:#3a3a3a!important}
-.w3-border-amber,.w3-hover-border-amber:hover{border-color:#FF5A5F20!important}
+.w3-border-amber,.w3-hover-border-amber:hover{border-color:#4CA77120!important}
 .w3-border-aqua,.w3-hover-border-aqua:hover{border-color:#00ffff!important}
 .w3-border-blue,.w3-hover-border-blue:hover{border-color:#00A69960!important}
 .w3-border-light-blue,.w3-hover-border-light-blue:hover{border-color:#87CEEB!important}
@@ -222,9 +222,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-pink,.w3-hover-border-pink:hover{border-color:#e91e63!important}
 .w3-border-purple,.w3-hover-border-purple:hover{border-color:#9c27b0!important}
 .w3-border-deep-purple,.w3-hover-border-deep-purple:hover{border-color:#673ab7!important}
-.w3-border-red,.w3-hover-border-red:hover{border-color:#FF5A5F20!important}
+.w3-border-red,.w3-hover-border-red:hover{border-color:#4CA77120!important}
 .w3-border-sand,.w3-hover-border-sand:hover{border-color:#f9f9f9!important}
-.w3-border-teal,.w3-hover-border-teal:hover{border-color:#FF5A5F!important}
+.w3-border-teal,.w3-hover-border-teal:hover{border-color:#4CA771!important}
 .w3-border-yellow,.w3-hover-border-yellow:hover{border-color:#ffeb3b!important}
 .w3-border-white,.w3-hover-border-white:hover{border-color:#fff!important}
 .w3-border-black,.w3-hover-border-black:hover{border-color:#000!important}
