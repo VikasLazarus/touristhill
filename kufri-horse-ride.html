@@ -22,7 +22,7 @@
     h6 {
       font-family: "Montserrat", sans-serif
     }
-
+a{text-decoration: none;}
     .w3-row-padding img {
       margin-bottom: 12px
     }
@@ -120,8 +120,10 @@ mask: var(--mask);
 </head>
 
 <body>
-  <div class="w3-row w3-text-white w3-top"
-    style="background-image: linear-gradient(90deg,#D95F59,#8C3061,#D95F59); padding: 1px 18px ;  z-index: 4;">
+  <div class="w3-row w3-text-white"
+    style=" position: -webkit-sticky;
+  position: sticky;
+  top: 0px; background-image: linear-gradient(90deg,#D95F59,#8C3061,#D95F59); padding: 1px 18px ;  z-index: 4;">
     <div class="aa"></div>
     <div class="w3-content" style="max-width: 1100px;">
       <span class="w3-col l12  m12 s12 w3-small w3-center" style="padding: 5px 0px ;"><span><b
@@ -137,22 +139,12 @@ mask: var(--mask);
   <!-- Sidebar with image -->
  
 
-  <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
-  <nav class="w3-sidebar w3-light-grey w3-animate-right w3-xxlarge w3-mobile"
-    style="display:none;padding-top:150px;right:0;z-index:2; max-width: 400px;" id="mySidebar">
-    <a href="javascript:void(0)" onclick="closeNav()" class="w3-margin-top w3-button w3-xxlarge w3-display-topright"
-      style="padding:0 12px;">
-      <i class="fa fa-remove w3-text-black w3-margin-top"></i>
-    </a>
-    
-
-
-  </nav>
+ 
 
   <!-- Page Content -->
-  <div class="w3-main w3-padding-large" style="margin-left:0%">
+  <div class="w3-main w3-padding-large"style="padding-top:0px !important; margin-left:0%">
 
-    <div class="w3-row w3-border-bottom " style="margin: 0px -20px; margin-top: 20px;">
+    <div class="w3-row w3-border-bottom " style="margin: 0px -20px; margin-top: 0px;">
       <div class="w3-row w3-col w3-border-right " style="width: 200px;">
         <a href="https://touristhill.in/" class=" w3-button w3-white w3-hover-none" style="padding:8px 12px;">
 
@@ -433,7 +425,7 @@ mask: var(--mask);
         <div class="w3-col s5 m6 l6" style="padding-top: 6px;">
           <span class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-center w3-hover-white w3-large"
             onclick="myFunction('navDemo')" title="Toggle Navigation Menu">
-            <div class="w3-green" style="border-radius:30px ; height: 28px; width: 28px; padding: 3px 5px;">
+            <div class="w3-deep-orange" style="border-radius:30px ; height: 28px; width: 28px; padding: 3px 5px;">
               <svg fill="#ffffff" width="17px" height="17px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M21.384,17.752a2.108,2.108,0,0,1-.522,3.359,7.543,7.543,0,0,1-5.476.642C10.5,20.523,3.477,13.5,2.247,8.614a7.543,7.543,0,0,1,.642-5.476,2.108,2.108,0,0,1,3.359-.522L8.333,4.7a2.094,2.094,0,0,1,.445,2.328A3.877,3.877,0,0,1,8,8.2c-2.384,2.384,5.417,10.185,7.8,7.8a3.877,3.877,0,0,1,1.173-.781,2.092,2.092,0,0,1,2.328.445Z" />
@@ -450,7 +442,7 @@ mask: var(--mask);
     <div class="w3-row w3-hide-large w3-hide-medium w3-row w3-sand w3-text-white"
       style="margin: 0px -24px; margin-top: 0px; position: -webkit-sticky;
       position: sticky;
-      top: 30px;">
+      top: 30px; z-index: 4;">
 
       <div class="w3-col s7 w3-padding"><span><span class="w3-text-dark-gray">
 
@@ -568,7 +560,7 @@ mask: var(--mask);
  <div class="w3-row-padding w3-padding-16" id="food" style="margin: 0px -24px;">
   <div class="w3-quarter w3-margin-bottom">
     <div class="w3-row" style="height: 250px; width: 100%;">
-    <img class="w3-round2" src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?t=st=1722182244~exp=1722185844~hmac=c155ad8ccb011c802c7ad5f677011b67b981005d5d7d016ccd2009305d2ec1f7&w=826" alt="Sandwich" style="width:100% ;height:100%; object-fit: cover; overflow: hidden;">
+    <img class="w3-round2" src="https://lh3.googleusercontent.com/p/AF1QipOSnqM3zkTcIvCrik_3U_wLAkVcSqrdlLXcb1Dj=s680-w680-h510" alt="Sandwich" style="width:100% ;height:100%; object-fit: cover; overflow: hidden;">
   </div>
     <div class="w3-row ">
   
@@ -589,98 +581,36 @@ font-weight: 700;
       </div>
 
       
-      <p><b class="w3-large">INR-500</b> <strike>INR 800</strike></p>
+      <p><b class="w3-large">INR-500</b> <strike>INR-800</strike></p>
       <button class="w3-button w3-round w3-text-white w3-deep-orange w3-small">Book Now</button>
       <button class="w3-button w3-round w3-text-white w3-deep-orange w3-small">Get Call Back</button>
   </div>
   </div>
-  <div class="w3-quarter w3-margin-bottom">
-    <div class="w3-row" style="height: 250px; width: 100%;">
-    <img class="w3-round2" src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?t=st=1722182244~exp=1722185844~hmac=c155ad8ccb011c802c7ad5f677011b67b981005d5d7d016ccd2009305d2ec1f7&w=826" alt="Sandwich" style="width:100% ;height:100%; object-fit: cover; overflow: hidden;">
+
+  <div class="w3-quarter w3-margin-bottom w3-display-container w3-center">
+    <div class="w3-row w3-black w3-round2" style="height: 450px; width: 100%;">
+    <img class="w3-round2 w3-card w3-opacity" src="https://img.freepik.com/free-photo/friends-skiers-having-fun-ski-resort-mountains-winter-skiing-snowboarding_651396-3048.jpg?t=st=1722320276~exp=1722323876~hmac=b83eb00624c0d42c3979f6d0364ba517561490d8d29ee0af10e8dfb32de86eec&w=740" alt="Sandwich" style="width:100% ;height:100%; object-fit: cover; overflow: hidden;">
+  <div class="w3-display-middle w3-xlarge" style="width: 100%;"><strong>Skiing <br>and <br>Snowboarding <br>Coming Soon</strong></div>
   </div>
-    <div class="w3-row ">
   
-      <div class="w3-row w3-margin-top w3-tag w3-round w3-sand">
-        <div class="w3-left w3-text-green w3-small"><b>4.5 (127)</b></div>
-
-      </div>
-      <h3 class="w3-text white" style="font-size: 20px; margin: 2px 0px;  overflow: hidden;
-display: -webkit-box;
--webkit-line-clamp: 2;
-font-weight: 700;
--webkit-box-orient: vertical;">Kufri Horse Ride
-      </h3>
-
-
-      <div class="w3-row" style="margin-bottom:6px;"> <strong>Full </strong>Day
-        <strong>Per </strong>/ Person
-      </div>
-
-      
-      <p><b class="w3-large">INR-500</b> <strike>INR 800</strike></p>
-      <button class="w3-button w3-round w3-text-white w3-deep-orange w3-small">Book Now</button>
-      <button class="w3-button w3-round w3-text-white w3-deep-orange w3-small">Get Call Back</button>
   </div>
+<div class="w3-quarter w3-margin-bottom w3-display-container w3-center">
+    <div class="w3-row w3-black w3-round2" style="height: 450px; width: 100%;">
+    <img class="w3-round2 w3-card w3-opacity" src="https://img.freepik.com/free-photo/boy-bumper-car_23-2148011802.jpg?t=st=1722320547~exp=1722324147~hmac=f152df1d4b302854eaec396b3513b342a333de4ed61c14ad291395c3b7839e03&w=740" alt="Sandwich" style="width:100% ;height:100%; object-fit: cover; overflow: hidden;">
+  <div class="w3-display-middle w3-xlarge" style="width: 100%;"><strong>Go <br>Karting Kufri <br>Coming Soon</strong></div>
   </div>
-
-  <div class="w3-quarter w3-margin-bottom">
-    <div class="w3-row" style="height: 250px; width: 100%;">
-    <img class="w3-round2" src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?t=st=1722182244~exp=1722185844~hmac=c155ad8ccb011c802c7ad5f677011b67b981005d5d7d016ccd2009305d2ec1f7&w=826" alt="Sandwich" style="width:100% ;height:100%; object-fit: cover; overflow: hidden;">
-  </div>
-    <div class="w3-row ">
   
-      <div class="w3-row w3-margin-top w3-tag w3-round w3-sand">
-        <div class="w3-left w3-text-green w3-small"><b>4.5 (127)</b></div>
-
-      </div>
-      <h3 class="w3-text white" style="font-size: 20px; margin: 2px 0px;  overflow: hidden;
-display: -webkit-box;
--webkit-line-clamp: 2;
-font-weight: 700;
--webkit-box-orient: vertical;">Kufri Horse Ride
-      </h3>
-
-
-      <div class="w3-row" style="margin-bottom:6px;"> <strong>Full </strong>Day
-        <strong>Per </strong>/ Person
-      </div>
-
-      
-      <p><b class="w3-large">INR-500</b> <strike>INR 800</strike></p>
-      <button class="w3-button w3-round w3-text-white w3-deep-orange w3-small">Book Now</button>
-      <button class="w3-button w3-round w3-text-white w3-deep-orange w3-small">Get Call Back</button>
   </div>
+  <div class="w3-quarter w3-margin-bottom w3-display-container w3-center">
+    <div class="w3-row w3-black w3-round2" style="height: 450px; width: 100%;">
+    <img class="w3-round2 w3-card w3-opacity" src="https://img.freepik.com/free-photo/happy-romantic-couple-traveling-together-nature_23-2149939670.jpg?t=st=1722320871~exp=1722324471~hmac=99bc8b902eac81e4642c157dcae965c32d19e170217197a45d670b0c18165072&w=740" alt="Sandwich" style="width:100% ;height:100%; object-fit: cover; overflow: hidden;">
+  <div class="w3-display-middle w3-xlarge" style="width: 100%;"><strong>Trekking <br>and <br>Hiking <br>Coming Soon</strong></div>
   </div>
-
-
-  <div class="w3-quarter w3-margin-bottom">
-    <div class="w3-row" style="height: 250px; width: 100%;">
-    <img class="w3-round2" src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?t=st=1722182244~exp=1722185844~hmac=c155ad8ccb011c802c7ad5f677011b67b981005d5d7d016ccd2009305d2ec1f7&w=826" alt="Sandwich" style="width:100% ;height:100%; object-fit: cover; overflow: hidden;">
-  </div>
-    <div class="w3-row ">
   
-      <div class="w3-row w3-margin-top w3-tag w3-round w3-sand">
-        <div class="w3-left w3-text-green w3-small"><b>4.5 (127)</b></div>
-
-      </div>
-      <h3 class="w3-text white" style="font-size: 20px; margin: 2px 0px;  overflow: hidden;
-display: -webkit-box;
--webkit-line-clamp: 2;
-font-weight: 700;
--webkit-box-orient: vertical;">Kufri Horse Ride
-      </h3>
-
-
-      <div class="w3-row" style="margin-bottom:6px;"> <strong>Full </strong>Day
-        <strong>Per </strong>/ Person
-      </div>
-
-      
-      <p><b class="w3-large">INR-500</b> <strike>INR 800</strike></p>
-      <button class="w3-button w3-round w3-text-white w3-deep-orange w3-small">Book Now</button>
-      <button class="w3-button w3-round w3-text-white w3-deep-orange w3-small">Get Call Back</button>
   </div>
-  </div>
+
+
+  
 </div>
 
 
@@ -714,44 +644,11 @@ font-weight: 700;
 <h3>Create Lasting Memories</h3>
 <p>Our commitment to providing exceptional service extends beyond adventure. We offer comfortable accommodations, delicious local cuisine, and cultural experiences to enrich your journey.</p>
 
-<h2>Book your Kufri adventure with Tourist Hill Tour and Travels today and get ready to create memories that will last a lifetime.</h2>
+<p>Book your Kufri adventure with Tourist Hill Tour and Travels today and get ready to create memories that will last a lifetime.</p>
 
-<h3 class="w3-padding-16">My Skills</h3>
-      <p class="w3-wide w3-round">Photography</p>
-      <div class="w3-light-grey w3-round ">
-        <div class="w3-container w3-center w3-padding-small w3-deep-orange w3-text-white w3-round" style="width:95%">95%</div>
-      </div>
-      <p class="w3-wide w3-round">Web Design</p>
-      <div class="w3-light-grey w3-round ">
-        <div class="w3-container w3-center w3-padding-small w3-deep-orange w3-text-white w3-round" style="width:85%">85%</div>
-      </div>
-      <p class="w3-wide w3-round">Photoshop</p>
-      <div class="w3-light-grey w3-round ">
-        <div class="w3-container w3-center w3-padding-small w3-deep-orange w3-text-white w3-round" style="width:80%">80%</div>
-      </div><br>
 
-      <div class="w3-row w3-center w3-sand w3-padding-16 w3-section w3-round">
-        <div class="w3-third w3-section">
-          <span class="w3-xlarge">14+</span><br>
-          Partners
-        </div>
-        <div class="w3-third w3-section">
-          <span class="w3-xlarge">55+</span><br>
-          Projects Done
-        </div>
-        <div class="w3-third w3-section">
-          <span class="w3-xlarge">89+</span><br>
-          Happy Clients
-        </div>
-        <div class="w3-third w3-section">
-          <span class="w3-xlarge">150+</span><br>
-          Meetings
-        </div>
-      </div>
 
-      <button class="w3-button w3-light-grey w3-padding-large w3-section">
-        <i class="fa fa-download"></i> Download Resume
-      </button>
+      
 
       <!-- Testimonials -->
       <h3 class="w3-padding-24">What Our Clients Says</h3>
@@ -817,14 +714,22 @@ font-weight: 700;
       <h2>Contact Us</h2>
       <hr class="w3-opacity">
 
-      <div class="w3-section">
-        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+      <div class="w3-large w3-half w3-margin-bottom">
+        <i style="margin-bottom:4px; border-radius: 30px; color: #ff5a5f; padding: 8px 11.5px;" class=" fa fa-map-marker w3-hover-text-black w3-large w3-sand w3-text-deep-orange"></i> Main Bazar, Kufri, Shimla<br>
+        <a href="tel:+919816631256"><i style="margin-bottom:4px; border-radius: 30px; color: #ff5a5f; padding: 8px 10px;" class=" fa fa-phone w3-hover-text-black w3-large w3-sand w3-text-deep-orange"></i> +91-98166-31256</a>
+        <br>
+       
+        <a href="https://wa.me/919816631256"> <i style="margin-bottom:4px; border-radius: 30px; color: #ff5a5f; padding: 8px 10px;" class=" fa fa-whatsapp w3-hover-text-black w3-large w3-sand w3-text-deep-orange"></i> +91-98166-31256</a>
+        <br>
+        <a href="mailto:kufrihorseride@gmail.com"><i style="margin-bottom:4px; border-radius: 30px; color: #ff5a5f; padding: 8px 8px;" class="  fa fa-envelope w3-hover-text-black w3-large w3-sand w3-text-deep-orange"></i>
+          kufrihorseride@gmail.com</a> <br>
       </div>
 
       <!-- Image of location/map -->
-      <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
+      <div class="w3-row w3-center" style="margin: 0px -24px;">
+        <iframe class="w3-mobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3416.4248258330663!2d77.26532657448855!3d31.097922467893945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390583e8c012c92d%3A0xe6d9b2851c67e3b4!2sKufri%20Horse%20Ride!5e0!3m2!1sen!2sin!4v1722406238266!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+      </div>
 
       <p>Lets get in touch. Send me a message:</p>
       <form action="/action_page.php" target="_blank">
