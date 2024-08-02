@@ -296,7 +296,11 @@
     }
 
     .w3-g {
-      background-image: linear-gradient(to right, #fc6767, #fc6767);
+      background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
       color: white;
 
     }
@@ -809,7 +813,8 @@ l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
 
   <!-- Header large-->
 
-  <div class="w3-row w3-hide-smal w3-display-container anim5 w3-border-bottom w3-border-light-gray w3-sand" style="margin-top:0px; overflow: hidden;  background-size: contain; background-repeat: no-repeat; background-position: right;
+  <div class="w3-row w3-hide-smal w3-display-container w3-border-bottom w3-border-light-gray" style="background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 100%); margin-top:0px; overflow: hidden;  background-size: contain; background-repeat: no-repeat; background-position: right;
 ">
 
 
@@ -840,8 +845,8 @@ l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
 
 
 
-        <div class="w3-display-bottomright"
-          style="background-color: #fc676780; border-radius: 50px 50px 0px 0px; margin-right: 60px; height: 180px; width: 400px; ">
+        <div class="w3-display-bottomright w3-g w3-card"
+          style=" border-radius: 50px 50px 0px 0px; margin-right: 60px; height: 180px; width: 400px; ">
 
         </div>
         <div class="w3-display-bottomleft">
