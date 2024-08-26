@@ -107,23 +107,11 @@ border-radius: 10px;
   <!-- Navbar -->
   <div class="w3-row w3-white w3-border-bottom w3-border-light-gray" style="padding: 6px 0px;  z-index: 3;">
     <div class="w3-content w3-bar w3-white w3-left-align w3-large">
-      <span class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-large"
-        onclick="myFunction('navDemo')" title="Toggle Navigation Menu">
+      <span class="w3-bar-item w3-hide-medium w3-hide-large w3-right w3-hover-white">
 
-        <svg width="28px" height="28px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M9 12C9 12.5523 8.55228 13 8 13C7.44772 13 7 12.5523 7 12C7 11.4477 7.44772 11 8 11C8.55228 11 9 11.4477 9 12Z"
-            fill="#FF204E" />
-          <path
-            d="M13 12C13 12.5523 12.5523 13 12 13C11.4477 13 11 12.5523 11 12C11 11.4477 11.4477 11 12 11C12.5523 11 13 11.4477 13 12Z"
-            fill="#FF204E" />
-          <path
-            d="M17 12C17 12.5523 16.5523 13 16 13C15.4477 13 15 12.5523 15 12C15 11.4477 15.4477 11 16 11C16.5523 11 17 11.4477 17 12Z"
-            fill="#FF204E" />
-          <path
-            d="M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7"
-            stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
-        </svg>
+        <span class="w3-ro w3-sand" style="border-radius:30px ; padding: 0px 7.5px; padding-bottom: 4px; margin-right: 6px;">
+          <i class="w3-text-teal  fa fa-phone w3-small" style="padding-left:2px ;"></i>
+  </span>
       </span>
       <a href="https://touristhill.in/" class="w3-bar-item w3-button w3-white w3-hover-none" style="padding:8px 12px;">
         <div class="w3-large">
@@ -437,12 +425,12 @@ top: 0;">
         <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide slide-1 w3-button w3-small w3-text-teal w3-hover-text-teal w3-hover-white">
+      <div class="swiper-slide slide-1 w3-button w3-small w3-hover-text-teal w3-hover-white tablink w3-text-red"  onclick="openCity(event,'Explore')">
         <i class="fas fa-fire w3-large"></i>
        <br>
       
         <strong>Explore</strong></div>
-      <div class="swiper-slide slide-1 w3-button w3-small w3-hover-text-teal w3-hover-white tablink w3-text-red" onclick="openCity(event,'London')">
+      <div class="swiper-slide slide-1 w3-button w3-small w3-hover-text-teal w3-hover-white tablink" onclick="openCity(event,'London')">
         <i class="fas fa-mountain w3-large"></i>
         <br>
         <strong>Shimla</strong></div>
@@ -465,7 +453,7 @@ top: 0;">
       
     </div>
 
-    <div class="w3-col s12 m3 l3 w3-center w3-white w3-container" style="height: 50px; display: flex; align-items: center; justify-content: center;">
+    <div class="w3-col s12 m3 l3 w3-center w3-white w3-container w3-hide-small" style="height: 50px; display: flex; align-items: center; justify-content: center;">
       <div class="w3-col s6 m6 l6 w3-button w3-teal w3-small" style="border-radius: 30px 0px 0px 30px;">
        <strong>Tours</strong>
       </div>
@@ -485,7 +473,18 @@ top: 0;">
 
 <div class="w3-row">
   
-  <div id="London" class="city">
+  <div id="Explore" class="city">
+
+    <div class="w3-col s12 m3 l3 w3-center w3-white w3-container w3-hide-large w3-hide-medium" style="height: 50px; display: flex; align-items: center; justify-content: center;">
+      <div class="w3-col s6 m6 l6 w3-button w3-teal w3-small w3-border-teal w3-border" style="border-radius: 30px 0px 0px 30px;">
+       <strong>Tours</strong>
+      </div>
+      <div class="w3-col s6 m6 l6 w3-button w3-border w3-small" style="border-radius: 0px 30px 30px 0px;">
+        <strong>Activites</strong>
+      </div>
+
+    </div>
+
     <div class="w3-large w3-content w3-padding w3-text-dark-gray"> <h2 class="w3-large w3-col s8 m8 l8"><strong>Tours In Shimla</strong></h2> <span class="w3-right w3-col w3-text-teal w3-small" style="width: 70px;">View All <i style="padding:3px 5px; border-radius: 30px; margin-top: 15px;" class="w3-card w3-teal fa-solid fa-angle-right"></i></span></div>
     <br>
   <div class="swiper mySwiper2 w3-content w3-padding">
@@ -707,6 +706,337 @@ top: 0;">
   
   
       </div>
+  
+    </div>
+  
+  </div>
+  </div>
+
+  <div id="London" class="city">
+
+    <div class="w3-large w3-content w3-padding w3-text-dark-gray"> 
+      <h2 class="w3-large w3-col s8 m8 l8"><strong>Tours In Shimla</strong></h2> 
+      </div>
+    <br>
+   
+  <div class="w3-content w3-padding">
+    <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
+  
+      <div class="w3-third w3-row w3-margin-bottom">
+  
+  
+        <div class="w3-row w3-display-container" style="height: 190px; width:100%;">
+          <img class="w3-card"
+            src="https://img.freepik.com/free-photo/tourists-taking-photos-beautiful-scenery-skiing-around-deogyusan_335224-426.jpg?t=st=1724594002~exp=1724597602~hmac=3048ee82edced6f0d0bbae859226b4912bd770cc9e80cf27d6ea540a7f2f2489&w=740"
+            style=" border-radius: 10px; object-fit: cover; overflow: hidden; height: 100%; width: 100%;">
+  
+  
+         
+  
+        </div>
+  
+        <div class="w3-row">
+  
+          <div class="w3-row w3-margin-top">
+            <div class="w3-left w3-text-gray"><b>4 Nights 5 Days</b></div>
+            <div class="w3-right w3-text-gray">
+              <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"
+                  fill="#4caf50" />
+              </svg>
+              <span class="w3-text-green">4.5 </span>(360)
+            </div>
+          </div>
+          <h3 class="w3-text-dark-gray" style="font-size: 17px; margin: 8px 0px;  overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              font-weight: 700;
+              -webkit-box-orient: vertical;">Shimla - Manali Tour package by cab from Delhi Starting from ? 10,999</h3>
+  
+  
+          <div class="w3-row w3-sand w3-round w3-text-dark-gray" style="padding: 2px 12px; margin-bottom:6px; border-radius: 30px;"> <strong>2D </strong>Shimla <strong>2D
+            </strong>Manali</div>
+  
+          <p><b class="w3-large">INR 22,200</b> <strike>INR 30,000</strike> <span
+              class="w3-pale-green box w3-text-green" style="padding:4px 0px;">
+  
+              Save INR 33,000</span> </p>
+  
+        </div>
+  
+  <div class="w3-row">
+    <div class="w3-col" style="width: 50px;">
+      <button class="w3-button w3-small w3-border w3-border-teal" style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
+      <i class="fa fa-phone w3-text-teal"></i>
+      </button>
+    </div>
+    <div class="w3-rest">
+      <button class="w3-card w3-button w3-small w3-teal" style="border-radius: 30px;">Request Callback</button>
+  
+    </div>
+  </div>
+  
+  
+      </div>
+  
+      <div class="w3-third w3-row w3-margin-bottom">
+  
+  
+        <div class="w3-row w3-display-container" style="height: 190px; width:100%;">
+          <img class="w3-card"
+            src="https://img.freepik.com/free-photo/tourists-taking-photos-beautiful-scenery-skiing-around-deogyusan_335224-426.jpg?t=st=1724594002~exp=1724597602~hmac=3048ee82edced6f0d0bbae859226b4912bd770cc9e80cf27d6ea540a7f2f2489&w=740"
+            style=" border-radius: 10px; object-fit: cover; overflow: hidden; height: 100%; width: 100%;">
+  
+  
+         
+  
+        </div>
+  
+        <div class="w3-row">
+  
+          <div class="w3-row w3-margin-top">
+            <div class="w3-left w3-text-gray"><b>4 Nights 5 Days</b></div>
+            <div class="w3-right w3-text-gray">
+              <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"
+                  fill="#4caf50" />
+              </svg>
+              <span class="w3-text-green">4.5 </span>(360)
+            </div>
+          </div>
+          <h3 class="w3-text-dark-gray" style="font-size: 17px; margin: 8px 0px;  overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              font-weight: 700;
+              -webkit-box-orient: vertical;">Shimla - Manali Tour package by cab from Delhi Starting from ? 10,999</h3>
+  
+  
+          <div class="w3-row w3-sand w3-round w3-text-dark-gray" style="padding: 2px 12px; margin-bottom:6px; border-radius: 30px;"> <strong>2D </strong>Shimla <strong>2D
+            </strong>Manali</div>
+  
+          <p><b class="w3-large">INR 22,200</b> <strike>INR 30,000</strike> <span
+              class="w3-pale-green box w3-text-green" style="padding:4px 0px;">
+  
+              Save INR 33,000</span> </p>
+  
+        </div>
+  
+  <div class="w3-row">
+    <div class="w3-col" style="width: 50px;">
+      <button class="w3-button w3-small w3-border w3-border-teal" style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
+      <i class="fa fa-phone w3-text-teal"></i>
+      </button>
+    </div>
+    <div class="w3-rest">
+      <button class="w3-card w3-button w3-small w3-teal" style="border-radius: 30px;">Request Callback</button>
+  
+    </div>
+  </div>
+  
+  
+      </div>
+
+
+      <div class="w3-third w3-row w3-margin-bottom">
+  
+  
+        <div class="w3-row w3-display-container" style="height: 190px; width:100%;">
+          <img class="w3-card"
+            src="https://img.freepik.com/free-photo/tourists-taking-photos-beautiful-scenery-skiing-around-deogyusan_335224-426.jpg?t=st=1724594002~exp=1724597602~hmac=3048ee82edced6f0d0bbae859226b4912bd770cc9e80cf27d6ea540a7f2f2489&w=740"
+            style=" border-radius: 10px; object-fit: cover; overflow: hidden; height: 100%; width: 100%;">
+  
+  
+         
+  
+        </div>
+  
+        <div class="w3-row">
+  
+          <div class="w3-row w3-margin-top">
+            <div class="w3-left w3-text-gray"><b>4 Nights 5 Days</b></div>
+            <div class="w3-right w3-text-gray">
+              <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"
+                  fill="#4caf50" />
+              </svg>
+              <span class="w3-text-green">4.5 </span>(360)
+            </div>
+          </div>
+          <h3 class="w3-text-dark-gray" style="font-size: 17px; margin: 8px 0px;  overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              font-weight: 700;
+              -webkit-box-orient: vertical;">Shimla - Manali Tour package by cab from Delhi Starting from ? 10,999</h3>
+  
+  
+          <div class="w3-row w3-sand w3-round w3-text-dark-gray" style="padding: 2px 12px; margin-bottom:6px; border-radius: 30px;"> <strong>2D </strong>Shimla <strong>2D
+            </strong>Manali</div>
+  
+          <p><b class="w3-large">INR 22,200</b> <strike>INR 30,000</strike> <span
+              class="w3-pale-green box w3-text-green" style="padding:4px 0px;">
+  
+              Save INR 33,000</span> </p>
+  
+        </div>
+  
+  <div class="w3-row">
+    <div class="w3-col" style="width: 50px;">
+      <button class="w3-button w3-small w3-border w3-border-teal" style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
+      <i class="fa fa-phone w3-text-teal"></i>
+      </button>
+    </div>
+    <div class="w3-rest">
+      <button class="w3-card w3-button w3-small w3-teal" style="border-radius: 30px;">Request Callback</button>
+  
+    </div>
+  </div>
+  
+  
+      </div>
+
+
+      <div class="w3-third w3-row w3-margin-bottom">
+  
+  
+        <div class="w3-row w3-display-container" style="height: 190px; width:100%;">
+          <img class="w3-card"
+            src="https://img.freepik.com/free-photo/tourists-taking-photos-beautiful-scenery-skiing-around-deogyusan_335224-426.jpg?t=st=1724594002~exp=1724597602~hmac=3048ee82edced6f0d0bbae859226b4912bd770cc9e80cf27d6ea540a7f2f2489&w=740"
+            style=" border-radius: 10px; object-fit: cover; overflow: hidden; height: 100%; width: 100%;">
+  
+  
+         
+  
+        </div>
+  
+        <div class="w3-row">
+  
+          <div class="w3-row w3-margin-top">
+            <div class="w3-left w3-text-gray"><b>4 Nights 5 Days</b></div>
+            <div class="w3-right w3-text-gray">
+              <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"
+                  fill="#4caf50" />
+              </svg>
+              <span class="w3-text-green">4.5 </span>(360)
+            </div>
+          </div>
+          <h3 class="w3-text-dark-gray" style="font-size: 17px; margin: 8px 0px;  overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              font-weight: 700;
+              -webkit-box-orient: vertical;">Shimla - Manali Tour package by cab from Delhi Starting from ? 10,999</h3>
+  
+  
+          <div class="w3-row w3-sand w3-round w3-text-dark-gray" style="padding: 2px 12px; margin-bottom:6px; border-radius: 30px;"> <strong>2D </strong>Shimla <strong>2D
+            </strong>Manali</div>
+  
+          <p><b class="w3-large">INR 22,200</b> <strike>INR 30,000</strike> <span
+              class="w3-pale-green box w3-text-green" style="padding:4px 0px;">
+  
+              Save INR 33,000</span> </p>
+  
+        </div>
+  
+  <div class="w3-row">
+    <div class="w3-col" style="width: 50px;">
+      <button class="w3-button w3-small w3-border w3-border-teal" style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
+      <i class="fa fa-phone w3-text-teal"></i>
+      </button>
+    </div>
+    <div class="w3-rest">
+      <button class="w3-card w3-button w3-small w3-teal" style="border-radius: 30px;">Request Callback</button>
+  
+    </div>
+  </div>
+  
+  
+      </div>
+
+      <div class="w3-third w3-row w3-margin-bottom">
+  
+  
+        <div class="w3-row w3-display-container" style="height: 190px; width:100%;">
+          <img class="w3-card"
+            src="https://img.freepik.com/free-photo/tourists-taking-photos-beautiful-scenery-skiing-around-deogyusan_335224-426.jpg?t=st=1724594002~exp=1724597602~hmac=3048ee82edced6f0d0bbae859226b4912bd770cc9e80cf27d6ea540a7f2f2489&w=740"
+            style=" border-radius: 10px; object-fit: cover; overflow: hidden; height: 100%; width: 100%;">
+  
+  
+         
+  
+        </div>
+  
+        <div class="w3-row">
+  
+          <div class="w3-row w3-margin-top">
+            <div class="w3-left w3-text-gray"><b>4 Nights 5 Days</b></div>
+            <div class="w3-right w3-text-gray">
+              <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"
+                  fill="#4caf50" />
+              </svg>
+              <span class="w3-text-green">4.5 </span>(360)
+            </div>
+          </div>
+          <h3 class="w3-text-dark-gray" style="font-size: 17px; margin: 8px 0px;  overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              font-weight: 700;
+              -webkit-box-orient: vertical;">Shimla - Manali Tour package by cab from Delhi Starting from ? 10,999</h3>
+  
+  
+          <div class="w3-row w3-sand w3-round w3-text-dark-gray" style="padding: 2px 12px; margin-bottom:6px; border-radius: 30px;"> <strong>2D </strong>Shimla <strong>2D
+            </strong>Manali</div>
+  
+          <p><b class="w3-large">INR 22,200</b> <strike>INR 30,000</strike> <span
+              class="w3-pale-green box w3-text-green" style="padding:4px 0px;">
+  
+              Save INR 33,000</span> </p>
+  
+        </div>
+  
+  <div class="w3-row">
+    <div class="w3-col" style="width: 50px;">
+      <button class="w3-button w3-small w3-border w3-border-teal" style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
+      <i class="fa fa-phone w3-text-teal"></i>
+      </button>
+    </div>
+    <div class="w3-rest">
+      <button class="w3-card w3-button w3-small w3-teal" style="border-radius: 30px;">Request Callback</button>
+  
+    </div>
+  </div>
+  
+  
+      </div>
+      
+  
+  
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
   
     </div>
   
