@@ -149,6 +149,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 .w3-hover-none:hover{box-shadow:none!important}
 /* Colors */
+.w3-green,.w3-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
 .w3-sand,.w3-hover-sand:hover{color:#000!important;background-color:#ff57221A!important}
 .w3-teal,.w3-hover-teal:hover{color:#fff!important;background-color:#ff5722!important}
 .w3-yellow,.w3-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
