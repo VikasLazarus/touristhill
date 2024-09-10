@@ -56,7 +56,7 @@ layout: home
       <br>
    <div class="swiper mySwiper2 w3-content w3-padding">
         <div class="swiper-wrapper">
-    {% for post in category.first %}
+    {% for post in category.last %}
     <div class="swiper-slide slide-2 w3-row">
 
             <a href="{{ post.url }}.html">
