@@ -1,7 +1,7 @@
 ---
 layout: tour
 title:  "demo"
-date:   2024-09-09 05:16:52 -0700
+date:   2024-07-09 05:16:52 -0700
 categories: Manali
 permalink: /tours/:title
 
