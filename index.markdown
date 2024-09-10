@@ -148,7 +148,7 @@ layout: home
 
       
     
-      <hr>
+      <hr style="margin:0px;">
 {% endfor %}
 
 
