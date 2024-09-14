@@ -2,7 +2,7 @@
 layout: tour
 title:  "demo"
 date:   2024-09-10 05:16:52 -0700
-categories: Manali
+categories: Manali Shimla
 permalink: /tours/:title
 
 ---
