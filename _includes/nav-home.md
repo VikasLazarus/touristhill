@@ -1,6 +1,6 @@
   <div class="w3-row w3-white w3-border-bottom w3-border-light-gray" style="padding: 6px 0px;  z-index: 3;">
     <div class="w3-content w3-bar w3-white w3-left-align w3-large">
-      <span class="w3-bar-item w3-hide-medium w3-hide-large w3-right w3-hover-white">
+      <span class="w3-bar-item w3-hide-medium w3-hide-large w3-right ">
 
         <span class="w3-ro w3-sand"
           style="border-radius:30px ; padding: 0px 7.5px; padding-bottom: 4px; margin-right: 6px;">
@@ -50,7 +50,7 @@ l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
 
 
       <span
-        class="w3-small w3-right w3-bar-item w3-button w3-hide-smal w3-padding-large w3-hover-white w3-hover-text-teal">
+        class="w3-small w3-right w3-bar-item w3-button w3-hide-smal w3-padding-large  w3-hover-text-teal">
         <span class="w3-col" style="width:20px;">
           <?xml version="1.0" encoding="utf-8"?>
 
@@ -314,34 +314,34 @@ top: 0;">
     <div class="w3-row w3-content w3-row-padding" style="padding: 6px 0px;">
       <div class="w3-col s12 m9 l9 w3-white w3-container">
         <!-- Swiper -->
-        <div class="swiper mySwiper">
+        <div class="swiper mySwiper w3-text-gray">
           <div class="swiper-wrapper">
-            <div class="swiper-slide slide-1 w3-button w3-small w3-hover-text-teal w3-hover-white tablink w3-text-teal"
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink w3-text-teal"
               onclick="openCity(event,'Explore')">
               <i class="fas fa-fire w3-large"></i>
               <br>
 
               <strong>Explore</strong>
             </div>
-            <div class="swiper-slide slide-1 w3-button w3-small w3-text-gray w3-hover-text-teal w3-hover-white tablink"
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink"
               onclick="openCity(event,'London')">
               <i class="fas fa-mountain w3-large"></i>
               <br>
               <strong>Shimla</strong>
             </div>
-            <div class="swiper-slide slide-1 w3-button w3-small w3-text-gray w3-hover-text-teal w3-hover-white tablink"
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink"
               onclick="openCity(event,'Paris')">
               <i class="fas fa-skiing-nordic w3-large"></i><br>
               <strong>Manali</strong>
             </div>
-            <div class="swiper-slide slide-1 w3-button w3-small w3-text-gray w3-hover-text-teal w3-hover-white tablink"
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink"
               onclick="openCity(event,'Tokyo')">
               <i class="fa fa-heart w3-large" aria-hidden="true"></i> <br>
               <strong>Honeymoon</strong>
             </div>
 
 
-            <div class="swiper-slide slide-1 w3-button w3-small w3-text-gray w3-hover-text-teal w3-hover-white">
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal ">
               <i class="fa-solid fa-mountain-sun w3-large"></i><br>
               <strong>Dharamshala</strong>
             </div>
