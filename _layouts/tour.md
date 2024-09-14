@@ -16,7 +16,8 @@
 
 <style>
   hr {
-    border: 1px solid #f1f1f1;
+    border-bottom: 2px solid #f1f1f1;
+    border-top: 2px solid #ffffff;
     border-radius: 30px;
   }
   excluded ul {
@@ -746,7 +747,7 @@ l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
 <div style="--swiper-navigation-color: #ffffff00; --swiper-pagination-color: #ff5722;" class="w3-hide-large w3-display-container swiper mySwiper2">
   <div class="w3-display-bottomleft w3-white w3-hide-large w3-hide-medium" style="box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.19), 0 4px 20px 0 rgba(0, 0, 0, 0.2); ; z-index: 30; width: 100%; border-radius: 15px 15px 0px 0px; padding: 0px 18px; margin-bottom: -3px;">
     <div class="w3-row w3-margin-bottom" style="margin-top: 30px;">
-      <div class="w3-col s6 m6 l6"><strong class="w3-text-gray"><i class="w3-text-teal fa-regular fa-clock" style="margin-right: 6px;"></i> 4 Nights  5 Days</strong></div>
+      <div class="w3-col s6 m6 l6"><strong class="w3-text-gray"><i class="w3-text-gray fa-regular fa-clock" style="margin-right: 6px;"></i> 4 Nights  5 Days</strong></div>
       <div class="w3-col s6 m6 l6 w3-right"><div class="w3-right w3-text-gray">
         <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.5006 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.5006 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z" fill="#4caf50"></path>
@@ -793,7 +794,7 @@ l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
     <div class="w3-col l8 s12">
       <div class="w3-row w3-round w3-padding ">
        
-<div style="--swiper-navigation-color: #ffffff00; --swiper-pagination-color: #ff5722; margin-top: 6px; border-radius: 15px;" class=" w3-card w3-display-container w3-hide-small w3-display-container swiper mySwiper2">
+<div style="--swiper-navigation-color: #ffffff00; --swiper-pagination-color: #ff5722; margin-top: 6px; border-radius: 15px;" class=" w3-display-container w3-hide-small w3-display-container swiper mySwiper2">
       
   <div class="w3-display-bottomleft w3-dark-gray w3-card-4" style="border-radius: 0px 15px 0px 0px; z-index: 30; width: 210px; padding: 6px 12px;">
     <div class="w3-row">
@@ -879,7 +880,7 @@ l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
 <div class="w3-row">
   <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Trip Duration</strong></h2>
   <div style="padding: 0px 12px;">
-  <span class="w3-tag w3-light-gray w3-col w3-center w3-text-dark-gray w3-card-2" style="padding: 0px 20px; margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
+  <span class="w3-tag w3-light-gray w3-col w3-center w3-text-dark-gray" style="padding: 0px 20px; margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
               align-items: center;
               justify-content: center;"><strong>4 Nights | 5 Days</strong></span>
               </div>
@@ -887,14 +888,14 @@ l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
 
 <div class="w3-row ">
   <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Destination Routes</strong></h2>
-  <div class="w3-row w3-light-gray w3-padding w3-margin w3-card-2" style="border-radius: 15px; padding: 0px 12px;">
+  <div class="w3-row w3-light-gray w3-padding w3-margin" style="border-radius: 15px; padding: 0px 12px;">
  <strong class="w3-text-dark-gray w3-small">Chandighrar <i class="fa-solid fa-arrow-right"></i> Shimla <i class="fa-solid fa-arrow-right"></i> Manali <i class="fa-solid fa-arrow-right"></i> Chandighar </strong>
               </div>
 </div>
 
 <div class="w3-row ">
   <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Stay Category</strong></h2>
-  <div class="w3-tag w3-light-gray w3-padding w3-margin w3-card-2" style="border-radius: 15px; padding: 0px 12px;">
+  <div class="w3-tag w3-light-gray w3-padding w3-margin" style="border-radius: 15px; padding: 0px 12px;">
  <strong class="w3-text-dark-gray">Delux Property</strong>
               </div>
 </div>
@@ -947,14 +948,14 @@ l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
   <div class="w3-row w3-display-bottomleft w3-padding w3-text-white" style="width: 100%; border-radius: 15px; background-image: linear-gradient(#ffffff00, #000000);">
     <span class="w3-xxxlarge w3-col" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-small" style="width: 200px; padding-top: 13px;"><strong>Days In<br><span class="w3-large">SHIMLA</span></strong></span>
   </div>
-<img alt="Shimla Manali Adventure Package" src="../images/shimla.jpg" class="w3-card-4" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
+<img alt="Shimla Manali Adventure Package" src="../images/shimla.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
 </div>
 
-<div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-white w3-border w3-border-light-gray w3-left-align">
+<div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray w3-left-align">
   <div onclick="myFunction('day1')">
   <div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
   <strong>Day-1</strong></div> 
-  <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-teal"></i></div> 
+  <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
   <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Arrival in Shimla</div>
 </div>
   <div id="day1" class="w3-row w3-hide">
@@ -1027,11 +1028,11 @@ l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
   </div>
 
 
-<div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-white w3-border w3-border-light-gray w3-left-align">
+<div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray w3-left-align">
   <div  onclick="myFunction('day2')">
   <div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 30px;">
   <strong>Day-2</strong></div> 
-  <div class="w3-col w3-right" style="width: 10px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-teal"></i></div> 
+  <div class="w3-col w3-right" style="width: 10px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
   <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Shimla Sightseeing</div>
 </div>
   <div id="day2" class="w3-row w3-hide">
@@ -1121,13 +1122,13 @@ l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
   <div class="w3-row w3-display-bottomleft w3-padding w3-text-white" style="width: 100%; border-radius: 15px; background-image: linear-gradient(#ffffff00, #000000);">
     <span class="w3-xxxlarge w3-col" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-small" style="width: 200px; padding-top: 13px;"><strong>Days In<br><span class="w3-large">MANALI</span></strong></span>
   </div>
-<img alt="Shimla Manali Adventure Package" src="../images/manali.jpg" class="w3-card-4" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
+<img alt="Shimla Manali Adventure Package" src="../images/manali.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
 </div>
 
-<div  style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-white w3-border w3-border-light-gray w3-left-align">
+<div  style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray w3-left-align">
   <div onclick="myFunction('day3')" ><div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
   <strong>Day-3</strong></div> 
-  <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-teal"></i></div> 
+  <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
   <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Journey to Manali</div>
  </div>
   <div id="day3" class="w3-row w3-hide">
@@ -1201,11 +1202,11 @@ l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
   </div>
 
 
-<div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-white w3-border w3-border-light-gray w3-left-align">
+<div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray w3-left-align">
   <div  onclick="myFunction('day4')">
   <div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
   <strong>Day-4</strong></div> 
-  <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-teal"></i></div> 
+  <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
   <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Manali Adventure</div>
  </div>
  <div id="day4" class="w3-row w3-hide">
@@ -1298,11 +1299,11 @@ l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
   </div>
 
 
-<div  style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-white w3-border w3-border-light-gray w3-left-align">
+<div  style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray w3-left-align">
   <div onclick="myFunction('day5')">
   <div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
   <strong>Day-5</strong></div> 
-  <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-teal"></i></div> 
+  <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
   <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Departure</div>
  </div>
  <div id="day5" class="w3-row w3-hide">
