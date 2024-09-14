@@ -15,7 +15,7 @@ layout: home
           style=" border-radius: 30px 0px 0px 30px;">
           <strong>Tours</strong>
         </div>
-         <div class="w3-col  s4 m4 l4 w3-button  w3-small w3-white w3-border-right w3-border-light-gray" style="border-radius: 0px 0px 0px 0px;">
+         <div class="w3-col  s4 m4 l4 w3-button  w3-small w3-white w3-border-right w3-border-left w3-border-light-gray" style="border-radius: 0px 0px 0px 0px;">
           <strong>Hotels</strong>
         </div>
         <div class="w3-col  s4 m4 l4 w3-button  w3-small w3-white" style="border-radius: 0px 30px 30px 0px;">
@@ -148,7 +148,7 @@ layout: home
 
       
     
-      <hr style="margin:0px;">
+      <hr>
 {% endfor %}
 
 
@@ -169,15 +169,12 @@ layout: home
 
       <div class="w3-content w3-padding">
         <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
-<ul>
+
   {% for post in site.categories.Shimla %}
     {% if post.url %}
-        <li><a href="{{ post.url }}.html">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-          <div class="w3-third w3-row w3-margin-bottom">
-
+        
+        <div class="w3-third w3-row w3-margin-bottom">
+<a href="{{ post.url }}.html">
 
             <div class="w3-row w3-display-container" style="height: 290px; width:100%;">
               <img class="w3-card-4" src="images/shimla.jpg"
@@ -203,7 +200,7 @@ layout: home
             display: -webkit-box;
             -webkit-line-clamp: 2;
             font-weight: 700;
-            -webkit-box-orient: vertical;">Shimla Manali Adventure Package From Chandighar</h3>
+            -webkit-box-orient: vertical;">{{ post.title }}</h3>
 
 <div class="w3-row" style="padding: 3px 12px; border-radius: 7px;background-image: linear-gradient(#ff572226, #ffffff00);">
 2D Shimla 2D Manali
@@ -214,7 +211,7 @@ layout: home
 
               <b class="w3-xlarge" style="margin-top: 0px;">INR 36,000 <span class="w3-small w3-text-gray">Per Couple</span> </b>
           <br><strike class="w3-text-gray">INR 46,000</strike>  
-        </div>
+        </div></a>
 
             <div class="w3-row">
               <div class="w3-col" style="width: 50px;">
@@ -235,6 +232,10 @@ layout: home
 
      
         </div>
+    {% endif %}
+  {% endfor %}
+
+          
 
       </div>
     </div>
