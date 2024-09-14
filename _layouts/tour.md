@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Shimla Manali Adventure Package From Chandigarh 4 Nights 5 Days</title>
+<title>{{page.title}}</title>
 <link rel="icon" type="image/x-icon" href="../images/favicon.svg">
-<meta name="description" content="Shimla Manali Adventure Package From Chandighar with a 4-night, 5-day Shimla Manali tour. Enjoy stunning views, thrilling activities, and unforgettable experiences.">
+<meta name="description" content="Shimla Manali Adventure Package From Chandigarh with a 4-night, 5-day Shimla Manali tour. Enjoy stunning views, thrilling activities, and unforgettable experiences.">
   <meta name="keywords" content="Shimla Manali package, Himachal Pradesh tour, Himalayan adventure, Rohtang Pass, Solang Valley, Hadimba Temple, Vashisht Village, Kufri, Fagu, Mashobra, Mall Road, Jakhu Temple, paragliding, skiing, zorbing, snowmobiling, local sightseeing, souvenirs, Himalayan cuisine">
   <meta name="author" content="Tourist hill">
 <meta charset="UTF-8">
