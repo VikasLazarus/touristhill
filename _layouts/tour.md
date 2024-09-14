@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Shimla Manali Adventure Package From Chandighar 4 Nights 5 Days</title>
+<title>Shimla Manali Adventure Package From Chandigarh 4 Nights 5 Days</title>
 <link rel="icon" type="image/x-icon" href="../images/favicon.svg">
 <meta name="description" content="Shimla Manali Adventure Package From Chandighar with a 4-night, 5-day Shimla Manali tour. Enjoy stunning views, thrilling activities, and unforgettable experiences.">
   <meta name="keywords" content="Shimla Manali package, Himachal Pradesh tour, Himalayan adventure, Rohtang Pass, Solang Valley, Hadimba Temple, Vashisht Village, Kufri, Fagu, Mashobra, Mall Road, Jakhu Temple, paragliding, skiing, zorbing, snowmobiling, local sightseeing, souvenirs, Himalayan cuisine">
@@ -838,7 +838,7 @@ l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
 
         <h1 class="w3-text-dark-gray" style=" font-size: 28px; margin: 2px 0px;
             font-weight: 700;">
-            Shimla Manali Adventure Package From Chandighar</h1>
+            {{page.title}}</h1>
             <div class="w3-row w3-margin-top">
               <span class="w3-tag w3-teal w3-col w3-center w3-card" style="margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
               align-items: center;
