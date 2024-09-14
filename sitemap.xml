@@ -1,4 +1,10 @@
 ---
+defaults:
+  -
+    scope:
+      path: 'assets/**'
+    values:
+      sitemap: false
 layout: null
 sitemap:
   exclude: 'yes'
