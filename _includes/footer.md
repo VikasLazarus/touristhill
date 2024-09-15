@@ -1,5 +1,5 @@
   <!-- Footer -->
-  <footer class=" w3-padding-16 w3-text-dark-gray" style="border-top: #ff572226 solid 2px; background-color:white;">
+  <footer class=" w3-padding-16 w3-text-dark-gray" style="border-top: #f1f1f1 solid 2px; background-color:white;">
     <!-- Footer -->
     <div class="w3-padding-32" style="margin: 0px 12px; border-radius: 10px;">
       <div class="w3-content">
