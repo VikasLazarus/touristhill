@@ -1,9 +1,9 @@
 ---
 layout: pages
-title:  "Travel Packages in Shimla"
+title:  "Travel Packages in Manali"
 date:   2024-09-09 05:16:52 -0700
-categories: Shimla Manali
-permalink: /destination/shimla.html
+categories: Manali Manali
+permalink: /destination/Manali.html
 category: 
 ---
  <div class="w3-row-padding w3-padding-16 w3-container">
@@ -13,22 +13,22 @@ category:
         
         
 
-        <h1 class="w3-text-dark-gray w3-xlarge"><strong>Travel Packages In Shimla</strong></h1>
+        <h1 class="w3-text-dark-gray w3-xlarge"><strong>Travel Packages In Manali</strong></h1>
  
-        <p class="w3-text-grey">Experiance the best travel to Shimla with us.</p>
+        <p class="w3-text-grey">Experiance the best travel to Manali with us.</p>
       
         <hr>
  <div class="w3-content">
         <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
 
-  {% for post in site.categories.Shimla %}
+  {% for post in site.categories.Manali %}
     {% if post.url %}
         
         <div class="w3-third w3-row w3-margin-bottom">
 <a href="{{ post.url }}.html">
 
             <div class="w3-row w3-display-container" style="height: 290px; width:100%;">
-              <img class="w3-border w3-border-light-gray" src="../images/shimla.jpg"
+              <img class="w3-border w3-border-light-gray" src="../images/manali.jpg"
                 style=" border-radius: 10px; object-fit: cover; overflow: hidden; height: 100%; width: 100%;">
 
 
@@ -54,7 +54,7 @@ category:
             -webkit-box-orient: vertical;">{{ post.title }}</h3>
 
 <div class="w3-row" style="padding: 3px 12px; border-radius: 7px;background-image: linear-gradient(#f9f9f9, #ffffff00);">
-2D Shimla 2D Manali
+2D Manali 2D Manali
 </div>
 
               

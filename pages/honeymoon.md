@@ -3,7 +3,7 @@ layout: pages
 title:  "Travel Packages in Shimla"
 date:   2024-09-09 05:16:52 -0700
 categories: Shimla Manali
-permalink: /destination/shimla.html
+permalink: /destination/honeymoon.html
 category: 
 ---
  <div class="w3-row-padding w3-padding-16 w3-container">
@@ -13,7 +13,7 @@ category:
         
         
 
-        <h1 class="w3-text-dark-gray w3-xlarge"><strong>Travel Packages In Shimla</strong></h1>
+        <h1 class="w3-text-dark-gray w3-xlarge"><strong>Honeymoon Travel Packages</strong></h1>
  
         <p class="w3-text-grey">Experiance the best travel to Shimla with us.</p>
       
@@ -21,7 +21,7 @@ category:
  <div class="w3-content">
         <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
 
-  {% for post in site.categories.Shimla %}
+  {% for post in site.categories.Honeymoon %}
     {% if post.url %}
         
         <div class="w3-third w3-row w3-margin-bottom">
