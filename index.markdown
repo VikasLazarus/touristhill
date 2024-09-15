@@ -231,11 +231,11 @@ layout: home
           </div>
 
      
-        </div>
+        
     {% endif %}
   {% endfor %}
 
-          
+          </div>
 
       </div>
     </div>
