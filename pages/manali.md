@@ -3,7 +3,7 @@ layout: pages
 title:  "Travel Packages in Manali"
 date:   2024-09-09 05:16:52 -0700
 categories: Manali Manali
-permalink: /destination/Manali.html
+permalink: /destination/manali.html
 category: 
 ---
  <div class="w3-row-padding w3-padding-16 w3-container">
