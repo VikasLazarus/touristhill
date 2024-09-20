@@ -224,7 +224,7 @@ layout: home
 
 
       <div class="w3-large w3-content w3-padding w3-text-dark-gray">
-        <h2 class="w3-large w3-col s8 m8 l8"><strong>Tours In Shimla</strong></h2>
+        <h2 class="w3-large w3-col s8 m8 l8"><strong>Tours In Manali</strong></h2>
       </div>
       <br>
 
@@ -306,7 +306,7 @@ layout: home
 
 
       <div class="w3-large w3-content w3-padding w3-text-dark-gray">
-        <h2 class="w3-large w3-col s8 m8 l8"><strong>Tours In Shimla</strong></h2>
+        <h2 class="w3-large w3-col s8 m8 l8"><strong>Honeymoon Tours</strong></h2>
       </div>
       <br>
 
