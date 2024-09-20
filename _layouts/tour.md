@@ -231,8 +231,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
       
 
         <h1 class="w3-text-dark-gray" style=" font-size: 28px; margin: 2px 0px;
-            font-weight: 700;">
-            Shimla Manali Adventure Package From Chandigarh</h1>
+            font-weight: 700;">{{post.title}}</h1>
             <div class="w3-row w3-margin-top">
               <span class="w3-tag w3-teal w3-col w3-center w3-card" style="margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
               align-items: center;
