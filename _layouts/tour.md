@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Shimla Manali Adventure Package From Chandighar 4 Nights 5 Days</title>
+<title>{{post.title}}</title>
 <link rel="icon" type="image/x-icon" href="../images/favicon.svg">
-<meta name="description" content="Shimla Manali Adventure Package From Chandighar with a 4-night, 5-day Shimla Manali tour. Enjoy stunning views, thrilling activities, and unforgettable experiences.">
-  <meta name="keywords" content="Shimla Manali package, Himachal Pradesh tour, Himalayan adventure, Rohtang Pass, Solang Valley, Hadimba Temple, Vashisht Village, Kufri, Fagu, Mashobra, Mall Road, Jakhu Temple, paragliding, skiing, zorbing, snowmobiling, local sightseeing, souvenirs, Himalayan cuisine">
+<meta name="description" content="{{post.discription}}">
+  <meta name="keywords" content="{{post.keywords}}">
   <meta name="author" content="Tourist hill">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -100,13 +100,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
    <!--bottom fixed-->
    <div id="Fixed" class="w3-display-container w3-row w3-white w3-border-top w3-border-light-gray w3-hide-large w3-hide-medium w3-animate-zoom" style="width: 100%; padding:12px; position: fixed; bottom: -190px; left: 0px; z-index: 30;">
    <div class="w3-display-topright" style="padding: 0px 12px; margin-top: -96px;">
+   <a href="tel:{{site.phone1}}">
    <div class="w3-ro w3-teal w3-card-4" style="border-radius:30px ; height: 40px; width: 40px;  padding: 8px 12px; margin-right: 6px; margin-bottom: 8px;">
   <i class="w3-text-white  fa fa-phone small" style="padding-left:0px ;"></i>
-</div>
+</div></a>
+<a href="https://wa.me/91{{site.phone1}}">
  <div class="w3-ro w3-green w3-card-4" style="border-radius:30px ; height: 40px; width: 40px; padding: 10px 12px; margin-right: 6px;">
       <i class="w3-text-white  fab fa-whatsapp w3-large" style="padding-left:0px ;"></i>
 </div>
-
+</a>
 
    </div>
     <div class="w3-row">
@@ -230,7 +232,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
         <h1 class="w3-text-dark-gray" style=" font-size: 28px; margin: 2px 0px;
             font-weight: 700;">
-            Shimla Manali Adventure Package From Chandighar</h1>
+            Shimla Manali Adventure Package From Chandigarh</h1>
             <div class="w3-row w3-margin-top">
               <span class="w3-tag w3-teal w3-col w3-center w3-card" style="margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
               align-items: center;
@@ -281,7 +283,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 <div class="w3-row ">
   <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Destination Routes</strong></h2>
   <div class="w3-row w3-light-gray w3-padding w3-margin" style="border-radius: 15px; padding: 0px 12px;">
- <strong class="w3-text-dark-gray w3-small">Chandighrar <i class="fa-solid fa-arrow-right"></i> Shimla <i class="fa-solid fa-arrow-right"></i> Manali <i class="fa-solid fa-arrow-right"></i> Chandighar </strong>
+ <strong class="w3-text-dark-gray w3-small">Chandighrar <i class="fa-solid fa-arrow-right"></i> Shimla <i class="fa-solid fa-arrow-right"></i> Manali <i class="fa-solid fa-arrow-right"></i> Chandigarh </strong>
               </div>
 </div>
 
@@ -376,7 +378,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
   <div class="w3-col" style="width: fit-content; padding-right: 18px;">
     From <br>
-    <sapn class="w3-large w3-text-gray"><strong>Chandighar</strong></sapn>
+    <sapn class="w3-large w3-text-gray"><strong>Chandigarh</strong></sapn>
   </div>
   
   <div class="w3-col" style="width: fit-content; padding-right: 18px;">
@@ -725,7 +727,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
     
     <div class="w3-col" style="width: fit-content; padding-right: 18px;">
       To <br>
-      <sapn class="w3-large w3-text-gray"><strong>Chandighar</strong></sapn>
+      <sapn class="w3-large w3-text-gray"><strong>Chandigarh</strong></sapn>
     </div>
   </div>
   <hr>
@@ -821,7 +823,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
         <div class="w3-text-dark-gray w3-border w3-margin-top w3-border-light-gray" style="border-radius: 15px;">
           <div class="w3-padding">
             <h3 class="w3-large"><strong>
-              Shimla Manali Adventure Package From Chandighar
+              Shimla Manali Adventure Package From Chandigarh
             </strong></h3>
             <p><b class="w3-small">INR 36,000</b> <strike class="w3-small">INR 46,000</strike> <span class="w3-pale-green box w3-text-green w3-small" style="padding:4px 0px;">
   

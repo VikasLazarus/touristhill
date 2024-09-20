@@ -3,7 +3,7 @@ layout: pages
 title:  "Travel Packages in Shimla"
 date:   2024-09-09 05:16:52 -0700
 categories: Shimla Manali
-permalink: /destination/shimla.html
+permalink: /destination/dharamshala.html
 category: 
 ---
  <div class="w3-row-padding w3-padding-16 w3-container">
