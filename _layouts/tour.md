@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>{{post.title}}</title>
+<title>{{page.title}}</title>
 <link rel="icon" type="image/x-icon" href="{{site.url}}/images/favicon.svg">
 <meta name="description" content="{{post.discription}}">
   <meta name="keywords" content="{{post.keywords}}">
