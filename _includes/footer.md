@@ -4,8 +4,8 @@
     <div class="w3-padding-32" style="margin: 0px 12px; border-radius: 10px;">
       <div class="w3-content">
           <div class="w3-third">
-            <a href="https://touristhill.in/" class="w3-bar-item w3-xxlarge w3-button w3-white w3-hover-none" style="padding:8px 0px;">
-              <a href="https://touristhill.in/" class="w3-bar-item w3-white w3-hover-none">
+            <a href="{{site.url}}" class="w3-bar-item w3-xxlarge w3-button w3-white w3-hover-none" style="padding:8px 0px;">
+              <a href="{{site.url}}" class="w3-bar-item w3-white w3-hover-none">
                 <div class="w3-large">
         
                   <div class="w3-col" style="width: 56px; height: 56px;">
@@ -105,14 +105,14 @@
               <div class="w3-col l6 m6 s6">
     
               
-                  <a href="https://touristhill.in/about.html" class="w3-bar-item w3-hover-text-teal w3-small w3-round">
+                  <a href="{{site.url}}/about.html" class="w3-bar-item w3-hover-text-teal w3-small w3-round">
                     <div class="w3-padding">About Us </div></a>
                     <a href="https://touristhill.in/contact-us.html" class="w3-bar-item w3-hover-text-teal w3-small w3-round">
                         <div class="w3-padding">Contact Us </div></a>                
             </div>
               <div class="w3-col l6 m6 s6">
-              <a href="privacy-policy.html"><span class=" w3-small"><div class="w3-padding">Privacy Policy</div></span></a>
-                  <a href="Disclamer.html"><span class=" w3-small"><div class="w3-padding">Disclamer</div></span></a>
+              <a href="{{site.url}}/privacy-policy.html"><span class=" w3-small"><div class="w3-padding">Privacy Policy</div></span></a>
+                  <a href="{{site.url}}/Disclamer.html"><span class=" w3-small"><div class="w3-padding">Disclamer</div></span></a>
                  
                   
                  
@@ -123,30 +123,32 @@
           </div>
           <div class="w3-third">
               
-              <h4><b>Contact For Booking</b></h4>
+              <h4><b>Contact For booking Package</b></h4>
               <p class=" w3-small">Subscribe To Our Newslatter And Get Notifican About Our New Products And Offers Earlier Than Enyone Else.</p>
               <span class="w3-col l12  m12 s12 w3-small" style="padding: 5px 0px ;">
                 <span class="w3-ro w3-sand" style="border-radius:30px ; height: 20px; width: 20px; padding: 3px 4px; margin-right: 6px;">
                         <i class="w3-text-teal  fa fa-phone" style="padding-left:2px ;"></i>
                 </span>
+                <a href="tel:{{site.phone1}}">
                       <sapn class="" style="font-size: 15px; margin: 0px;">
                   
                     
                     <strong>+91-82194-71645</strong></sapn>
                     
                 
-                </span>
+                </span></a>
                 <span class="w3-col l12  m12 s12 w3-small" style="padding: 5px 0px ;">
                   <span class="w3-ro w3-sand" style="border-radius:30px ; height: 20px; width: 20px; padding: 3px 4px; margin-right: 6px;">
                           <i class="w3-text-teal  fa fa-phone" style="padding-left:2px ;"></i>
                   </span>
+                  <a href="tel:{{site.phone1}}">
                         <sapn class="" style="font-size: 15px; margin: 0px;">
                     
                       
                       <strong>+91-82194-71645</strong></sapn>
                       
                   
-                  </span>
+                  </span></a>
              
                   <a href="https://wa.me/91{{site.phone1}}"><button class="w3-green w3-button w3-small w3-margin-top " style="border-radius: 30px; padding: 6px 12px;"><i class="fab fa-whatsapp" style="margin-right: 6px;"></i>Whatsapp Us Now</button></a>
     
