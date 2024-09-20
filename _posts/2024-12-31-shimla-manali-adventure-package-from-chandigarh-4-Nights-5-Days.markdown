@@ -618,7 +618,7 @@ img5: shimla.webp
 
 </div>
   </div>
-</div>
+
 
 
 </div>
