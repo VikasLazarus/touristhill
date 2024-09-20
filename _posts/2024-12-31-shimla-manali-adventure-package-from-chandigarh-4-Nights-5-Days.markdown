@@ -145,10 +145,7 @@ img5: shimla.webp
 </div>
 
 <hr>
-
-      </div>
-
-      
+      </div>      
 <div class="w3-row">
   <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Trip Duration</strong></h2>
   <div style="padding: 0px 12px;">
@@ -648,7 +645,6 @@ img5: shimla.webp
       Expert Guidance: Benefit from the knowledge and expertise of local guides to make the most of your trip.
     </li>
   </ul>
-
 <hr>
 <h2 class="w3-padding w3-text-dark-gray w3-large">
   <strong>Book Your Trip Today!</strong>
@@ -659,13 +655,9 @@ img5: shimla.webp
 
     </div>
 
-
-
-
-
   <div class="w3-col l3 s12 w3-hide-small" style="object-fit: contain; padding: 6px 6px; position: sticky; top: 0px;">
+    
     <div class="w3-row w3-round w3-padding">
-
       <div class="w3-row">
         <div class="w3-row w3-display-container w3-border w3-border-light-gray w3-padding" style="border-radius: 15px;">
           <div class="w3-display-topright w3-padding">
@@ -788,3 +780,60 @@ img5: shimla.webp
 
 </div>
 </div>
+<!-- Footer -->
+
+
+<!-- Footer -->
+ {% include footer.md %}
+
+ 
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  
+  var swiper2 = new Swiper(".mySwiper3", {
+    loop: true,
+    spaceBetween: 0,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">'  + "</span>";
+        },
+      },
+   
+  });
+</script>
+<script>
+  function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
+
+<script>
+  // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 290 || document.documentElement.scrollTop > 290) {
+      document.getElementById("Fixed").style.bottom = "0px";
+      
+    } else {
+      document.getElementById("Fixed").style.bottom = "-180px";
+     
+    }
+  }
+  </script>
+</body>
+</html>
