@@ -6,5 +6,5 @@ keywords: "Shimla Manali package,Shimla Manali Adventure Package From chandigarh
 date:   2024-09-09 05:16:52 -0700
 categories: Shimla Manali Honeymoon
 permalink: /tours/:title
-img1: shimla.jpg
+img1: shimla.webp
 ---
