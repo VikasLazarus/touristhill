@@ -153,7 +153,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 <!-- Initialize Swiper -->
 <script>
   
-  var swiper2 = new Swiper(".mySwiper2", {
+  var swiper2 = new Swiper(".mySwiper3", {
     loop: true,
     spaceBetween: 0,
     autoplay: {
