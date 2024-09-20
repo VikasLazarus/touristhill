@@ -3,8 +3,8 @@
 <head>
 <title>{{page.title}}</title>
 <link rel="icon" type="image/x-icon" href="{{site.url}}/images/favicon.svg">
-<meta name="description" content="{{post.discription}}">
-  <meta name="keywords" content="{{post.keywords}}">
+<meta name="description" content="{{page.discription}}">
+  <meta name="keywords" content="{{page.keywords}}">
   <meta name="author" content="Tourist hill">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -156,19 +156,19 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
 
     <div class="swiper-slide" style="height: 570px; width: 100%;">
-      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{post.img1}}" />
+      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img1}}" />
     </div>
     <div class="swiper-slide" style="height: 570px; width: 100%;">
-      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{post.img2}}" />
+      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img2}}" />
     </div>
     <div class="swiper-slide" style="height: 570px; width: 100%;">
-      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{post.img3}}" />
+      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img3}}" />
     </div>
     <div class="swiper-slide" style="height: 570px; width: 100%;">
-      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{post.img4}}" />
+      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img4}}" />
     </div>
     <div class="swiper-slide" style="height: 570px; width: 100%;">
-      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{post.img5}}" />
+      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img5}}" />
     </div>
  
   </div>
@@ -208,19 +208,19 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
       
       
           <div class="swiper-slide" style="height: 300px; width: 100%;">
-            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{post.img1}}" />
+            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{page.img1}}" />
           </div>
           <div class="swiper-slide" style="height: 300px; width: 100%;">
-            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{post.img2}}" />
+            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{page.img2}}" />
           </div>
           <div class="swiper-slide" style="height: 300px; width: 100%;">
-            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{post.img3}}" />
+            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{page.img3}}" />
           </div>
           <div class="swiper-slide" style="height: 300px; width: 100%;">
-            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{post.img4}}" />
+            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{page.img4}}" />
           </div>
           <div class="swiper-slide" style="height: 300px; width: 100%;">
-            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{post.img5}}" />
+            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{page.img5}}" />
           </div>
        
         </div>
@@ -231,7 +231,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
       
 
         <h1 class="w3-text-dark-gray" style=" font-size: 28px; margin: 2px 0px;
-            font-weight: 700;">{{post.title}}</h1>
+            font-weight: 700;">{{page.title}}</h1>
             <div class="w3-row w3-margin-top">
               <span class="w3-tag w3-teal w3-col w3-center w3-card" style="margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
               align-items: center;
@@ -828,7 +828,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   
               Save INR 10,000</span> </p>
           </div>
-          <form class="w3-text-dark-gray w3-row w3-padding" onsubmit="alert('Thanks For Submiting The Form. Our Executives Will Reach To You Within 24 Hours');" method="post">
+          <form class="w3-text-dark-gray w3-row w3-padding" onsubmit="alert('Thanks For Submiting The Form. Our Executives Will Reach To You Within 24 Hours');" method="page">
             <div style="margin-bottom: 6px;" class="elem-group w3-col s12 m12 l12">
 
               <input style="border-radius: 15px;" class=" w3-input w3-round w3-tiny w3-border" type="text" id="name" name="visitor_name" placeholder="Full Name" pattern="[A-Z\sa-z]{3,20}" required="">
