@@ -390,8 +390,8 @@ layout: home
       x = document.getElementsByClassName("city");
       for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
-         document.body.scrollTop = 110;
-  document.documentElement.scrollTop = 110;
+         document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
       }
       tablinks = document.getElementsByClassName("tablink");
       for (i = 0; i < x.length; i++) {
