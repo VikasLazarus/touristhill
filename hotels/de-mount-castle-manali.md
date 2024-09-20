@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: hotel
 title:  "De Mount Castle Manali"
 date:   2024-09-09 05:16:52 -0700
 categories: Hotels

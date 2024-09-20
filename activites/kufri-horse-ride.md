@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: activity
 title:  "kufri Horse Ride"
 date:   2024-09-09 05:16:52 -0700
 categories: Activites
