@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <title>{{post.title}}</title>
-<link rel="icon" type="image/x-icon" href="../images/favicon.svg">
+<link rel="icon" type="image/x-icon" href="{{site.url}}/images/favicon.svg">
 <meta name="description" content="{{post.discription}}">
   <meta name="keywords" content="{{post.keywords}}">
   <meta name="author" content="Tourist hill">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="{{site.url}}/style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -156,19 +156,19 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
 
     <div class="swiper-slide" style="height: 570px; width: 100%;">
-      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="../images/{{post.img1}}" />
+      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{post.img1}}" />
     </div>
     <div class="swiper-slide" style="height: 570px; width: 100%;">
-      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="../images/manali.jpg" />
+      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{post.img2}}" />
     </div>
     <div class="swiper-slide" style="height: 570px; width: 100%;">
-      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="../images/manali-2.jpg" />
+      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{post.img3}}" />
     </div>
     <div class="swiper-slide" style="height: 570px; width: 100%;">
-      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="../images/solang.jpg" />
+      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{post.img4}}" />
     </div>
     <div class="swiper-slide" style="height: 570px; width: 100%;">
-      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="../images/manali-3.jpg" />
+      <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{post.img5}}" />
     </div>
  
   </div>
@@ -208,19 +208,19 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
       
       
           <div class="swiper-slide" style="height: 300px; width: 100%;">
-            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="../images/{{post.img1}}" />
+            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{post.img1}}" />
           </div>
           <div class="swiper-slide" style="height: 300px; width: 100%;">
-            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="../images/manali.jpg" />
+            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{post.img2}}" />
           </div>
           <div class="swiper-slide" style="height: 300px; width: 100%;">
-            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="../images/manali-2.jpg" />
+            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{post.img3}}" />
           </div>
           <div class="swiper-slide" style="height: 300px; width: 100%;">
-            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="../images/solang.jpg" />
+            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{post.img4}}" />
           </div>
           <div class="swiper-slide" style="height: 300px; width: 100%;">
-            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="../images/manali-3.jpg" />
+            <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{post.img5}}" />
           </div>
        
         </div>
@@ -341,7 +341,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   <div class="w3-row w3-display-bottomleft w3-padding w3-text-white" style="width: 100%; border-radius: 15px; background-image: linear-gradient(#ffffff00, #000000);">
     <span class="w3-xxxlarge w3-col" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-small" style="width: 200px; padding-top: 13px;"><strong>Days In<br><span class="w3-large">SHIMLA</span></strong></span>
   </div>
-<img alt="Shimla Manali Adventure Package" src="../images/shimla.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
+<img alt="Shimla Manali Adventure Package" src="{{site.url}}/images/shimla.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
 </div>
 
 <div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray w3-left-align">
@@ -515,7 +515,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   <div class="w3-row w3-display-bottomleft w3-padding w3-text-white" style="width: 100%; border-radius: 15px; background-image: linear-gradient(#ffffff00, #000000);">
     <span class="w3-xxxlarge w3-col" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-small" style="width: 200px; padding-top: 13px;"><strong>Days In<br><span class="w3-large">MANALI</span></strong></span>
   </div>
-<img alt="Shimla Manali Adventure Package" src="../images/manali.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
+<img alt="Shimla Manali Adventure Package" src="{{site.url}}/images/manali.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
 </div>
 
 <div  style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray w3-left-align">

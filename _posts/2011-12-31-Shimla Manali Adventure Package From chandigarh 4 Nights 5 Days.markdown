@@ -7,4 +7,8 @@ date:   2024-09-09 05:16:52 -0700
 categories: Shimla Manali Honeymoon
 permalink: /tours/:title
 img1: shimla.webp
+img2: shimla.webp
+img3: shimla.webp
+img4: shimla.webp
+img5: shimla.webp
 ---
