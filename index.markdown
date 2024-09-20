@@ -313,7 +313,7 @@ layout: home
       <div class="w3-content w3-padding">
         <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
 
-  {% for post in site.categories.Honymoon %}
+  {% for post in site.categories.Honeymoon %}
     {% if post.url %}
         
         <div class="w3-third w3-row w3-margin-bottom">
