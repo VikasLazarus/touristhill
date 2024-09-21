@@ -75,7 +75,7 @@ layout: home
                   <div class="w3-left w3-text-gray"><b>{{post.duration}}</b></div>
                   <div class="w3-right w3-text-gray">
                    
-                    <span class=""><i class="fa fa-star w3-text-green"></i> {{post rating}} </span>(<span>{{post.reviews-count}}</span>)
+                    <span class=""><i class="fa fa-star w3-text-green"></i> {{post.rating}} </span>(<span>{{post.reviews-count}}</span>)
                   </div>
                 </div>
                 <h3 class="w3-text-dark-gray" style="font-size: 20px; margin: 8px 0px;  overflow: hidden;
