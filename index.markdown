@@ -72,7 +72,7 @@ layout: home
               <div class="w3-row">
 
                 <div class="w3-row w3-margin-top">
-                  <div class="w3-left w3-text-gray"><b>{{post.duration}}</b></div>
+                  <div class="w3-left w3-text-gray"><b><i class="fa fa-clock-o"></i> {{post.duration}}</b></div>
                   <div class="w3-right w3-text-gray">
                    
                     <span class=""><i class="fa fa-star w3-text-green"></i> {{post.rating}} </span>(<span>{{post.reviews-count}}</span>)
