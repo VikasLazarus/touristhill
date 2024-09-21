@@ -7,10 +7,10 @@ date:   2024-09-09 05:16:52 -0700
 categories: Shimla Manali Honeymoon
 permalink: /tours/:title
 img1: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days.webp
-img2: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days.webp
-img3: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days.webp
-img4: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days.webp
-img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days.webp
+img2: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-2.webp
+img3: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-3.webp
+img4: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-4.webp
+img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.webp
 ---
 
 
