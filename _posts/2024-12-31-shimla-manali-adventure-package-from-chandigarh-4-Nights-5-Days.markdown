@@ -10,7 +10,7 @@ img1: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days.jpeg
 img2: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-2.webp
 img3: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-3.webp
 img4: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-4.jpg
-img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
+img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpeg
 ---
 
 
