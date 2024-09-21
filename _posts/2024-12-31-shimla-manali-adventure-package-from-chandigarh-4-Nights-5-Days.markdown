@@ -6,6 +6,23 @@ keywords: "Shimla Manali Package,Shimla Manali Adventure Package From Chandigarh
 date:   2024-09-09 05:16:52 -0700
 categories: Shimla Manali Honeymoon
 permalink: /tours/:title
+
+duration: 4 Nights 5 Days
+duration-short:4N | 5D
+duration-days: 2D Shimla 2D Manali
+
+
+price: 36,000
+price-strike: 46,000
+price-save: 10,000
+
+reviews-count: 360
+
+
+
+
+
+
 img1: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-4.jpg
 img2: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-2.webp
 img3: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-3.webp
