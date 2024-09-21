@@ -74,7 +74,7 @@ layout: home
                 <div class="w3-row w3-margin-top">
                   <div class="w3-left w3-text-gray"><b>{{post.duration}}</b></div>
                   <div class="w3-right w3-text-gray">
-                    <i class="fa fa-star w3-text-green">
+                    <i class="fa fa-star-o w3-text-green">
                     <span class="w3-text-green">4.5 </span>(360)
                   </div>
                 </div>
