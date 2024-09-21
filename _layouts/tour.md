@@ -188,7 +188,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
     <div class="w3-col l8 s12">
       <div class="w3-row w3-round w3-padding ">
        
-<div style="--swiper-navigation-color: #ffffff00; --swiper-pagination-color: #ff5722; margin-top: 6px; border-radius: 15px;" class=" w3-display-container w3-hide-small w3-display-container swiper mySwiper2">
+<div style="--swiper-navigation-color: #ffffff00; --swiper-pagination-color: #ff5722; margin-top: 6px; border-radius: 15px;" class=" w3-display-container w3-hide-small w3-display-container swiper mySwiper3">
       
   <div class="w3-display-bottomleft w3-dark-gray w3-card-4" style="border-radius: 0px 15px 0px 0px; z-index: 30; width: 210px; padding: 6px 12px;">
     <div class="w3-row">
