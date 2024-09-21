@@ -13,6 +13,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<script type="application/ld+json">
+{
+    "@context" : "https://schema.org",
+    "@type" : "WebSite",
+    "name" : "Tourist Hill Travels",
+    "url" : "https://touristhill.in/"
+}
+</script>
+
+
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
