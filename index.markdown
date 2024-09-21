@@ -77,7 +77,7 @@ layout: home
                     <i class="fa fa-star-o w3-text-green">
                     <span class="w3-text-green">4.5 </span>(360)
                   </div>
-                </div>
+                </div></div>
                 <h3 class="w3-text-dark-gray" style="font-size: 20px; margin: 8px 0px;  overflow: hidden;
               display: -webkit-box;
               -webkit-line-clamp: 2;
