@@ -82,7 +82,7 @@ layout: home
               display: -webkit-box;
               -webkit-line-clamp: 2;
               font-weight: 700;
-              -webkit-box-orient: vertical;">{{ post.title }}</h3>
+              -webkit-box-orient: vertical; font-size:16px;">{{ post.title }}</h3>
 
 <div class="w3-row" style="padding: 3px 12px; border-radius: 7px;background-image: linear-gradient(#f1f1f1, #ffffff00);" >
   {{post.duration-days}}
