@@ -49,9 +49,9 @@ layout: home
  
   <div class="w3-large w3-content w3-padding w3-text-dark-gray">
         <h2 class="w3-large w3-col s8 m8 l8"><strong>Tours In  {{ category | first }}</strong></h2> <a href="{{site.url}}/destination/{{ category | first | downcase }}.html"><span
-          class="w3-right w3-col w3-text-dark-gray" style="width: 70px;">View All <i
+          class="w3-right w3-col w3-text-dark-gray" style="width: 120px;">View All <i
             style="padding:3px 5px; border-radius: 30px; margin-top: 15px;"
-            class="w3-card w3-teal fa-solid fa-angle-right"></i></span></a>
+            class="w3-teal fa-solid fa-angle-right"></i></span></a>
       </div>
       <br>
    <div class="swiper mySwiper2 w3-content w3-padding">
