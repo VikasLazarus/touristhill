@@ -101,7 +101,7 @@ layout: home
             </a>
             <div class="w3-row">
               <div class="w3-col" style="width: 50px;">
-<a href="tel:{{site.phone1}}"
+<a href="tel:{{site.phone1}}">
                 <button class="w3-button w3-small w3-border w3-border-teal"
                   style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
                   <i class="fa fa-phone w3-text-teal"></i>
