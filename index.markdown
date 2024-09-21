@@ -74,10 +74,10 @@ layout: home
                 <div class="w3-row w3-margin-top">
                   <div class="w3-left w3-text-gray"><b>{{post.duration}}</b></div>
                   <div class="w3-right w3-text-gray">
-                    <i class="fa fa-star-o w3-text-green">
+                   
                     <span class="w3-text-green">4.5 </span>(360)
                   </div>
-                </div></div>
+                </div>
                 <h3 class="w3-text-dark-gray" style="font-size: 20px; margin: 8px 0px;  overflow: hidden;
               display: -webkit-box;
               -webkit-line-clamp: 2;
