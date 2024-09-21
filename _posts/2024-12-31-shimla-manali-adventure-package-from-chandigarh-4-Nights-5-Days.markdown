@@ -14,6 +14,7 @@ price-per: Per Couple
 price-strike: 46,000
 price-save: 10,000
 reviews-count: 360
+rating: 4.5
 img1: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-4.jpg
 img2: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-2.webp
 img3: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-3.webp
