@@ -75,7 +75,7 @@ layout: home
                   <div class="w3-left w3-text-gray"><b>{{post.duration}}</b></div>
                   <div class="w3-right w3-text-gray">
                    
-                    <span class="w3-text-green">4.5 </span>(360)
+                    <span class="w3-text-green">4.5 </span>(360) </div>
                   </div>
                 </div>
                 <h3 class="w3-text-dark-gray" style="font-size: 20px; margin: 8px 0px;  overflow: hidden;
