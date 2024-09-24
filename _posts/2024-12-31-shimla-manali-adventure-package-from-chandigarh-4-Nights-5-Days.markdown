@@ -22,93 +22,15 @@ img4: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days.jpeg
 img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
 ---
 
-<div style="--swiper-navigation-color: #ffffff00; --swiper-pagination-color: #ff5722;" class="w3-hide-large w3-display-container swiper mySwiper3">
-    <div class="w3-display-bottomleft w3-white w3-hide-large w3-hide-medium" style="box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.19), 0 4px 20px 0 rgba(0, 0, 0, 0.2); ; z-index: 30; width: 100%; border-radius: 15px 15px 0px 0px; padding: 0px 18px; margin-bottom: -3px;">
-      <div class="w3-row w3-margin-bottom" style="margin-top: 30px;">
-        <div class="w3-col s6 m6 l6"><strong class="w3-text-gray"><i class="w3-text-gray fa-regular fa-clock" style="margin-right: 6px;"></i> 4 Nights  5 Days</strong></div>
-        <div class="w3-col s6 m6 l6 w3-right"><div class="w3-right w3-text-gray">
-          <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.5006 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.5006 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z" fill="#4caf50"></path>
-          </svg>
-          <span class="w3-text-green">4.5 </span>(360)
-        </div></div>
-  
-      </div>
-    </div>
-    <div class="swiper-wrapper w3-display-container">
-  
-  
-  
-      <div class="swiper-slide" style="height: 570px; width: 100%;">
-        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img1}}" />
-      </div>
-      <div class="swiper-slide" style="height: 570px; width: 100%;">
-        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img2}}" />
-      </div>
-      <div class="swiper-slide" style="height: 570px; width: 100%;">
-        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img3}}" />
-      </div>
-      <div class="swiper-slide" style="height: 570px; width: 100%;">
-        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img4}}" />
-      </div>
-      <div class="swiper-slide" style="height: 570px; width: 100%;">
-        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img5}}" />
-      </div>
-   
-    </div>
-    <div class="swiper-pagination" style="margin-top: -100px;"></div>
-  </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  <!-- First Grid -->
   <div class="w3-row w3-white">
     <div class="w3-content">
       <div class="w3-col l8 s12">
         <div class="w3-row w3-round w3-padding ">
          
-  <div style="--swiper-navigation-color: #ffffff00; --swiper-pagination-color: #ff5722; margin-top: 6px; border-radius: 15px;" class=" w3-display-container w3-hide-small w3-display-container swiper mySwiper3">
-        
-    <div class="w3-display-bottomleft w3-dark-gray w3-card-4" style="border-radius: 0px 15px 0px 0px; z-index: 30; width: 210px; padding: 6px 12px;">
-      <div class="w3-row">
-          <div class="w3-col s6 m6 l6"><strong class="w3-text-white"><i class="w3-text-white fa-regular fa-clock" style="margin-right: 6px;"></i> 4N | 5D</strong></div>
-          <div class="w3-col s6 m6 l6 w3-right"><div class="w3-right w3-text-white">
-            <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.5006 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.5006 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z" fill="#4caf50"></path>
-            </svg>
-            <span class="w3-text-white">4.5 </span>(360)
-          </div>
+       
     
-        </div>
-      </div>
-        </div>
-          <div class="swiper-wrapper">
          
-        
-        
-            <div class="swiper-slide" style="height: 300px; width: 100%;">
-              <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{page.img1}}" />
-            </div>
-            <div class="swiper-slide" style="height: 300px; width: 100%;">
-              <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{page.img2}}" />
-            </div>
-            <div class="swiper-slide" style="height: 300px; width: 100%;">
-              <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{page.img3}}" />
-            </div>
-            <div class="swiper-slide" style="height: 300px; width: 100%;">
-              <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{page.img4}}" />
-            </div>
-            <div class="swiper-slide" style="height: 300px; width: 100%;">
-              <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;" src="{{site.url}}/images/{{page.img5}}" />
-            </div>
          
-          </div>
-          <div class="swiper-pagination" style="margin-bottom: 0px !important;"></div>
        
         <div class="w3-row w3-hide-small" style="height: 25px;"> </div>
           
@@ -152,7 +74,7 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
   <hr>
   
         </div>
-  </div>
+
         
   <div class="w3-row">
     <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Trip Duration</strong></h2>
@@ -668,7 +590,7 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
   
   
   
-    <div class="w3-col l3 s12 w3-hide-small" style="object-fit: contain; padding: 6px 6px; position: sticky; top: 0px;">
+    <div class="w3-col l4 s12 w3-hide-small" style="object-fit: contain; padding: 6px 6px; position: sticky; top: 0px;">
       <div class="w3-row w3-round w3-padding">
   
         <div class="w3-row">
@@ -750,4 +672,3 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
   
 
     </div>
-
