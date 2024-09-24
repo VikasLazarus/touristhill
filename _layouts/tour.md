@@ -224,9 +224,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
       <div class="swiper-slide" style="height: 570px; width: 100%;">
         <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img5}}" />
       </div>
-    <div class="swiper-pagination w3-hide-large w3-hide-medium" style="margin-top: -100px;"></div>
-    </div>
    
+    </div>
+    <div class="swiper-pagination w3-hide-large w3-hide-medium" style="margin-top: -100px;"></div>
 </div>
 
 
