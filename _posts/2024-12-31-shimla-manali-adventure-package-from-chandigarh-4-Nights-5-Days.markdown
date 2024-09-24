@@ -250,308 +250,143 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
   <hr>
     <!--transfers-->
   <div class="w3-row w3-padding">
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer By Cab</strong>
-    </div>
-    <div class="w3-row">
-      <div style="padding: 6px 0px;" class="w3-text-gray w3-margin-top w3-margin-bottom">Transfer In morning</div>
-    <div class="w3-row">
-      <div class="w3-col w3-tiny" style="width: fit-content; padding-right: 18px;">
-        From <br>
-        <sapn class="w3-large w3-text-gray"><strong>Shimla</strong></sapn>
-      </div>
-      
-      <div class="w3-col w3-tiny" style="width: fit-content; padding-right: 18px;">
-        To <br>
-        <sapn class="w3-large w3-text-gray"><strong>Kufri</strong></sapn>
-      </div>
-    </div>
-  <div style="padding: 6px 0px;" class="w3-text-gray w3-margin-top w3-margin-bottom">Transfer In Evening</div>
+    <title>{{page.title}}</title>
+<link rel="icon" type="image/x-icon" href="{{site.url}}/images/favicon.svg">
+<meta name="description" content="{{page.discription}}">
+  <meta name="keywords" content="{{page.keywords}}">
+  <meta name="author" content="Tourist hill">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<script type="application/ld+json">
+    {
+        "@context" : "https://schema.org",
+        "@type" : "WebSite",
+        "name" : "Tourist Hill Travels",
+        "url" : "https://touristhill.in/"
+    }
+    </script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- First Grid -->
+
+      <div class="w3-col l8 s12">
+        <div class="w3-row w3-round w3-padding ">
+         
+       
+    
+         
+         
+       
+        <div class="w3-row w3-hide-small" style="height: 25px;"> </div>
+          
+        
+  
+          <h1 class="w3-text-dark-gray" style=" font-size: 28px; margin: 2px 0px;
+              font-weight: 700;">{{page.title}}</h1>
+              <div class="w3-row w3-margin-top">
+                <span class="w3-tag w3-teal w3-col w3-center w3-card" style="margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
+                align-items: center;
+                justify-content: center;"><strong>4N | 5D</strong></span>
+                <div class="w3-col w3-margin-right w3-border-right w3-border-light-gray" style="padding-right: 12px; width: fit-content; ">
+                <span class="w3-xxlarge w3-col w3-text-gray" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-tiny w3-text-gray" style="width: auto; padding-top: 11px;"><strong>Days In<br><span class="w3-small w3-text-black">SHIMLA</span></strong></span>
+               </div>
+               <div class="w3-col w3-border-right w3-border-light-gray" style="width: fit-content; padding-right: 12px;">
+                <span class="w3-xxlarge w3-col w3-text-gray" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-tiny w3-text-gray" style="width: auto; padding-top: 11px;"><strong>Days In<br><span class="w3-small w3-text-black">MANALI</span></strong></span>
+               </div>
+              </div>
+  <hr>
+  <div class="w3-hide-large">
+          <p><b class="w3-xlarge">INR 36,000 <span class="w3-small w3-text-gray">Per Couple</span></b> 
+            <br><strike class="w3-text-gray">INR 46,000</strike></p>
+          
+  <hr>
+  </div>
   <div class="w3-row">
-      <div class="w3-col w3-tiny" style="width: fit-content; padding-right: 18px;">
-        From <br>
-        <sapn class="w3-large w3-text-gray"><strong>Kufri</strong></sapn>
-      </div>
-      
-      <div class="w3-col w3-tiny" style="width: fit-content; padding-right: 18px;">
-        To <br>
-        <sapn class="w3-large w3-text-gray"><strong>Shimla</strong></sapn>
-      </div>
-  </div>
-  
-    </div>
-    <hr>
-    <div class="w3-row w3-padding"></div>
     <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fas fa-bed w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay At Shimla</strong>
+      <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer Included</strong>
     </div>
-    
-    <div class="w3-row">
-      <div class="w3-col" style="width: fit-content; padding-right: 18px;">
-        Nights <br>
-        <sapn class="w3-large w3-text-gray"><strong>2 NIGHTS</strong></sapn>
-      </div>
-    
-      <div class="w3-col" style="width: fit-content; padding-right: 18px;">
-        Check In <br>
-        <sapn class="w3-large w3-text-gray"><strong>8 PM</strong></sapn>
-      </div>
-      
-      <div class="w3-col" style="width: fit-content; padding-right: 18px;">
-        Check Out <br>
-        <sapn class="w3-large w3-text-gray"><strong>9 AM</strong></sapn>
-      </div>
+    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
+      <i class="fas fa-bed w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay Included</strong>
     </div>
-    
-    <div class="w3-row w3-light-gray w3-padding w3-margin-top" style="border-radius: 10px;">
-      <div class="w3-col s12 m12 l12" style="padding: 6px 0px;">
-        <i class="fa-solid fa-utensils w3-text-gray" style="margin-right: 12px;"></i> <strong class="w3-text-gray">Breakfast &amp; Dinner Included</strong>
-      </div>
+    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
+      <i class="fa-solid fa-utensils w3-text-gray" style="margin-right: 12px;"></i> <strong class="w3-text-gray">Breakfast & Dinner Included</strong>
     </div>
-    
-    </div>
-    
-    <!--end-->
-    </div>
-    
-  </div>
-  
-  
-  <div class="w3-row w3-margin-bottom w3-display-container" style="height: 200px; width: 100%;">
-    <div class="w3-row w3-display-bottomleft w3-padding w3-text-white" style="width: 100%; border-radius: 15px; background-image: linear-gradient(#ffffff00, #000000);">
-      <span class="w3-xxxlarge w3-col" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-small" style="width: 200px; padding-top: 13px;"><strong>Days In<br><span class="w3-large">MANALI</span></strong></span>
-    </div>
-  <img alt="Shimla Manali Adventure Package" src="{{site.url}}/images/manali.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
-  </div>
-  
-  <div  style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray w3-left-align">
-    <div onclick="myFunction('day3')" ><div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
-    <strong>Day-3</strong></div> 
-    <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
-    <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Journey to Manali</div>
-   </div>
-    <div id="day3" class="w3-row w3-hide">
-      <hr>
-    <ul>
-      <li>
-        Scenic Drive: Embark on a scenic drive from Shimla to Manali, passing through charming villages, lush forests, and breathtaking landscapes.</li>
-  <li>
-    Check-in to Your Hotel: Arrive in Manali, the "Valley of Gods," and check into your hotel.
-  </li>
-  
-  </ul>
-  
-  <div class="w3-row w3-sand w3-padding w3-margin-top" style="border-radius: 10px;">
-    <div class="w3-col s12 m12 l12" style="padding: 6px 0px;">
-      <strong class="w3-text-gray">Check Out from Deluxe Hotel in Shimla</strong>
+    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
+      <i class="fa-solid fa-images w3-text-gray" style="margin-right: 8px;"></i> <strong class="w3-text-gray">Sightseeing Included</strong>
     </div>
   </div>
   
   <hr>
-  <div class="w3-row w3-padding">
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer By Cab</strong>
-    </div>
-    <div class="w3-row">
-    
-      <div class="w3-col" style="width: fit-content; padding-right: 18px;">
-        From <br>
-        <sapn class="w3-large w3-text-gray"><strong>Shimla</strong></sapn>
-      </div>
-      
-      <div class="w3-col" style="width: fit-content; padding-right: 18px;">
-        To <br>
-        <sapn class="w3-large w3-text-gray"><strong>Manali</strong></sapn>
-      </div>
-    </div>
-    <hr>
-    <div class="w3-row w3-padding"></div>
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fas fa-bed w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay At Manali </strong>
-      <p class="w3-large w3-text-gray"><strong>Check-in at Deluxe Hotel in Manali</strong></p>
-      
-    </div>
-    
-    <div class="w3-row">
-      <div class="w3-col" style="width: fit-content; padding-right: 18px;">
-        Nights <br>
-        <sapn class="w3-large w3-text-gray"><strong>2 NIGHTS</strong></sapn>
-      </div>
-    
-      <div class="w3-col" style="width: fit-content; padding-right: 18px;">
-        Check In <br>
-        <sapn class="w3-large w3-text-gray"><strong>8 PM</strong></sapn>
-      </div>
-      
-      <div class="w3-col" style="width: fit-content; padding-right: 18px;">
-        Check Out <br>
-        <sapn class="w3-large w3-text-gray"><strong>9 AM</strong></sapn>
-      </div>
-    </div>
-    
-    <div class="w3-row w3-light-gray w3-padding w3-margin-top" style="border-radius: 10px;">
-      <div class="w3-col s12 m12 l12" style="padding: 6px 0px;">
-        <i class="fa-solid fa-utensils w3-text-gray" style="margin-right: 12px;"></i> <strong class="w3-text-gray">Breakfast &amp; Dinner Included</strong>
-      </div>
-    </div>
-    
-    </div>
   
-  </div>
-    </div>
-  
-  
-  <div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray w3-left-align">
-    <div  onclick="myFunction('day4')">
-    <div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
-    <strong>Day-4</strong></div> 
-    <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
-    <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Manali Adventure</div>
-   </div>
-   <div id="day4" class="w3-row w3-hide">
-    <hr>
-    <ul>
-      <li>
-        Rohtang Pass: Experience the thrill of driving to Rohtang Pass, one of the highest motorable roads in the world, offering stunning views of snow-capped peaks.
-        <li>
-          Solang Valley: Enjoy a variety of adventure activities in Solang Valley, including paragliding, skiing, zorbing, and snowmobiling.
-  </li>
-  <li>
-    Hadimba Temple: Visit the ancient Hadimba Temple, dedicated to the goddess Hadimba, and explore the surrounding Van Vihar.
-  </li>
-  </ul>
-  <hr>
-  <div class="w3-row w3-padding">
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer By Cab</strong>
-    </div>
-    <div class="w3-row">
-      <div style="padding: 6px 0px;" class="w3-text-gray w3-margin-top w3-margin-bottom">Transfer In morning</div>
-    <div class="w3-row">
-      <div class="w3-col w3-tiny" style="width: fit-content; padding-right: 18px;">
-        From <br>
-        <sapn class="w3-large w3-text-gray"><strong>Manali</strong></sapn>
-      </div>
-      
-      <div class="w3-col w3-tiny" style="width: fit-content; padding-right: 18px;">
-        To <br>
-        <sapn class="w3-large w3-text-gray"><strong>Rohtang Pass</strong></sapn>
-      </div>
-    </div>
-  <div style="padding: 6px 0px;" class="w3-text-gray w3-margin-top w3-margin-bottom">Transfer In Afternoon</div>
+        </div>
+
+        
   <div class="w3-row">
-      <div class="w3-col w3-tiny" style="width: fit-content; padding-right: 18px;">
-        From <br>
-        <sapn class="w3-large w3-text-gray"><strong>Rohtang Pass</strong></sapn>
-      </div>
-      
-      <div class="w3-col w3-tiny" style="width: fit-content; padding-right: 18px;">
-        To <br>
-        <sapn class="w3-large w3-text-gray"><strong>Hidimba Temple</strong></sapn>
-      </div>
+    <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Trip Duration</strong></h2>
+    <div style="padding: 0px 12px;">
+    <span class="w3-tag w3-light-gray w3-col w3-center w3-text-dark-gray" style="padding: 0px 20px; margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
+                align-items: center;
+                justify-content: center;"><strong>4 Nights | 5 Days</strong></span>
+                </div>
   </div>
-  <div style="padding: 6px 0px;" class="w3-text-gray w3-margin-top w3-margin-bottom">Transfer In Evening</div>
-  <div class="w3-row">
-    <div class="w3-col w3-tiny" style="width: fit-content; padding-right: 18px;">
-      From <br>
-      <sapn class="w3-large w3-text-gray"><strong>Hidimba Temple</strong></sapn>
-    </div>
-    
-    <div class="w3-col w3-tiny" style="width: fit-content; padding-right: 18px;">
-      To <br>
-      <sapn class="w3-large w3-text-gray"><strong>Manali</strong></sapn>
-    </div>
+  
+  <div class="w3-row ">
+    <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Destination Routes</strong></h2>
+    <div class="w3-row w3-light-gray w3-padding w3-margin" style="border-radius: 15px; padding: 0px 12px;">
+   <strong class="w3-text-dark-gray w3-small">Chandighrar <i class="fa-solid fa-arrow-right"></i> Shimla <i class="fa-solid fa-arrow-right"></i> Manali <i class="fa-solid fa-arrow-right"></i> Chandigarh </strong>
+                </div>
   </div>
-    </div>
-    <hr>
-    <div class="w3-row w3-padding"></div>
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fas fa-bed w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay At Manali</strong>
-    </div>
-    
-    <div class="w3-row">
-      <div class="w3-col" style="width: fit-content; padding-right: 18px;">
-        Nights <br>
-        <sapn class="w3-large w3-text-gray"><strong>2 NIGHTS</strong></sapn>
-      </div>
-    
-      <div class="w3-col" style="width: fit-content; padding-right: 18px;">
-        Check In <br>
-        <sapn class="w3-large w3-text-gray"><strong>8 PM</strong></sapn>
-      </div>
-      
-      <div class="w3-col" style="width: fit-content; padding-right: 18px;">
-        Check Out <br>
-        <sapn class="w3-large w3-text-gray"><strong>9 AM</strong></sapn>
-      </div>
-    </div>
-    
-    <div class="w3-row w3-light-gray w3-padding w3-margin-top" style="border-radius: 10px;">
-      <div class="w3-col s12 m12 l12" style="padding: 6px 0px;">
-        <i class="fa-solid fa-utensils w3-text-gray" style="margin-right: 12px;"></i> <strong class="w3-text-gray">Breakfast &amp; Dinner Included</strong>
-      </div>
-    </div>
-    
-    </div>
   
+  <div class="w3-row ">
+    <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Stay Category</strong></h2>
+    <div class="w3-tag w3-light-gray w3-padding w3-margin" style="border-radius: 15px; padding: 0px 12px;">
+   <strong class="w3-text-dark-gray">Delux Property</strong>
+                </div>
   </div>
-    </div>
   
-  
-  <div  style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray w3-left-align">
-    <div onclick="myFunction('day5')">
-    <div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
-    <strong>Day-5</strong></div> 
-    <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
-    <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Departure</div>
-   </div>
-   <div id="day5" class="w3-row w3-hide">
-    <hr>
-    <ul>
-      <li>
-        Local Sightseeing: Explore the local markets of Manali, shop for souvenirs, and savor delicious local cuisine.</li>
-  <li>
-    Vashisht Village: Visit the peaceful village of Vashisht, known for its hot springs and ancient temple.
-  </li>
-  <li>
-    Departure: Depart from Manali, carrying with you unforgettable memories of your Himalayan adventure.
-  </li>
-  </ul>
   <hr>
-  
-  <div class="w3-row w3-padding">
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer By Cab</strong>
-    </div>
-    <div class="w3-row">
-    
-      <div class="w3-col" style="width: fit-content; padding-right: 18px;">
-        From <br>
-        <sapn class="w3-large w3-text-gray"><strong>Manali</strong></sapn>
-      </div>
-      
-      <div class="w3-col" style="width: fit-content; padding-right: 18px;">
-        To <br>
-        <sapn class="w3-large w3-text-gray"><strong>Chandigarh</strong></sapn>
-      </div>
-    </div>
-    <hr>
-    
-    
-    <div class="w3-row w3-light-gray w3-padding w3-margin-top" style="border-radius: 10px;">
-      <div class="w3-col s12 m12 l12" style="padding: 6px 0px;">
-        <i class="fa-solid fa-utensils w3-text-gray" style="margin-right: 12px;"></i> <strong class="w3-text-gray">Breakfast Included</strong>
-      </div>
-    </div>
-    
-    </div>
-  
+        <div class="w3-row">
+    <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Trip Hightlights</strong></h2>
+    <ul class="w3-text-gray">
+      <li>
+  <strong class="w3-text-dark-gray">Rohtang Pass:</strong> Drive to one of the highest motorable roads in the world and enjoy panoramic views.
+      </li>
+      <li>
+        <strong class="w3-text-dark-gray">Solang Valley:</strong> Engage in various adventure activities like paragliding, skiing, and zorbing.
+      </li>
+      <li>
+        <strong class="w3-text-dark-gray">Hadimba Temple:</strong> Visit this ancient temple dedicated to the goddess Hadimba and explore the surrounding Van Vihar.
+      </li>
+      <li>
+        <strong class="w3-text-dark-gray">Hadimba Temple:</strong> Visit this ancient temple dedicated to the goddess Hadimba and explore the surrounding Van Vihar.
+      </li>
+  <li>
+    <strong class="w3-text-dark-gray">Vashisht Village:</strong> Relax in the hot springs and visit the ancient Vashisht Temple.
+  </li>
+  <li>
+    <strong class="w3-text-dark-gray">Scenic Drives:</strong> Enjoy breathtaking views during your journey between Shimla and Manali.
+  </li>
+  <li>
+   <strong class="w3-text-dark-gray">Local Markets:</strong> Explore the vibrant markets of Shimla and Manali for souvenirs and local handicrafts.
+  </li>
+    </ul>
   </div>
-    </div>
   
-  
-  
-  </div>
+  <hr>
+ 
   
   <hr>
   <h2 class="w3-padding w3-text-dark-gray w3-large">
@@ -583,6 +418,14 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
   <p class="w3-padding">Don't miss the opportunity to create lasting memories in the enchanting region of Shimla-Manali. Book your 4-night, 5-day getaway now and embark on an unforgettable adventure.</p>
   <hr>
   </div>
+  
+    
+  
+  
+  
+  
+  
+   
   
     
   
