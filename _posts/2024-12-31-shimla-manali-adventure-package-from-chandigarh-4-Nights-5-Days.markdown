@@ -109,7 +109,7 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
          
           </div>
           <div class="swiper-pagination" style="margin-bottom: 0px !important;"></div>
-        </div>
+       
         <div class="w3-row w3-hide-small" style="height: 25px;"> </div>
           
         
@@ -152,7 +152,7 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
   <hr>
   
         </div>
-  
+  </div>
         
   <div class="w3-row">
     <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Trip Duration</strong></h2>
@@ -749,6 +749,5 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
     </div>
   
 
-    </div> 
-
+    </div>
 
