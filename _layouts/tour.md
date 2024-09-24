@@ -97,7 +97,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 </head>
 <body>
 
-   <!--bottom fixed-->
+  <!--bottom fixed-->
    <div id="Fixed" class="w3-display-container w3-row w3-white w3-border-top w3-border-light-gray w3-hide-large w3-hide-medium w3-animate-zoom" style="width: 100%; padding:12px; position: fixed; bottom: -190px; left: 0px; z-index: 30;">
    <div class="w3-display-topright" style="padding: 0px 12px; margin-top: -96px;">
    <a href="tel:{{site.phone1}}">
@@ -127,18 +127,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
     <div id="id01" class="w3-modal" style="background-color: #ffffff00; z-index: 120;">
       <div class="w3-bottom w3-white w3-card-4"style="border-radius: 15px 15px 0px 0px;">
         <div class="w3-row">
-          <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-sand w3-card-4 w3-display-topright" style="padding: 6px 12px; border-radius: 30px; margin-top: -45px; margin-right: 12px;">&times;</span>
-         <div class="w3-half">
- <div class="w3-row w3-text-white w3-teal" style="border-radius: 15px 15px 0px 0px;">
-                <div class="aa"></div>
-                <div class="w3-content" style="max-width: 1100px;">
-                  <span class="w3-col l12  m12 s12 w3-small w3-center" style="padding: 8px 0px ;"><span><b style="font-weight:900;">Mansoon Sale!</b> Save Up To <b style="font-weight:900;">70% Off</b> On Your Trip
-                    </span>
-            
-            
-                </span></div>
-              </div>
-         </div>
+          <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-opacity-min w3-card-4 w3-display-topright" style="padding: 6px 12px; border-radius: 30px; margin-top: -45px; margin-right: 12px;">&times;</span>
+         
          <div class="w3-half w3-padding">
            
             <div class="w3-text-dark-gray" style="border-radius: 15px;">
@@ -154,40 +144,36 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
                 <form class="w3-text-dark-gray w3-row" onsubmit="alert('Thanks For Submiting The Form. Our Executives Will Reach To You Within 24 Hours');" method="page">
                   <div style="margin-bottom: 6px;" class="elem-group w3-col s12 m12 l12">
       <lable class="w3-small" style="margin-bottom: 4px;">Full Name <span class="w3-text-red">*</span></lable>
-                    <input style="border-radius: 15px;" class=" w3-input w3-round w3-tiny w3-border" type="text" id="name" name="visitor_name" placeholder="Jonh Doe" pattern="[A-Z\sa-z]{3,20}" required="">
+                    <input style="border-radius: 15px;" class=" w3-input w3-large w3-round w3-tiny w3-border" type="text" id="name" name="visitor_name" placeholder="Jonh Doe" pattern="[A-Z\sa-z]{3,20}" required="">
                   </div>
                  <div class="elem-group w3-col s12 m12 l12" style="margin-bottom: 6px;">
                     <lable class="w3-small" style="margin-bottom: 4px;">Email Address <span class="w3-text-red">*</span></lable>
                     
-                    <input style="border-radius: 15px;" class=" w3-input w3-round w3-tiny w3-border" type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required="">
+                    <input style="border-radius: 15px;" class=" w3-input w3-large w3-round w3-tiny w3-border" type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required="">
                   </div>
                   <div class="elem-group w3-col s12 m12 l12" style="margin-bottom: 6px;">
                     <lable class="w3-small" style="margin-bottom: 4px;">Contect Number <span class="w3-text-red">*</span></lable>
                     
-                    <input style="border-radius: 15px;" class="w3-input w3-round w3-tiny w3-border" type="tel" id="phone" name="visitor_phone" placeholder="+91-81294-71645" pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})" required="">
+                    <input style="border-radius: 15px;" class="w3-input w3-large w3-round w3-tiny w3-border" type="tel" id="phone" name="visitor_phone" placeholder="+91-81294-71645" pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})" required="">
                   </div>
       <div class="w3-row">
                   <div class=" w3-col s4 m4 l4" style="margin-bottom: 6px;">
                     <lable class="w3-small" style="margin-bottom: 4px;">Traveller Count <span class="w3-text-red">*</span></lable>
-                  <input style="border-radius: 15px;" class=" w3-input w3-round w3-tiny w3-border" type="number" id="adult" name="total_adults" placeholder="Travelrs Count" min="1" required="">
+                  <input style="border-radius: 15px;" class=" w3-input w3-large w3-round w3-tiny w3-border" type="number" id="adult" name="total_adults" placeholder="Travelrs Count" min="1" required="">
                   </div>
 
                   <div class="w3-col s8 m8 l8" style="padding-left: 12px;">
                     <lable class="w3-small" style="margin-bottom: 4px;">Travel Date <span class="w3-text-red">*</span></lable>
                   
-                     <input  style="margin-bottom: 4px; border-radius: 15px;" class="w3-right-align w3-rest w3-input w3-round w3-tiny w3-border" type="date" id="checkout-date" name="checkout" required="">
+                     <input  style="margin-bottom: 4px; border-radius: 15px;" class="w3-right-align w3-rest w3-input w3-large w3-round w3-tiny w3-border" type="date" id="checkout-date" name="checkout" required="">
                     </div>
 
                  </div>
-                 <div class="w3-col s12 m12 l12">
-                    <lable class="w3-small" style="margin-bottom: 4px;">Message <span class="w3-text-red"></span></lable>
-                  
-                    <textarea class="w3-input w3-border w3-mobile" style="border-radius: 15px; width: 100%;" id="message" name="message"  cols="60" rows="3"></textarea>
-                    </div>
+                
 
                  </div>
                     <div class="w3-row">
-                    <button class="w3-mobile w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Connect With a Expert</button>
+                    <button class="w3-large w3-mobile w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Connect With a Expert</button>
                 </div>  
                   </div>
 
