@@ -97,7 +97,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 </head>
 <body>
 
-  <!--bottom fixed-->
+   <!--bottom fixed-->
    <div id="Fixed" class="w3-display-container w3-row w3-white w3-border-top w3-border-light-gray w3-hide-large w3-hide-medium w3-animate-zoom" style="width: 100%; padding:12px; position: fixed; bottom: -190px; left: 0px; z-index: 30;">
    <div class="w3-display-topright" style="padding: 0px 12px; margin-top: -96px;">
    <a href="tel:{{site.phone1}}">
@@ -124,7 +124,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   <div class="w3-container">
 
   
-    <div id="id01" class="w3-modal" style="background-color: #ffffff00; z-index: 120;">
+    <div id="id01" class="w3-modal" style="background-color: #48484889; z-index: 120;">
       <div class="w3-bottom w3-white w3-card-4"style="border-radius: 15px 15px 0px 0px;">
         <div class="w3-row">
           <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-opacity-min w3-card-4 w3-display-topright" style="padding: 6px 12px; border-radius: 30px; margin-top: -45px; margin-right: 12px;">&times;</span>
@@ -133,9 +133,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
            
             <div class="w3-text-dark-gray" style="border-radius: 15px;">
                 <div style="margin-top: 30px;">
-                  <h3 class="w3-large"><strong>
+                  <h2 class="w3-large"><strong>
                     {{page.title}}
-                  </strong></h3>
+                  </strong></h2>
                   <p><b class="w3-xlarge">INR {{page.price}} <span class="w3-small w3-text-gray">{{page.price-per}}</span></b> 
                     <br><strike class="w3-text-gray">INR {{page.price-strike}}</strike></p>
 
