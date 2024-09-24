@@ -884,12 +884,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
         
         <div class="w3-text-dark-gray w3-border w3-margin-top w3-border-light-gray" style="border-radius: 15px;">
           <div class="w3-padding">
-            <h3 class="w3-large"><strong>
-              Shimla Manali Adventure Package From Chandigarh
-            </strong></h3>
-            <p><b class="w3-small">INR 36,000</b> <strike class="w3-small">INR 46,000</strike> <span class="w3-pale-green box w3-text-green w3-small" style="padding:4px 0px;">
-  
-              Save INR 10,000</span> </p>
+              <h2 class="w3-large"><strong>
+                    {{page.title}}
+                  </strong></h2>
+                  <p><b class="w3-xlarge">INR {{page.price}} <span class="w3-small w3-text-gray">{{page.price-per}}</span></b> 
+                    <br><strike class="w3-text-gray">INR {{page.price-strike}}</strike></p>
+
           </div>
           <form class="w3-text-dark-gray w3-row w3-padding" onsubmit="alert('Thanks For Submiting The Form. Our Executives Will Reach To You Within 24 Hours');" method="page">
             <div style="margin-bottom: 6px;" class="elem-group w3-col s12 m12 l12">
