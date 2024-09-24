@@ -22,7 +22,7 @@ img4: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days.jpeg
 img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
 ---
 
-<!--itenary-->
+  <!--itenary-->
 
 
 <div class="w3-row w3-padding">
@@ -308,14 +308,9 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
      <div id="day4" class="w3-row w3-hide">
       <hr>
       <ul>
-        <li>
-          Rohtang Pass: Experience the thrill of driving to Rohtang Pass, one of the highest motorable roads in the world, offering stunning views of snow-capped peaks.
-          <li>
-            Solang Valley: Enjoy a variety of adventure activities in Solang Valley, including paragliding, skiing, zorbing, and snowmobiling.
-    </li>
-    <li>
-      Hadimba Temple: Visit the ancient Hadimba Temple, dedicated to the goddess Hadimba, and explore the surrounding Van Vihar.
-    </li>
+        <li>Rohtang Pass: Experience the thrill of driving to Rohtang Pass, one of the highest motorable roads in the world, offering stunning views of snow-capped peaks.
+          <li>Solang Valley: Enjoy a variety of adventure activities in Solang Valley, including paragliding, skiing, zorbing, and snowmobiling.</li>
+    <li>Hadimba Temple: Visit the ancient Hadimba Temple, dedicated to the goddess Hadimba, and explore the surrounding Van Vihar.</li>
     </ul>
     <hr>
     <div class="w3-row w3-padding">
@@ -361,11 +356,11 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
     </div>
       </div>
       <hr>
-      <div class="w3-row w3-padding"></div>
+      <div class="w3-row w3-padding">
       <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
         <i class="fas fa-bed w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay At Manali</strong>
       </div>
-      
+      </div>
       <div class="w3-row">
         <div class="w3-col" style="width: fit-content; padding-right: 18px;">
           Nights <br>
