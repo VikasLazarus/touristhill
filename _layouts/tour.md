@@ -510,7 +510,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
 
 
-
+{% for item in site.categories[page.categories] %}
+  <a href="{{ item.url }}" target="_self" draggable="false">
+    {{ item.title }}
+  </a>
+{% endfor %}
 <!--Related Packages-->
 {% if site.related_related_posts.size >= 1 %}
 <div class="w3-large w3-content w3-padding w3-text-dark-gray">
