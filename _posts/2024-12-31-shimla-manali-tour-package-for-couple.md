@@ -16,11 +16,11 @@ price-save: "10,000"
 property: Super Delux
 reviews-count: 360
 rating: 4.5
-img1: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-4.jpg
-img2: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-2.webp
-img3: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-3.webp
-img4: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days.jpeg
-img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
+img1: shimla-manali-tour-package-for-couple.jpeg
+img2: shimla-manali-tour-package-for-couple-2.jpeg
+img3: shimla-manali-tour-package-for-couple-3.jpeg
+img4: shimla-manali-tour-package-for-couple-4.jpeg
+img5: shimla-manali-tour-package-for-couple-5.jpeg
 ---
 
   <!--itenary-->
