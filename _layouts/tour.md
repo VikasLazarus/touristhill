@@ -524,9 +524,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   <script>
     var swiper = new Swiper(".mySwiper4", {
       loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
       slidesPerView: 3,
       centeredSlides: true,
-      spaceBetween: 30,
+      spaceBetween: 10,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
