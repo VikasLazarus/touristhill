@@ -13,6 +13,7 @@ price: "46,000"
 price-per: Per Couple
 price-strike: "56,000"
 price-save: "10,000"
+property: Super Delux
 reviews-count: 360
 rating: 4.5
 img1: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-4.jpg
