@@ -510,7 +510,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
 
 <!--Related Packages-->
-{% if site.related_related_posts.size >= 0 %}
+{% if site.related_posts.size >= 1 %}
 <div class="w3-large w3-content w3-padding w3-text-dark-gray">
     <h2 class="w3-large w3-col s8 m8 l8"><strong>Related Packages</strong></h2>
   </div>
