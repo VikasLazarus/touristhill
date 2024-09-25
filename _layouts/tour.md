@@ -525,7 +525,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 <div class="swiper mySwiper2 w3-content w3-padding">
     <div class="swiper-wrapper">
     {% for related_post in site.related_posts limit: 5 %}
-    <div class="swiper-slide slide-2 w3-row">
+    <div class="swiper-slide slide-2 w3-row" style="width:320px; height:520px;">
 
         <a href="{{ related_post.url }}.html">
           <div class="w3-row w3-display-container" style="height: 290px; width:320px;">
