@@ -26,7 +26,7 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
 
 
 <div class="w3-row w3-padding">
-    <h2 class="w3-large w3-text-dark-gray w3-margin-bottom"><strong>Shimla Manali Tour Itinerary</strong></h2>
+    <h2 class="w3-large w3-text-dark-gray w3-margin-bottom"><strong>Tour Itinerary</strong></h2>
     
     <div class="w3-row w3-margin-top w3-margin-bottom">
       <span class="w3-tag w3-teal w3-col w3-center w3-card" style="margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
@@ -44,7 +44,7 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
       <div class="w3-row w3-display-bottomleft w3-padding w3-text-white" style="width: 100%; border-radius: 15px; background-image: linear-gradient(#ffffff00, #000000);">
         <span class="w3-xxxlarge w3-col" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-small" style="width: 200px; padding-top: 13px;"><strong>Days In<br><span class="w3-large">SHIMLA</span></strong></span>
       </div>
-    <img alt="Shimla Manali Adventure Package" src="{{site.url}}/images/shimla.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
+    <img alt="{{page.title}}" src="{{site.url}}/images/shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-4.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
     </div>
     
     <div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray">
@@ -218,7 +218,7 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
       <div class="w3-row w3-display-bottomleft w3-padding w3-text-white" style="width: 100%; border-radius: 15px; background-image: linear-gradient(#ffffff00, #000000);">
         <span class="w3-xxxlarge w3-col" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-small" style="width: 200px; padding-top: 13px;"><strong>Days In<br><span class="w3-large">MANALI</span></strong></span>
       </div>
-    <img alt="Shimla Manali Adventure Package" src="{{site.url}}/images/manali.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
+    <img alt="{{page.title}}" src="{{site.url}}/images/manali.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
     </div>
     
     <div  style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray">
