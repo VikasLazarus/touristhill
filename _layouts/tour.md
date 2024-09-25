@@ -508,7 +508,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
 {% include inclusion-exclusion.md %}
 
-
+{% if site.related_posts.size >= 1 %}
+<div>
+  <h3>Related Posts</h3>
+  <ul>
+    {% for related_post in site.related_posts limit: 5 %}
+    <li><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
 <!-- Footer -->
 
 
