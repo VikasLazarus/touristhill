@@ -1,6 +1,6 @@
 ---
 layout: tour
-title:  "Shimla Manali Honeymoon Package From Chandigarh 4 Nights 5 Days"
+title:  "shimla manali tour package for couple"
 discription: "Shimla Manali Honeymoon Package From Chandigarh with a 4-night, 5-day Shimla Manali tour. Enjoy stunning views, thrilling activities, and unforgettable experiences."
 keywords: "Shimla Manali Honeymoon Package,Shimla Manali Honeymoon Package From Chandigarh 4 Nights 5 Days"
 date:   2024-09-09 05:16:52 -0700
