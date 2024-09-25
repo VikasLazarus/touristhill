@@ -524,7 +524,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   <br>
 <div class="swiper mySwiper2 w3-content w3-padding">
     <div class="swiper-wrapper">
-    {% for related_related_post in site.related_related_posts limit: 5 %}
+    {% for related_post in site.related_posts limit: 5 %}
     <div class="swiper-slide slide-2 w3-row">
 
         <a href="{{ related_post.url }}.html">
