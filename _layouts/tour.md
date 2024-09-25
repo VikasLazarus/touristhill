@@ -189,7 +189,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
       <!-- Header -->
 
-<div style="--swiper-navigation-color: #ffffff00; --swiper-pagination-color: #ff5722; margin:12px;" class="w3-hide-small w3-display-container swiper mySwiper4">
+<div style="--swiper-navigation-color: #ffffff00; --swiper-pagination-color: #ff5722; margin:12px;" class="w3-hide-small w3-display-container swiper mySwiper4 w3-content">
     <div class="w3-display-bottomleft w3-white w3-hide-large w3-hide-medium" style="box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.19), 0 4px 20px 0 rgba(0, 0, 0, 0.2); ; z-index: 30; width: 100%; border-radius: 15px 15px 0px 0px; padding: 0px 18px; margin-bottom: -3px;">
       <div class="w3-row w3-margin-bottom" style="margin-top: 30px;">
         <div class="w3-col s6 m6 l6"><strong class="w3-text-gray"><i class="w3-text-gray fa-regular fa-clock" style="margin-right: 6px;"></i> 4 Nights  5 Days</strong></div>
