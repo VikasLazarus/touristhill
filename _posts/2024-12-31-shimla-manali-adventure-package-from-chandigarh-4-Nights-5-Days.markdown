@@ -298,29 +298,7 @@ img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5.jpg
       </div>
     
     
-   <title>{{page.title}}</title>
-<link rel="icon" type="image/x-icon" href="{{site.url}}/images/favicon.svg">
-<meta name="description" content="{{page.discription}}">
-  <meta name="keywords" content="{{page.keywords}}">
-  <meta name="author" content="Tourist hill">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-<script type="application/ld+json">
-    {
-        "@context" : "https://schema.org",
-        "@type" : "WebSite",
-        "name" : "Tourist Hill Travels",
-        "url" : "https://touristhill.in/"
-    }
-    </script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-
-
-  <!--itenary-->
+     <!--itenary-->
 
 
   <div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray">
