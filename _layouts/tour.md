@@ -511,8 +511,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
 <div class="swiper mySwiper2 w3-content w3-padding">
         <div class="swiper-wrapper">
-  {% if site.related_related_posts.size >= 1 %}
-    <div class="swiper-slide slide-2 w3-row">
+  
+              
+{% if site.related_related_posts.size >= 1 %}
+<div class="swiper-slide slide-2 w3-row">
 
             <a href="{{ related_related_post.url }}.html">
               <div class="w3-row w3-display-container" style="height: 290px; width:320px;">
@@ -567,10 +569,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
 
           </div>
-      
-    {% endfor %}
-              
-
+{% endif %}
            
 
         </div>
@@ -580,16 +579,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
 
 
-{% if site.related_related_posts.size >= 1 %}
-<div>
-  <h3>Related related_posts</h3>
-  <ul>
-    {% for related_related_post in site.related_related_posts limit: 5 %}
-    <li><a href="{{ related_related_post.url }}">{{ related_related_post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
+
 <!-- Footer -->
 
 
