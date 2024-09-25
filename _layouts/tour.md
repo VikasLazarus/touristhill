@@ -514,10 +514,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 <!--Related Packages-->
 {% if site.related_related_posts.size >= 1 %}
 <div class="w3-large w3-content w3-padding w3-text-dark-gray">
-    <h2 class="w3-large w3-col s8 m8 l8"><strong>Related Packages</strong></h2> <a href="{{site.url}}/destination/{{ category | first | downcase }}.html"><span
-      class="w3-right w3-right-align w3-rest w3-text-dark-gray w3-small"><strong>View All </strong><i
-        style="padding:3px 5px; border-radius: 30px; margin-top:15px;"
-        class="w3-teal fa-solid w3-small fa-angle-right"></i></span></a>
+    <h2 class="w3-large w3-col s8 m8 l8"><strong>Related Packages</strong></h2>
   </div>
   <br>
 <div class="swiper mySwiper2 w3-content w3-padding">
