@@ -151,22 +151,22 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-hover-none:hover{box-shadow:none!important}
 /* Colors */
 .w3-green,.w3-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
-.w3-sand,.w3-hover-sand:hover{color:#000!important;background-color:#ff385c26!important}
-.w3-teal,.w3-hover-teal:hover{color:#fff!important;background-color:#ff385c!important}
+.w3-sand,.w3-hover-sand:hover{color:#000!important;background-color:#df002426!important}
+.w3-teal,.w3-hover-teal:hover{color:#fff!important;background-color:#df0024!important}
 .w3-yellow,.w3-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
 .w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
 .w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
 .w3-grey,.w3-hover-grey:hover,.w3-gray,.w3-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
 .w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color:#f9f9f9!important}
 .w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
-.w3-text-sand,.w3-hover-text-sand:hover{color:#ff385c26!important}
-.w3-text-teal,.w3-hover-text-teal:hover{color:#ff385c!important}
+.w3-text-sand,.w3-hover-text-sand:hover{color:#df002426!important}
+.w3-text-teal,.w3-hover-text-teal:hover{color:#df0024!important}
 .w3-text-white,.w3-hover-text-white:hover{color:#fff!important}
 .w3-text-black,.w3-hover-text-black:hover{color:#000!important}
 .w3-text-grey,.w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover{color:#757575!important}
 .w3-text-light-grey,.w3-hover-text-light-grey:hover,.w3-text-light-gray,.w3-hover-text-light-gray:hover{color:#f1f1f1!important}
 .w3-text-dark-grey,.w3-hover-text-dark-grey:hover,.w3-text-dark-gray,.w3-hover-text-dark-gray:hover{color:#3a3a3a!important}
-.w3-border-sand,.w3-hover-border-sand:hover{border-color:#ff385c1A!important}
-.w3-border-teal,.w3-hover-border-teal:hover{border-color:#ff385c!important}
+.w3-border-sand,.w3-hover-border-sand:hover{border-color:#df00241A!important}
+.w3-border-teal,.w3-hover-border-teal:hover{border-color:#df0024!important}
 .w3-border-light-gray {border: #f9f9f9;}
 .w3-text-green,.w3-hover-text-green:hover{color:#008000!important}
