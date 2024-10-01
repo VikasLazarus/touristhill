@@ -15,11 +15,11 @@ price-strike: "27,000"
 price-save: "10,000"
 reviews-count: 360
 rating: 4.5
-img1: favicon.svg
-img2: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-2
-img3: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-3
-img4: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days
-img5: shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-5
+img1: placeholder.svg
+img2: placeholder.svg
+img3: placeholder.svg
+img4: placeholder.svg
+img5: placeholder.svg
 ---
 
   <!--itenary-->
