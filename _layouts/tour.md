@@ -215,19 +215,19 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   
   
   
-      <div class="swiper-slide w3-sand" style="height: 310px; width: 100%;">
+      <div class="swiper-slide" style="height: 310px; width: 100%;">
         <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img1}}" />
       </div>
-      <div class="swiper-slide w3-sand" style="height: 310px; width: 100%;">
+      <div class="swiper-slide" style="height: 310px; width: 100%;">
         <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img2}}" />
       </div>
-      <div class="swiper-slide w3-sand" style="height: 310px; width: 100%;">
+      <div class="swiper-slide" style="height: 310px; width: 100%;">
         <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img3}}" />
       </div>
-      <div class="swiper-slide w3-sand" style="height: 310px; width: 100%;">
+      <div class="swiper-slide" style="height: 310px; width: 100%;">
         <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img4}}" />
       </div>
-      <div class="swiper-slide w3-sand" style="height: 310px; width: 100%;">
+      <div class="swiper-slide" style="height: 310px; width: 100%;">
         <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img5}}" />
       </div>
    
@@ -256,19 +256,19 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   
   
   
-      <div class="swiper-slide w3-sand" style="height: 570px; width: 100%;">
+      <div class="swiper-slide" style="height: 570px; width: 100%;">
         <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img1}}" />
       </div>
-      <div class="swiper-slide w3-sand" style="height: 570px; width: 100%;">
+      <div class="swiper-slide" style="height: 570px; width: 100%;">
         <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img2}}" />
       </div>
-      <div class="swiper-slide w3-sand" style="height: 570px; width: 100%;">
+      <div class="swiper-slide" style="height: 570px; width: 100%;">
         <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img3}}" />
       </div>
-      <div class="swiper-slide w3-sand" style="height: 570px; width: 100%;">
+      <div class="swiper-slide" style="height: 570px; width: 100%;">
         <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img4}}" />
       </div>
-      <div class="swiper-slide w3-sand" style="height: 570px; width: 100%;">
+      <div class="swiper-slide" style="height: 570px; width: 100%;">
         <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img5}}" />
       </div>
    

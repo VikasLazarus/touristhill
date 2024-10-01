@@ -15,11 +15,11 @@ price-strike: "27,000"
 price-save: "10,000"
 reviews-count: 360
 rating: 4.5
-img1: placeholder.svg
-img2: placeholder.svg
-img3: placeholder.svg
-img4: placeholder.svg
-img5: placeholder.svg
+img1: placeholder.png
+img2: placeholder.png
+img3: placeholder.png
+img4: placeholder.png
+img5: placeholder.png
 ---
 
   <!--itenary-->
