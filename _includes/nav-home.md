@@ -11,7 +11,7 @@
         <div class="w3-large">
 
           <div class="w3-col" style="width: 36px; height: 36px;">
-            <img src="{{site.url}}/images/logo.png">
+            <img src="{{site.url}}/images/logo.png" width="32px" height="32px">
           </div>
 
           <span style=" font-size: 16px; padding:8px 5px;"> <b style="color:#515151;">TOURIST HILL</b></span>
