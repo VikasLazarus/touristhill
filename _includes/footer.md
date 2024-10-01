@@ -12,7 +12,7 @@
                     <img src="{{site.url}}/images/logo.png" width="56px" height="56px">
                   </div>
         
-                  <div class="w3-rest" style=" font-size: 26px; padding: 4px;"> <b style="color:#484848;">TOURIST HILL</b></div>
+                  <div class="w3-rest" style=" font-size: 30px; padding: 4px;"> <b style="color:#484848;">TOURIST HILL</b></div>
         
                 </div>
               </a>
