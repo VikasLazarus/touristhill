@@ -132,7 +132,7 @@
     </div>
     
     </footer>
-    <div class="w3-row w3-padding w3-teal">
+    <div class="w3-row w3-padding w3-dark-gray">
       <div class="w3-content">
                   <div style="margin:0px 0px;" class="w3-col s12 m6 l6 w3-tiny"><b>Copyright © 2024  <a style="text-decoration: none;" href="https://www.touristhill.in/" target="_blank"> <span class="">TOURISTHILL</span></a></b> - 
                       <b>Designed With <span class="">❤︎</span> By - <a style="text-decoration: none;" href="https://www.touristhill.in" target="_blank"><span class="">Vikas Lazarus</span></a></b>
