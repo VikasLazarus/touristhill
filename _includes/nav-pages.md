@@ -14,7 +14,7 @@
             <img src="{{site.url}}/images/logo.png" width="36px" height="36px">
           </div>
 
-          <div style="top:50%; font-size: 18px;"> <b style="color:#515151;">TOURIST HILL</b></div>
+          <div style="top:50%; width:fit-content; font-size: 18px;"> <b style="color:#515151;">TOURIST HILL</b></div>
 
         </div>
       </a>
