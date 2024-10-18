@@ -283,7 +283,7 @@
   padding: 6px 0px;  z-index: 3;">
     <div class="w3-content w3-bar w3-left-align w3-large">
       
-      <a href="{{site.url}}" class="w3-bar-item w3-button w3-white w3-hover-none" style="padding:8px 12px;">
+      <a href="{{site.url}}" class="w3-bar-item w3-button w3-hover-none" style="padding:8px 12px;">
         <div class="w3-large">
 
           <div class="w3-col" style="width: 36px; height: 36px;">
