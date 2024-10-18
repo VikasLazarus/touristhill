@@ -1,45 +1,18 @@
   <!-- Footer -->
-  <footer class=" w3-padding-16 w3-text-dark-gray" style="border-top: #ff572226 solid 2px; background-color:white;">
+  <footer class=" w3-padding-16 w3-text-dark-gray" style="border-top: #f1f1f1 solid 2px; background-color:white;">
     <!-- Footer -->
     <div class="w3-padding-32" style="margin: 0px 12px; border-radius: 10px;">
       <div class="w3-content">
           <div class="w3-third">
-            <a href="https://touristhill.in/" class="w3-bar-item w3-xxlarge w3-button w3-white w3-hover-none" style="padding:8px 0px;">
-              <a href="https://touristhill.in/" class="w3-bar-item w3-white w3-hover-none">
+            <a href="{{site.url}}" class="w3-bar-item w3-xxlarge w3-button w3-white w3-hover-none" style="padding:8px 0px;">
+              <a href="{{site.url}}" class="w3-bar-item w3-white w3-hover-none">
                 <div class="w3-large">
         
                   <div class="w3-col" style="width: 56px; height: 56px;">
-                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50px" height="50px"
-                      viewBox="0 0 200.000000 200.000000" preserveAspectRatio="xMidYMid meet">
-        
-                      <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)" fill="#ff5722" stroke="none">
-                        <path d="M285 1918 c-101 -27 -193 -122 -215 -224 -7 -33 -10 -270 -8 -719 l3
-        -670 24 -49 c31 -62 82 -114 146 -146 l50 -25 705 0 705 0 50 25 c64 32 115
-        84 146 146 l24 49 3 670 c2 449 -1 686 -8 719 -22 105 -115 198 -222 224 -62
-        16 -1344 15 -1403 0z m686 -475 c18 -32 53 -92 79 -133 26 -41 59 -95 74 -120
-        14 -25 32 -54 39 -65 23 -37 62 -101 128 -210 l66 -110 106 -3 c59 -1 107 0
-        107 2 0 3 -22 40 -48 83 -27 43 -75 122 -106 175 -31 54 -61 100 -65 102 -4 3
-        -20 -17 -36 -45 -16 -27 -32 -49 -36 -49 -4 0 -21 8 -38 18 -29 16 -43 52 -21
-        52 6 0 10 4 10 10 0 17 112 191 121 188 9 -3 109 -167 109 -180 0 -4 5 -8 10
-        -8 6 0 10 -7 10 -15 0 -8 9 -24 20 -35 11 -11 20 -24 20 -29 0 -5 18 -37 40
-        -70 22 -33 40 -62 40 -65 0 -7 101 -169 116 -187 32 -37 21 -39 -198 -39
-        l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
-        11 -4 0 -13 12 -20 28 -6 15 -23 45 -37 67 -14 22 -31 50 -37 63 -6 12 -14 22
-        -17 22 -8 0 -81 -118 -81 -131 0 -15 -34 -9 -57 10 -13 11 -23 24 -23 31 0 18
-        150 260 162 260 3 0 21 -26 39 -57z m-251 -223 c0 -5 5 -10 10 -10 6 0 10 -5
-        10 -10 0 -6 16 -36 35 -66 19 -30 35 -59 35 -64 0 -6 5 -10 10 -10 6 0 10 -7
-        10 -15 0 -8 5 -15 10 -15 6 0 10 -5 10 -12 0 -15 140 -238 149 -238 7 0 28 36
-        68 112 20 38 27 41 62 21 40 -23 39 -44 -7 -115 -9 -15 -39 -65 -67 -112 -27
-        -47 -53 -86 -56 -86 -5 0 -20 23 -185 295 -43 72 -82 132 -86 133 -4 2 -8 8
-        -8 13 0 5 -17 37 -39 70 l-38 61 -93 -153 c-51 -85 -102 -169 -112 -186 l-20
-        -33 191 0 191 0 0 -45 0 -45 -265 0 c-152 0 -265 4 -265 9 0 13 53 115 62 119
-        5 2 8 10 8 18 0 8 5 14 10 14 6 0 10 4 10 10 0 5 24 47 53 92 30 46 56 88 58
-        93 2 6 42 72 88 148 l85 138 38 -60 c21 -33 38 -65 38 -71z" />
-                      </g>
-                    </svg>
+                    <img src="{{site.url}}/images/logo.png" width="56px" height="56px">
                   </div>
         
-                  <div class="w3-rest" style=" font-size: 26px; padding: 4px;"> <b style="color:#484848;">TOURIST HILL</b></div>
+                  <div class="w3-rest" style=" font-size: 30px; padding: 4px;"> <b style="color:#484848;">TOURIST HILL</b></div>
         
                 </div>
               </a>
@@ -105,14 +78,14 @@
               <div class="w3-col l6 m6 s6">
     
               
-                  <a href="https://touristhill.in/about.html" class="w3-bar-item w3-hover-text-teal w3-small w3-round">
+                  <a href="{{site.url}}/about.html" class="w3-bar-item w3-hover-text-teal w3-small w3-round">
                     <div class="w3-padding">About Us </div></a>
                     <a href="https://touristhill.in/contact-us.html" class="w3-bar-item w3-hover-text-teal w3-small w3-round">
                         <div class="w3-padding">Contact Us </div></a>                
             </div>
               <div class="w3-col l6 m6 s6">
-              <a href="privacy-policy.html"><span class=" w3-small"><div class="w3-padding">Privacy Policy</div></span></a>
-                  <a href="Disclamer.html"><span class=" w3-small"><div class="w3-padding">Disclamer</div></span></a>
+              <a href="{{site.url}}/privacy-policy.html"><span class=" w3-small"><div class="w3-padding">Privacy Policy</div></span></a>
+                  <a href="{{site.url}}/Disclamer.html"><span class=" w3-small"><div class="w3-padding">Disclamer</div></span></a>
                  
                   
                  
@@ -123,32 +96,34 @@
           </div>
           <div class="w3-third">
               
-              <h4><b>Contact For Booking</b></h4>
+              <h4><b>Contact For booking Package</b></h4>
               <p class=" w3-small">Subscribe To Our Newslatter And Get Notifican About Our New Products And Offers Earlier Than Enyone Else.</p>
               <span class="w3-col l12  m12 s12 w3-small" style="padding: 5px 0px ;">
                 <span class="w3-ro w3-sand" style="border-radius:30px ; height: 20px; width: 20px; padding: 3px 4px; margin-right: 6px;">
                         <i class="w3-text-teal  fa fa-phone" style="padding-left:2px ;"></i>
                 </span>
+                <a href="tel:{{site.phone1}}">
                       <sapn class="" style="font-size: 15px; margin: 0px;">
                   
                     
                     <strong>+91-82194-71645</strong></sapn>
                     
                 
-                </span>
+                </span></a>
                 <span class="w3-col l12  m12 s12 w3-small" style="padding: 5px 0px ;">
                   <span class="w3-ro w3-sand" style="border-radius:30px ; height: 20px; width: 20px; padding: 3px 4px; margin-right: 6px;">
                           <i class="w3-text-teal  fa fa-phone" style="padding-left:2px ;"></i>
                   </span>
+                  <a href="tel:{{site.phone1}}">
                         <sapn class="" style="font-size: 15px; margin: 0px;">
                     
                       
                       <strong>+91-82194-71645</strong></sapn>
                       
                   
-                  </span>
+                  </span></a>
              
-                  <button class="w3-green w3-button w3-small w3-margin-top " style="border-radius: 30px; padding: 6px 12px;"><i class="fab fa-whatsapp" style="margin-right: 6px;"></i>Whatsapp Us Now</button>
+                  <a href="https://wa.me/91{{site.phone1}}"><button class="w3-green w3-button w3-small w3-margin-top " style="border-radius: 30px; padding: 6px 12px;"><i class="fab fa-whatsapp" style="margin-right: 6px;"></i>Whatsapp Us Now</button></a>
     
           </div>
           <div class="w3-row">
@@ -157,7 +132,7 @@
     </div>
     
     </footer>
-    <div class="w3-row w3-padding w3-teal">
+    <div class="w3-row w3-padding w3-dark-gray">
       <div class="w3-content">
                   <div style="margin:0px 0px;" class="w3-col s12 m6 l6 w3-tiny"><b>Copyright © 2024  <a style="text-decoration: none;" href="https://www.touristhill.in/" target="_blank"> <span class="">TOURISTHILL</span></a></b> - 
                       <b>Designed With <span class="">❤︎</span> By - <a style="text-decoration: none;" href="https://www.touristhill.in" target="_blank"><span class="">Vikas Lazarus</span></a></b>
@@ -165,3 +140,40 @@
                   </div>
       </div>
       </div>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 'auto',
+      spaceBetween: 20,
+     
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
+    var swiper = new Swiper(".mySwiper2", {
+      slidesPerView: "auto",
+      spaceBetween: 20,
+      
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
