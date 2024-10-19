@@ -7,14 +7,15 @@
           <i class="w3-text-teal  fa fa-phone w3-small" style="padding-left:2px ;"></i>
         </span>
       </span>
-       <a href="{{site.url}}" class="w3-bar-item w3-button w3-white w3-hover-none" style="padding:8px 12px;">
+      
+       <a href="{{site.url}}" class="w3-bar-item w3-button w3-hover-none" style="padding:8px 12px;">
         <div class="w3-large">
 
           <div class="w3-col" style="width: 36px; height: 36px;">
-            <img src="{{site.url}}/images/logo.png" width="36px" height="36px">
+            <img src="{{site.url}}/images/logo2.png" width="36px" height="36px">
           </div>
 
-          <div style=" width:119px; font-size: 18px;"> <b style="color:#515151;">TOURIST HILL</b></div>
+          <span style=" font-size: 18px; padding:8px 5px;padding-top:16px;"> <b style="color:#ffffff;">TOURIST HILL</b></span>
 
         </div>
       </a>
