@@ -299,15 +299,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
           <h1 class="w3-text-dark-gray" style=" font-size: 28px; margin: 2px 0px;
               font-weight: 700;">{{page.title}}</h1>
               <div class="w3-row w3-margin-top">
-                <span class="w3-tag w3-teal w3-col w3-center w3-card" style="margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
-                align-items: center;
-                justify-content: center;"><strong>4N | 5D</strong></span>
-                <div class="w3-col w3-margin-right w3-border-right w3-border-light-gray" style="padding-right: 12px; width: fit-content; ">
-                <span class="w3-xxlarge w3-col w3-text-gray" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-tiny w3-text-gray" style="width: auto; padding-top: 11px;"><strong>Days In<br><span class="w3-small w3-text-black">SHIMLA</span></strong></span>
-               </div>
-               <div class="w3-col w3-border-right w3-border-light-gray" style="width: fit-content; padding-right: 12px;">
-                <span class="w3-xxlarge w3-col w3-text-gray" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-tiny w3-text-gray" style="width: auto; padding-top: 11px;"><strong>Days In<br><span class="w3-small w3-text-black">MANALI</span></strong></span>
-               </div>
+                <p>{{page.detail}}</p>
               </div>
   <hr>
   <div class="w3-hide-large">
