@@ -4,6 +4,7 @@ title:  "De Mount Castle Manali"
 date:   2024-09-09 05:16:52 -0700
 categories: Hotels
 permalink: /hotels/de-mount-castle-manali.html
+location: Manali
 ---
  <div class="w3-row-padding w3-padding-16 w3-container">
     <div class="w3-content">
