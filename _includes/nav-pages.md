@@ -12,10 +12,10 @@
         <div class="w3-large">
 
           <div class="w3-col" style="width: 36px; height: 36px;">
-            <img src="{{site.url}}/images/logo2.png" width="36px" height="36px">
+            <img src="{{site.url}}/images/logo.png" width="36px" height="36px">
           </div>
 
-          <span style=" font-size: 18px; padding:8px 5px;padding-top:16px;"> <b style="color:#ffffff;">TOURIST HILL</b></span>
+          <span style=" font-size: 18px; padding:8px 5px;padding-top:16px;"> <b style="color:#515151;">TOURIST HILL</b></span>
 
         </div>
       </a>
