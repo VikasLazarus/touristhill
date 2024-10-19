@@ -5,6 +5,12 @@ date:   2024-09-09 05:16:52 -0700
 categories: Hotels
 permalink: /hotels/glamoreo-glamp-shimla.html
 location: Shimla
+price: "12,000"
+price-per: Per Night 
+price-strike: "15,000"
+price-save: "3,000"
+reviews-count: 360
+rating: 4.5
 img1: placeholder.png
 img2: placeholder.png
 img3: placeholder.png
