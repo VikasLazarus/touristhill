@@ -12,10 +12,10 @@ price-save: "3,000"
 reviews-count: 360
 rating: 4.5
 img1: glamoreo-glamp-1.webp
-img2: placeholder.png
-img3: placeholder.png
-img4: placeholder.png
-img5: placeholder.png
+img2: glamoreo-glamp-2.webp
+img3: glamoreo-glamp-3.webp
+img4: glamoreo-glamp-4.webp
+img5: glamoreo-glamp-5.webp
 detail: "Snow Crest Retreat is a great choice for travellers looking for a star hotel in Kufri. This Hotel stands out as one of the highly recommended hotel in Kufri. Hotel is rated out of 5, which is considered as very good."
 ---
  <div class="w3-row-padding w3-padding-16 w3-container">
