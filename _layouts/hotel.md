@@ -1,396 +1,630 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>{{page.title}}</title>
-  <link rel="icon" type="image/x-icon" href="../images/favicon.svg">
-  <meta name="description"
-    content="India travel packages, Himalayan treks, cultural tours, adventure tourism, personalized itineraries.">
-  <meta name="keywords"
-    content="Himachal Pradesh tourism, India travel packages, Shimla tour, Manali tour, Himalayan treks, cultural tours India, adventure tourism India, tailor-made travel India, experienced travel guides India, unforgettable travel experiences India">
+<title>{{page.title}}</title>
+<link rel="icon" type="image/x-icon" href="{{site.url}}/images/favicon.svg">
+<meta name="description" content="{{page.discription}}">
+  <meta name="keywords" content="{{page.keywords}}">
   <meta name="author" content="Tourist hill">
   <meta name="google-adsense-account" content="ca-pub-3313624136394536">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3313624136394536"
      crossorigin="anonymous"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{site.url}}/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<script type="application/ld+json">
+{
+    "@context" : "https://schema.org",
+    "@type" : "WebSite",
+    "name" : "Tourist Hill Travels",
+    "url" : "https://touristhill.in/"
+}
+</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<style>
+  hr {
+    border-bottom: 2px solid #f1f1f1;
+    border-top: 2px solid #ffffff;
+    border-radius: 30px;
+  }
+  excluded ul {
+  --icon-space: 1.3em;
+  list-style: none;
+  padding: 0;
+}
+   included ul {
+  --icon-space: 1.3em;
+  list-style: none;
+  padding: 0;
+}
+excluded li {
+  padding-left: var(--icon-space);
+}
 
-  <style>
-    .w3-round {
-      border-radius: 30px;
+excluded li:before {
+  content: "\f00d"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  color: red;
+  margin-left: calc( var(--icon-space) * -1 );
+  width: var(--icon-space);
+}
+included li {
+  padding-left: var(--icon-space);
+}
+
+included li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  color: green;
+  margin-left: calc( var(--icon-space) * -1 );
+  width: var(--icon-space);
+}
+.swiper-pagination{
+    margin-bottom: 70px;
+    
+  }
+   .swiper-pagination-bullet {
+      width: 20px;
+      height: 4px;
+     
+      
+    
+      opacity: 1;
+      background: #ffffff;
+      border-radius: 5px;
     }
-    a {
-      text-decoration: none;
+
+    .swiper-pagination-bullet-active {
+      
+      color: #ffffff;
+      background: #ff5722;
+      border-radius: 5px;
     }
 
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: "Poppins"
-    }
+  a{
+    text-decoration: none;
+  }
+body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
+.w3-bar,h1,button,p {font-family: "Poppins"}
 
-    .w3-bar,
-    h1,
-    button {
-      font-family: "Poppins"
-    }
-
-    .w3-content {
-      max-width: 1100px;
-    }
+.w3-content{
+  max-width: 1100px;
+}
 
 
-    .swiper {
+.swiper {
       width: 100%;
       height: 100%;
     }
 
-
-
-
-    .slide-1 {
-      width: fit-content;
-    }
-
-    .slide-2 {
-
-
-
-      height: 530px;
-      width: 320px;
-      border-radius: 10px;
-    }
-
-    .aa {
-      overflow: hidden;
-      width: 15px;
-      height: 36px;
-      transform: skewX(-20deg);
-      background-image: linear-gradient(to right, #ffffff, #ffffff00, #ffffff, #ffffff);
-      opacity: 0.3;
-      position: absolute;
-      animation-name: example;
-      animation-duration: 6s;
-      animation-timing-function: linear;
-      animation-delay: 1s;
-      animation-iteration-count: infinite;
-      animation-direction: right;
-    }
-
-    @keyframes example {
-      0% {
-        left: 0%;
-        top: 0px;
-        opacity: 0;
-      }
-
-      25% {
-        left: 25%;
-        top: 0px;
-        opacity: 0.3;
-      }
-
-      50% {
-        left: 50%;
-        top: 0px;
-        opacity: 0.5;
-      }
-
-      75% {
-        left: 75%;
-        top: 0px;
-        opacity: 0.3;
-      }
-
-      100% {
-        left: 100%;
-        top: 0px;
-        opacity: 0;
-      }
-    }
-  </style>
+    
+</style>
 </head>
-
 <body>
 
+   <!--bottom fixed-->
+   <div id="Fixed" class="w3-display-container w3-row w3-white w3-border-top w3-border-light-gray w3-hide-large w3-hide-medium w3-animate-zoom" style="width: 100%; padding:12px; position: fixed; bottom: -190px; left: 0px; z-index: 30;">
+   <div class="w3-display-topright" style="padding: 0px 12px; margin-top: -96px;">
+   <a href="tel:{{site.phone1}}">
+   <div class="w3-ro w3-teal w3-card-4" style="border-radius:30px ; height: 40px; width: 40px;  padding: 8px 12px; margin-right: 6px; margin-bottom: 8px;">
+  <i class="w3-text-white  fa fa-phone small" style="padding-left:0px ;"></i>
+</div></a>
+<a href="https://wa.me/91{{site.phone1}}">
+ <div class="w3-ro w3-green w3-card-4" style="border-radius:30px ; height: 40px; width: 40px; padding: 10px 12px; margin-right: 6px;">
+      <i class="w3-text-white  fab fa-whatsapp w3-large" style="padding-left:0px ;"></i>
+</div>
+</a>
+
+   </div>
+    <div class="w3-row">
+      <div class="w3-col w3-right" style="width: 110px;">
+        <button  onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-teal w3-small w3-card-4" style="border-radius: 30px;">Send Enquiry</button>
+      </div>
+      <div class="w3-rest">
+        <b class="w3-xlarge">INR {{page.price}} <span class="w3-small w3-text-gray">{{page.price-per}}</span></b>
+      </div>
+    </div>
+  </div>
+<!--model bottom  fixed-->
+  <div class="w3-container">
+
+  
+    <div id="id01" class="w3-modal" style="background-color: #48484889; z-index: 120;">
+      <div class="w3-bottom w3-white w3-card-4"style="border-radius: 15px 15px 0px 0px;">
+        <div class="w3-row">
+          <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-opacity-min w3-card-4 w3-display-topright" style="padding: 6px 12px; border-radius: 30px; margin-top: -45px; margin-right: 12px;">&times;</span>
+         
+         <div class="w3-half w3-padding">
+           
+            <div class="w3-text-dark-gray" style="border-radius: 15px;">
+                <div style="margin-top: 30px;">
+                  <h2 class="w3-large"><strong>
+                    {{page.title}}
+                  </strong></h2>
+                  <p><b class="w3-xlarge">INR {{page.price}} <span class="w3-small w3-text-gray">{{page.price-per}}</span></b> 
+                    <br><strike class="w3-text-gray">INR {{page.price-strike}}</strike></p>
+
+                </div>
+                <hr>
+                <form class="w3-text-dark-gray w3-row" onsubmit="alert('Thanks For Submiting The Form. Our Executives Will Reach To You Within 24 Hours');" method="page">
+                  <div style="margin-bottom: 6px;" class="elem-group w3-col s12 m12 l12">
+      <lable class="w3-small" style="margin-bottom: 4px;">Full Name <span class="w3-text-red">*</span></lable>
+                    <input style="border-radius: 15px;" class=" w3-input w3-large w3-round w3-tiny w3-border" type="text" id="name" name="visitor_name" placeholder="Jonh Doe" pattern="[A-Z\sa-z]{3,20}" required="">
+                  </div>
+                 <div class="elem-group w3-col s12 m12 l12" style="margin-bottom: 6px;">
+                    <lable class="w3-small" style="margin-bottom: 4px;">Email Address <span class="w3-text-red">*</span></lable>
+                    
+                    <input style="border-radius: 15px;" class=" w3-input w3-large w3-round w3-tiny w3-border" type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required="">
+                  </div>
+                  <div class="elem-group w3-col s12 m12 l12" style="margin-bottom: 6px;">
+                    <lable class="w3-small" style="margin-bottom: 4px;">Contect Number <span class="w3-text-red">*</span></lable>
+                    
+                    <input style="border-radius: 15px;" class="w3-input w3-large w3-round w3-tiny w3-border" type="tel" id="phone" name="visitor_phone" placeholder="+91-81294-71645" pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})" required="">
+                  </div>
+      <div class="w3-row">
+                  <div class=" w3-col s4 m4 l4" style="margin-bottom: 6px;">
+                    <lable class="w3-small" style="margin-bottom: 4px;">Traveller Count <span class="w3-text-red">*</span></lable>
+                  <input style="border-radius: 15px;" class=" w3-input w3-large w3-round w3-tiny w3-border" type="number" id="adult" name="total_adults" placeholder="Travelrs Count" min="1" required="">
+                  </div>
+
+                  <div class="w3-col s8 m8 l8" style="padding-left: 12px;">
+                    <lable class="w3-small" style="margin-bottom: 4px;">Travel Date <span class="w3-text-red">*</span></lable>
+                  
+                     <input  style="margin-bottom: 4px; border-radius: 15px;" class="w3-right-align w3-rest w3-input w3-large w3-round w3-tiny w3-border" type="date" id="checkout-date" name="checkout" required="">
+                    </div>
+
+                 </div>
+                
+
+                 </div>
+                    <div class="w3-row">
+                    <button class="w3-large w3-mobile w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Connect With a Expert</button>
+                </div>  
+                  </div>
+
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   {% include top.md %}
-  <!-- Navbar -->
-{% include nav-pages.md %}
+{% include nav-page.md %}
 
-  <!-- Header -->
+      <!-- Header -->
 
+<div style="--swiper-navigation-color: #ffffff00; --swiper-pagination-color: #ff5722;" class="w3-hide-small w3-display-container swiper mySwiper4">
+    <div class="w3-display-bottomleft w3-white w3-hide-large w3-hide-medium" style="box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.19), 0 4px 20px 0 rgba(0, 0, 0, 0.2); ; z-index: 30; width: 100%; border-radius: 15px 15px 0px 0px; padding: 0px 18px; margin-bottom: -3px;">
+      <div class="w3-row w3-margin-bottom" style="margin-top: 30px;">
+        <div class="w3-col s6 m6 l6"><strong class="w3-text-gray"><i class="w3-text-gray fa-regular fa-clock" style="margin-right: 6px;"></i> 4 Nights  5 Days</strong></div>
+        <div class="w3-col s6 m6 l6 w3-right"><div class="w3-right w3-text-gray">
+          <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.5006 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.5006 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z" fill="#4caf50"></path>
+          </svg>
+          <span class="w3-text-green">4.5 </span>(360)
+        </div></div>
   
+      </div>
+    </div>
 
 
- 
+    <div class="swiper-wrapper w3-display-container">
+  
+  
+  
+      <div class="swiper-slide" style="height: 310px; width: 100%;">
+        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img1}}" />
+      </div>
+      <div class="swiper-slide" style="height: 310px; width: 100%;">
+        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img2}}" />
+      </div>
+      <div class="swiper-slide" style="height: 310px; width: 100%;">
+        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img3}}" />
+      </div>
+      <div class="swiper-slide" style="height: 310px; width: 100%;">
+        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img4}}" />
+      </div>
+      <div class="swiper-slide" style="height: 310px; width: 100%;">
+        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img5}}" />
+      </div>
+   
+    </div>
+    <div class="swiper-pagination w3-hide-large w3-hide-medium" style="margin-top: -100px;"></div>
+</div>
 
-{{content}}
-      
+<!-- Header mobile-->
+
+<div style="--swiper-navigation-color: #ffffff00; --swiper-pagination-color: #ff5722;" class="w3-hide-large w3-hide-medium w3-display-container swiper mySwiper3">
+    <div class="w3-display-bottomleft w3-white w3-hide-large w3-hide-medium" style="box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.19), 0 4px 20px 0 rgba(0, 0, 0, 0.2); ; z-index: 30; width: 100%; border-radius: 15px 15px 0px 0px; padding: 0px 18px; margin-bottom: -3px;">
+      <div class="w3-row w3-margin-bottom" style="margin-top: 30px;">
+        <div class="w3-col s6 m6 l6"><strong class="w3-text-gray"><i class="w3-text-gray fa-regular fa-clock" style="margin-right: 6px;"></i> 4 Nights  5 Days</strong></div>
+        <div class="w3-col s6 m6 l6 w3-right"><div class="w3-right w3-text-gray">
+          <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.5006 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.5006 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z" fill="#4caf50"></path>
+          </svg>
+          <span class="w3-text-green">4.5 </span>(360)
+        </div></div>
+  
+      </div>
+    </div>
+
+
+    <div class="swiper-wrapper w3-display-container">
+  
+  
+  
+      <div class="swiper-slide" style="height: 570px; width: 100%;">
+        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img1}}" />
+      </div>
+      <div class="swiper-slide" style="height: 570px; width: 100%;">
+        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img2}}" />
+      </div>
+      <div class="swiper-slide" style="height: 570px; width: 100%;">
+        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img3}}" />
+      </div>
+      <div class="swiper-slide" style="height: 570px; width: 100%;">
+        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img4}}" />
+      </div>
+      <div class="swiper-slide" style="height: 570px; width: 100%;">
+        <img alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;" src="{{site.url}}/images/{{page.img5}}" />
+      </div>
+   
+    </div>
+    <div class="swiper-pagination w3-hide-large w3-hide-medium" style="margin-top: -100px;"></div>
+</div>
+
+
+
+  <div class="w3-row w3-white">
+    <div class="w3-content">
      
-
-
-  <!--about-->
-
-
-
+      <div class="w3-col l8 s12">
+        <div class="w3-row w3-round w3-padding ">
+         
+       
+    
+         
+         
+       
+        <div class="w3-row w3-hide-small" style="height: 25px;"> </div>
+          
+        
   
-
-  <!-- Second Grid -->
-
-
-
-
-
- 
-  <div class="w3-display-container w3-dark-gray" style="height: 100px; width: 100%;">
-    <div class="w3-display-middle">
-      <div class="w3-large">
-        <i>
-      <svg fill="#ffffff" height="22px" width="22px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve">
-<path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M169.5,357.6l-2.9,38.3h-39.3
-v133H77.7v-133H51.2v-38.3h26.5v-25.7c0-11.3,0.3-28.8,8.5-39.7c8.7-11.5,20.6-19.3,41.1-19.3c33.4,0,47.4,4.8,47.4,4.8l-6.6,39.2
-c0,0-11-3.2-21.3-3.2c-10.3,0-19.5,3.7-19.5,14v29.9H169.5z"></path>
-</svg>
-      </i>
-       <i>
-      <svg width="22px" height="22px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-
-<g fill="none" fill-rule="evenodd">
-
-<path d="m0 0h32v32h-32z"></path>
-
-<path d="m17.0830929.03277248c8.1190907 0 14.7619831 6.64289236 14.7619831 14.76198302v2.3064326c0 8.1190906-6.6429288 14.761983-14.7619831 14.761983h-2.3064325c-8.11909069 0-14.76198306-6.6428924-14.76198306-14.761983v-2.3064326c0-8.11909066 6.64289237-14.76198302 14.76198306-14.76198302zm-.8630324 8.0002641-.2053832-.0002641c-1.7102378 0-3.4204757.05652851-3.4204757.05652851-2.4979736 0-4.52299562 2.02501761-4.52299562 4.52298561 0 0-.05191606 1.4685349-.05624239 3.0447858l-.00028625.2060969c0 1.7648596.05652864 3.590089.05652864 3.5900891 0 2.497968 2.02502202 4.5229856 4.52299562 4.5229856 0 0 1.5990132.0565285 3.2508899.0565285 1.7648634 0 3.6466255-.0565285 3.6466255-.0565285 2.4979736 0 4.4664317-1.9684539 4.4664317-4.4664219 0 0 .0565286-1.8046833.0565286-3.5335605l-.0010281-.4057303c-.0076601-1.5511586-.0555357-3.0148084-.0555357-3.0148084 0-2.4979681-1.9684582-4.46642191-4.4664317-4.46642191 0 0-1.6282521-.05209668-3.2716213-.05626441zm-.2053831 1.43969747c1.4024317 0 3.2005639.04637875 3.2005638.04637875 2.0483524 0 3.3130573 1.2647021 3.3130573 3.31305 0 0 .0463789 1.7674322.0463789 3.1541781 0 1.4176885-.0463789 3.2469355-.0463789 3.2469355 0 2.048348-1.2647049 3.31305-3.3130573 3.31305 0 0-1.5901757.0389711-2.9699093.0454662l-.3697206.0009126c-1.3545375 0-3.0049692-.0463788-3.0049692-.0463788-2.0483172 0-3.36958592-1.321301-3.36958592-3.3695785 0 0-.04637885-1.8359078-.04637885-3.2830941 0-1.3545344.04637885-3.061491.04637885-3.061491 0-2.0483479 1.32130402-3.31305 3.36958592-3.31305 0 0 1.7416035-.04637875 3.1440353-.04637875zm-.0000353 2.46195055c-2.2632951 0-4.0980441 1.8347448-4.0980441 4.098035s1.8347489 4.098035 4.0980441 4.098035 4.0980441-1.8347448 4.0980441-4.098035c0-2.2632901-1.8347489-4.098035-4.0980441-4.098035zm0 1.4313625c1.4727754 0 2.6666784 1.1939004 2.6666784 2.6666725s-1.193903 2.6666726-2.6666784 2.6666726c-1.4727401 0-2.6666784-1.1939005-2.6666784-2.6666726s1.1939031-2.6666725 2.6666784-2.6666725zm4.2941322-2.5685935c-.5468547 0-.9902027.4455321-.9902027.9950991 0 .5495671.443348.9950639.9902027.9950639.5468546 0 .9901674-.4454968.9901674-.9950639 0-.5496023-.4433128-.9950991-.9901674-.9950991z" fill="#ffffff" fill-rule="nonzero"></path>
-
-</g>
-
-</svg>
-      </i>
-       <i>
-     <svg fill="#ffffff" height="22px" width="22px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve">
-<path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M41.4,508.1H-8.5V348.4h49.9
-V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7
-C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6
-c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z
-"></path>
-</svg>
-      </i>
-       <i>
-      <svg fill="#ffffff" height="22px" width="22px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve">
-<path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M215.2,361.2
-c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7
-c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9
-C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5
-c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6
-c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z"></path>
-</svg>
-      </i>
+          <h1 class="w3-text-dark-gray" style=" font-size: 28px; margin: 2px 0px;
+              font-weight: 700;">{{page.title}}</h1>
+              <div class="w3-row w3-margin-top">
+                <span class="w3-tag w3-teal w3-col w3-center w3-card" style="margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
+                align-items: center;
+                justify-content: center;"><strong>4N | 5D</strong></span>
+                <div class="w3-col w3-margin-right w3-border-right w3-border-light-gray" style="padding-right: 12px; width: fit-content; ">
+                <span class="w3-xxlarge w3-col w3-text-gray" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-tiny w3-text-gray" style="width: auto; padding-top: 11px;"><strong>Days In<br><span class="w3-small w3-text-black">SHIMLA</span></strong></span>
+               </div>
+               <div class="w3-col w3-border-right w3-border-light-gray" style="width: fit-content; padding-right: 12px;">
+                <span class="w3-xxlarge w3-col w3-text-gray" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-tiny w3-text-gray" style="width: auto; padding-top: 11px;"><strong>Days In<br><span class="w3-small w3-text-black">MANALI</span></strong></span>
+               </div>
+              </div>
+  <hr>
+  <div class="w3-hide-large">
+          <p><b class="w3-xlarge">INR 36,000 <span class="w3-small w3-text-gray">Per Couple</span></b> 
+            <br><strike class="w3-text-gray">INR 46,000</strike></p>
+          
+  <hr>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
+      <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer Included</strong>
     </div>
+    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
+      <i class="fas fa-bed w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay Included</strong>
     </div>
-    <div class="w3-row w3-display-bottomleft w3-white" style="margin-bottom: -3px; width: 100%; height: 20px; border-radius: 15px 15px 0px 0px;"></div>
-    <div class="w3-row w3-display-topleft w3-white" style="margin-top: -3px; width: 100%; height: 20px; border-radius: 0px 0px 15px 15px;"></div>
+    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
+      <i class="fa-solid fa-utensils w3-text-gray" style="margin-right: 12px;"></i> <strong class="w3-text-gray">Breakfast & Dinner Included</strong>
+    </div>
+    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
+      <i class="fa-solid fa-images w3-text-gray" style="margin-right: 8px;"></i> <strong class="w3-text-gray">Sightseeing Included</strong>
+    </div>
   </div>
   
+  <hr>
+  
+        </div>
 
-
-
- 
-
-  <!-- Footer -->
-  <footer class=" w3-padding-16 w3-text-dark-gray" style=" background-color:white;">
-    <!-- Footer -->
-    <div class="w3-padding-32" style="margin: 0px 12px; border-radius: 10px;">
-      <div class="w3-content">
-          <div class="w3-third">
-            <a href="https://touristhill.in/" class="w3-bar-item w3-xxlarge w3-button w3-white w3-hover-none" style="padding:8px 0px;">
-              <a href="https://touristhill.in/" class="w3-bar-item w3-white w3-hover-none">
-                <div class="w3-large">
         
-                  <div class="w3-col" style="width: 56px; height: 56px;">
-                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50px" height="50px"
-                      viewBox="0 0 200.000000 200.000000" preserveAspectRatio="xMidYMid meet">
-        
-                      <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)" fill="#ff5722" stroke="none">
-                        <path d="M285 1918 c-101 -27 -193 -122 -215 -224 -7 -33 -10 -270 -8 -719 l3
-        -670 24 -49 c31 -62 82 -114 146 -146 l50 -25 705 0 705 0 50 25 c64 32 115
-        84 146 146 l24 49 3 670 c2 449 -1 686 -8 719 -22 105 -115 198 -222 224 -62
-        16 -1344 15 -1403 0z m686 -475 c18 -32 53 -92 79 -133 26 -41 59 -95 74 -120
-        14 -25 32 -54 39 -65 23 -37 62 -101 128 -210 l66 -110 106 -3 c59 -1 107 0
-        107 2 0 3 -22 40 -48 83 -27 43 -75 122 -106 175 -31 54 -61 100 -65 102 -4 3
-        -20 -17 -36 -45 -16 -27 -32 -49 -36 -49 -4 0 -21 8 -38 18 -29 16 -43 52 -21
-        52 6 0 10 4 10 10 0 17 112 191 121 188 9 -3 109 -167 109 -180 0 -4 5 -8 10
-        -8 6 0 10 -7 10 -15 0 -8 9 -24 20 -35 11 -11 20 -24 20 -29 0 -5 18 -37 40
-        -70 22 -33 40 -62 40 -65 0 -7 101 -169 116 -187 32 -37 21 -39 -198 -39
-        l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
-        11 -4 0 -13 12 -20 28 -6 15 -23 45 -37 67 -14 22 -31 50 -37 63 -6 12 -14 22
-        -17 22 -8 0 -81 -118 -81 -131 0 -15 -34 -9 -57 10 -13 11 -23 24 -23 31 0 18
-        150 260 162 260 3 0 21 -26 39 -57z m-251 -223 c0 -5 5 -10 10 -10 6 0 10 -5
-        10 -10 0 -6 16 -36 35 -66 19 -30 35 -59 35 -64 0 -6 5 -10 10 -10 6 0 10 -7
-        10 -15 0 -8 5 -15 10 -15 6 0 10 -5 10 -12 0 -15 140 -238 149 -238 7 0 28 36
-        68 112 20 38 27 41 62 21 40 -23 39 -44 -7 -115 -9 -15 -39 -65 -67 -112 -27
-        -47 -53 -86 -56 -86 -5 0 -20 23 -185 295 -43 72 -82 132 -86 133 -4 2 -8 8
-        -8 13 0 5 -17 37 -39 70 l-38 61 -93 -153 c-51 -85 -102 -169 -112 -186 l-20
-        -33 191 0 191 0 0 -45 0 -45 -265 0 c-152 0 -265 4 -265 9 0 13 53 115 62 119
-        5 2 8 10 8 18 0 8 5 14 10 14 6 0 10 4 10 10 0 5 24 47 53 92 30 46 56 88 58
-        93 2 6 42 72 88 148 l85 138 38 -60 c21 -33 38 -65 38 -71z" />
-                      </g>
-                    </svg>
-                  </div>
-        
-                  <div class="w3-rest" style=" font-size: 26px; padding: 4px;"> <b style="color:#484848;">TOURIST HILL</b></div>
-        
+  <div class="w3-row">
+    <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Trip Duration</strong></h2>
+    <div style="padding: 0px 12px;">
+    <span class="w3-tag w3-light-gray w3-col w3-center w3-text-dark-gray" style="padding: 0px 20px; margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
+                align-items: center;
+                justify-content: center;"><strong>4 Nights | 5 Days</strong></span>
                 </div>
-              </a>
-        
-              </a>
-              
-             
-              <p class="w3-small" style="margin-right: 12px;">
-                We are committed to providing exceptional service throughout your journey. From meticulous planning to on-the-ground support, we ensure a smooth and unforgettable experience.
-                <br><strong>Rahighat Indestrial Area Theog, Theog, Himachal Pradesh 171201</strong></p>
-              <div class="w3-large">
-                      <i>
-                    <svg fill="#515151" height="22px" width="22px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve">
-    <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M169.5,357.6l-2.9,38.3h-39.3
-      v133H77.7v-133H51.2v-38.3h26.5v-25.7c0-11.3,0.3-28.8,8.5-39.7c8.7-11.5,20.6-19.3,41.1-19.3c33.4,0,47.4,4.8,47.4,4.8l-6.6,39.2
-      c0,0-11-3.2-21.3-3.2c-10.3,0-19.5,3.7-19.5,14v29.9H169.5z"></path>
-    </svg>
-                    </i>
-                     <i>
-                    <svg width="22px" height="22px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  </div>
+  
+  <div class="w3-row ">
+    <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Destination Routes</strong></h2>
+    <div class="w3-row w3-light-gray w3-padding w3-margin" style="border-radius: 15px; padding: 0px 12px;">
+   <strong class="w3-text-dark-gray w3-small">Chandighrar <i class="fa-solid fa-arrow-right"></i> Shimla <i class="fa-solid fa-arrow-right"></i> Manali <i class="fa-solid fa-arrow-right"></i> Chandigarh </strong>
+                </div>
+  </div>
+  
+  <div class="w3-row ">
+    <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Stay Category</strong></h2>
+    <div class="w3-tag w3-light-gray w3-padding w3-margin" style="border-radius: 15px; padding: 0px 12px;">
+   <strong class="w3-text-dark-gray">Delux Property</strong>
+                </div>
+  </div>
+  
+  <hr>
+        <div class="w3-row">
+    <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Trip Hightlights</strong></h2>
+    <ul class="w3-text-gray">
+      <li>
+  <strong class="w3-text-dark-gray">Rohtang Pass:</strong> Drive to one of the highest motorable roads in the world and enjoy panoramic views.
+      </li>
+      <li>
+        <strong class="w3-text-dark-gray">Solang Valley:</strong> Engage in various adventure activities like paragliding, skiing, and zorbing.
+      </li>
+      <li>
+        <strong class="w3-text-dark-gray">Hadimba Temple:</strong> Visit this ancient temple dedicated to the goddess Hadimba and explore the surrounding Van Vihar.
+      </li>
+      <li>
+        <strong class="w3-text-dark-gray">Hadimba Temple:</strong> Visit this ancient temple dedicated to the goddess Hadimba and explore the surrounding Van Vihar.
+      </li>
+  <li>
+    <strong class="w3-text-dark-gray">Vashisht Village:</strong> Relax in the hot springs and visit the ancient Vashisht Temple.
+  </li>
+  <li>
+    <strong class="w3-text-dark-gray">Scenic Drives:</strong> Enjoy breathtaking views during your journey between Shimla and Manali.
+  </li>
+  <li>
+   <strong class="w3-text-dark-gray">Local Markets:</strong> Explore the vibrant markets of Shimla and Manali for souvenirs and local handicrafts.
+  </li>
+    </ul>
+  </div>
+  
+  <hr>
+ {{page.content}}
+  
+  <hr>
+  <h2 class="w3-padding w3-text-dark-gray w3-large">
+    <strong>Why Choose This Shimla-Manali Getaway?</strong>
+  </h2>
+  
+    <ul>
+      <li>
+        Perfect Blend of Nature and Culture: Experience the beauty of the Himalayas while immersing yourself in local culture and traditions.
+      </li>
+      <li>
+        Thrilling Adventure Activities: Engage in a variety of adventure sports, from skiing to paragliding, to satisfy your adrenaline rush.
+        </li>
+        <li>
+          Relaxing and Scenic Surroundings: Enjoy the tranquility of the mountains and soak in the breathtaking views.
+        </li>
+        <li>
+          Comfortable Accommodation: Stay in comfortable hotels and enjoy excellent hospitality.
+      </li>
+      <li>
+        Expert Guidance: Benefit from the knowledge and expertise of local guides to make the most of your trip.
+      </li>
+    </ul>
+  
+  <hr>
+  <h2 class="w3-padding w3-text-dark-gray w3-large">
+    <strong>Book Your Trip Today!</strong>
+  </h2>
+  <p class="w3-padding">Don't miss the opportunity to create lasting memories in the enchanting region of Shimla-Manali. Book your 4-night, 5-day getaway now and embark on an unforgettable adventure.</p>
+  <hr>
+  </div>
+  
     
-    <g fill="none" fill-rule="evenodd">
-    
-    <path d="m0 0h32v32h-32z"></path>
-    
-    <path d="m17.0830929.03277248c8.1190907 0 14.7619831 6.64289236 14.7619831 14.76198302v2.3064326c0 8.1190906-6.6429288 14.761983-14.7619831 14.761983h-2.3064325c-8.11909069 0-14.76198306-6.6428924-14.76198306-14.761983v-2.3064326c0-8.11909066 6.64289237-14.76198302 14.76198306-14.76198302zm-.8630324 8.0002641-.2053832-.0002641c-1.7102378 0-3.4204757.05652851-3.4204757.05652851-2.4979736 0-4.52299562 2.02501761-4.52299562 4.52298561 0 0-.05191606 1.4685349-.05624239 3.0447858l-.00028625.2060969c0 1.7648596.05652864 3.590089.05652864 3.5900891 0 2.497968 2.02502202 4.5229856 4.52299562 4.5229856 0 0 1.5990132.0565285 3.2508899.0565285 1.7648634 0 3.6466255-.0565285 3.6466255-.0565285 2.4979736 0 4.4664317-1.9684539 4.4664317-4.4664219 0 0 .0565286-1.8046833.0565286-3.5335605l-.0010281-.4057303c-.0076601-1.5511586-.0555357-3.0148084-.0555357-3.0148084 0-2.4979681-1.9684582-4.46642191-4.4664317-4.46642191 0 0-1.6282521-.05209668-3.2716213-.05626441zm-.2053831 1.43969747c1.4024317 0 3.2005639.04637875 3.2005638.04637875 2.0483524 0 3.3130573 1.2647021 3.3130573 3.31305 0 0 .0463789 1.7674322.0463789 3.1541781 0 1.4176885-.0463789 3.2469355-.0463789 3.2469355 0 2.048348-1.2647049 3.31305-3.3130573 3.31305 0 0-1.5901757.0389711-2.9699093.0454662l-.3697206.0009126c-1.3545375 0-3.0049692-.0463788-3.0049692-.0463788-2.0483172 0-3.36958592-1.321301-3.36958592-3.3695785 0 0-.04637885-1.8359078-.04637885-3.2830941 0-1.3545344.04637885-3.061491.04637885-3.061491 0-2.0483479 1.32130402-3.31305 3.36958592-3.31305 0 0 1.7416035-.04637875 3.1440353-.04637875zm-.0000353 2.46195055c-2.2632951 0-4.0980441 1.8347448-4.0980441 4.098035s1.8347489 4.098035 4.0980441 4.098035 4.0980441-1.8347448 4.0980441-4.098035c0-2.2632901-1.8347489-4.098035-4.0980441-4.098035zm0 1.4313625c1.4727754 0 2.6666784 1.1939004 2.6666784 2.6666725s-1.193903 2.6666726-2.6666784 2.6666726c-1.4727401 0-2.6666784-1.1939005-2.6666784-2.6666726s1.1939031-2.6666725 2.6666784-2.6666725zm4.2941322-2.5685935c-.5468547 0-.9902027.4455321-.9902027.9950991 0 .5495671.443348.9950639.9902027.9950639.5468546 0 .9901674-.4454968.9901674-.9950639 0-.5496023-.4433128-.9950991-.9901674-.9950991z" fill="#515151" fill-rule="nonzero"></path>
-    
-    </g>
-    
-    </svg>
-                    </i>
-                     <i>
-                   <svg fill="#515151" height="22px" width="22px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve">
-    <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M41.4,508.1H-8.5V348.4h49.9
-      V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7
-      C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6
-      c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z
-      "></path>
-    </svg>
-                    </i>
-                     <i>
-                    <svg fill="#515151" height="22px" width="22px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve">
-    <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M215.2,361.2
-      c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7
-      c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9
-      C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5
-      c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6
-      c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z"></path>
-    </svg>
-                    </i>
-                  </div>
-    
-    
-    
-    
-          </div>
-         
-    
-          <div class="w3-third">
-              
-              <h4><b>Services &amp; Information</b></h4>
-              <div class="w3-row" style="padding:0px 6px;">
-              <div class="w3-col l6 m6 s6">
-    
-              
-                  <a href="https://touristhill.in/about.html" class="w3-bar-item w3-hover-text-teal w3-small w3-round">
-                    <div class="w3-padding">About Us </div></a>
-                    <a href="https://touristhill.in/contact-us.html" class="w3-bar-item w3-hover-text-teal w3-small w3-round">
-                        <div class="w3-padding">Contact Us </div></a>                
-            </div>
-              <div class="w3-col l6 m6 s6">
-              <a href="privacy-policy.html"><span class=" w3-small"><div class="w3-padding">Privacy Policy</div></span></a>
-                  <a href="Disclamer.html"><span class=" w3-small"><div class="w3-padding">Disclamer</div></span></a>
-                 
-                  
-                 
-            </div>
-            
-    
+  
+  
+  
+  
+  
+    <div class="w3-col l4 s12 w3-hide-small" style="object-fit: contain; padding: 6px 6px; position: sticky; top: 0px;">
+      <div class="w3-row w3-round w3-padding">
+  
+        <div class="w3-row">
+          <div class="w3-row w3-display-container w3-border w3-border-light-gray w3-padding" style="border-radius: 15px;">
+            <div class="w3-display-topright w3-padding">
+              <div class="w3-right w3-text-gray w3-small">
+                <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.5006 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.5006 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z" fill="#4caf50"></path>
+                </svg>
+                <span class="w3-text-green">4.5 </span>(360)
               </div>
-          </div>
-          <div class="w3-third">
+            </div>
+            <p><b class="w3-xlarge">INR 36,000 <span class="w3-small w3-text-gray">Per Couple</span></b> 
+              <br><strike class="w3-text-gray">INR 46,000</strike></p>
+  
+              <hr>
+  
+              <div class="w3-row w3-margin-bottom">
+                <div class="w3-col" style="width: 40px;">
+                  <button class="w3-button w3-small w3-sand" style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
+                  <i class="fa fa-phone w3-text-teal"></i>
+                  </button>
+                </div>
+                <div class="w3-rest">
+                  <button class="w3-button w3-small w3-teal" style="border-radius: 30px;">Send Enquiry</button>
               
-              <h4><b>Contact For Booking</b></h4>
-              <p class=" w3-small">Subscribe To Our Newslatter And Get Notifican About Our New Products And Offers Earlier Than Enyone Else.</p>
-              <span class="w3-col l12  m12 s12 w3-small" style="padding: 5px 0px ;">
-                <span class="w3-ro w3-sand" style="border-radius:30px ; height: 20px; width: 20px; padding: 3px 4px; margin-right: 6px;">
-                        <i class="w3-text-teal  fa fa-phone" style="padding-left:2px ;"></i>
-                </span>
-                      <sapn class="" style="font-size: 15px; margin: 0px;">
-                  
-                    
-                    <strong>+91-82194-71645</strong></sapn>
-                    
-                
-                </span>
-                <span class="w3-col l12  m12 s12 w3-small" style="padding: 5px 0px ;">
-                  <span class="w3-ro w3-sand" style="border-radius:30px ; height: 20px; width: 20px; padding: 3px 4px; margin-right: 6px;">
-                          <i class="w3-text-teal  fa fa-phone" style="padding-left:2px ;"></i>
-                  </span>
-                        <sapn class="" style="font-size: 15px; margin: 0px;">
-                    
-                      
-                      <strong>+91-82194-71645</strong></sapn>
-                      
-                  
-                  </span>
+                </div>
+              </div>
+  
+          </div>
+        </div>
+        
+        <div class="">
+          
+          <div class="w3-text-dark-gray w3-border w3-margin-top w3-border-light-gray" style="border-radius: 15px;">
+            <div class="w3-padding">
+                <h2 class="w3-large"><strong>
+                      {{page.title}}
+                    </strong></h2>
+                    <p><b class="w3-xlarge">INR {{page.price}} <span class="w3-small w3-text-gray">{{page.price-per}}</span></b> 
+                      <br><strike class="w3-text-gray">INR {{page.price-strike}}</strike></p>
+  
+            </div>
+            <form class="w3-text-dark-gray w3-row w3-padding" onsubmit="alert('Thanks For Submiting The Form. Our Executives Will Reach To You Within 24 Hours');" method="page">
+              <div style="margin-bottom: 6px;" class="elem-group w3-col s12 m12 l12">
+  
+                <input style="border-radius: 15px;" class=" w3-input w3-round w3-tiny w3-border" type="text" id="name" name="visitor_name" placeholder="Full Name" pattern="[A-Z\sa-z]{3,20}" required="">
+              </div>
+             <div class="elem-group w3-col s12 m12 l12" style="margin-bottom: 6px;">
+  
+                <input style="border-radius: 15px;" class=" w3-input w3-round w3-tiny w3-border" type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required="">
+              </div>
+              <div class="elem-group w3-col s12 m12 l12" style="margin-bottom: 6px;">
+  
+                <input style="border-radius: 15px;" class="w3-input w3-round w3-tiny w3-border" type="tel" id="phone" name="visitor_phone" placeholder="Mobile Number" pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})" required="">
+              </div>
+  
+              <div class=" w3-col s12 m12 l12" style="margin-bottom: 6px;">
+                <input style="border-radius: 15px;" class=" w3-input w3-round w3-tiny w3-border" type="number" id="adult" name="total_adults" placeholder="Travelrs Count" min="1" required="">
+              </div>
+              
              
-                  <button class="w3-green w3-button w3-small w3-margin-top " style="border-radius: 30px; padding: 6px 12px;"><i class="fab fa-whatsapp" style="margin-right: 6px;"></i>Whatsapp Us Now</button>
-    
+                <div class="w3-left">
+                  <label style="height: 35px; display: flex;
+                  align-items: center;
+                  justify-content: center;" class="w3-col s6 m6 l6" for="checkout-date">Travel date</label>
+                  <input  style="margin-bottom: 4px; border-radius: 15px;" class="w3-col s6 m6 l6 w3-input w3-round w3-tiny w3-border" type="date" id="checkout-date" name="checkout" required="">
+                </div>
+                <button class="w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Send Enquiry</button>
+              
+              </div>
+  
+            </form>
           </div>
-          <div class="w3-row">
-          </div>
+        </div>
+  
       </div>
     </div>
-    
+  
+
+    </div>
 
 
-    </footer>
-    <div class="w3-row w3-padding w3-teal">
-      <div class="w3-content">
-                  <div style="margin:0px 0px;" class="w3-col s12 m6 l6 w3-tiny"><b>Copyright © 2024  <a style="text-decoration: none;" href="https://www.touristhill.in/" target="_blank"> <span class="">TOURISTHILL</span></a></b> - 
-                      <b>Designed With <span class="">❤︎</span> By - <a style="text-decoration: none;" href="https://www.touristhill.in" target="_blank"><span class="">Vikas Lazarus</span></a></b>
-      
-                  </div>
+
+
+
+
+
+{% include inclusion-exclusion.md %}
+
+
+<!--Related Packages-->
+{% if site.related_posts.size >= 1 %}
+<div class="w3-large w3-content w3-padding w3-text-dark-gray">
+    <h2 class="w3-large w3-col s8 m8 l8"><strong>Related Packages</strong></h2>
+  </div>
+  <br>
+<div class="swiper mySwiper2 w3-content w3-padding">
+    <div class="swiper-wrapper">
+    {% for related_post in site.related_posts limit: 5 %}
+    <div class="swiper-slide slide-2 w3-row" style="width:320px; height:520px;">
+
+        <a href="{{ related_post.url }}.html">
+          <div class="w3-row w3-display-container" style="height: 290px; width:320px;">
+            <img class="w3-border w3-border-light-gray" alt="{{related_post.title}}" src="{{site.url}}/images/{{related_post.img1}}"
+              style=" border-radius: 10px; object-fit: cover; overflow: hidden; height: 100%; width: 100%;">
+
+
+
+
+          </div>
+
+          <div class="w3-row">
+
+            <div class="w3-row w3-margin-top">
+              <div class="w3-left w3-text-gray"><b><i class="fa fa-clock-o"></i> {{related_post.duration}}</b></div>
+              <div class="w3-right w3-text-gray">
+               
+                <span class=""><i class="fa fa-star w3-text-green"></i> {{related_post.rating}} </span>(<span>{{related_post.reviews-count}}</span>)
+              </div>
+            </div>
+            <h3 class="w3-text-dark-gray" style="font-size: 20px; margin: 8px 0px;  overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          font-weight: 700;
+          -webkit-box-orient: vertical; font-size:16px;">{{ related_post.title }}</h3>
+
+<div class="w3-row" style="padding: 3px 12px; border-radius: 7px;background-image: linear-gradient(#f1f1f1, #ffffff00);" >
+{{related_post.duration-days}}
+</div>
+
+            
+
+
+            <b class="w3-xlarge" style="margin-top: 0px;">INR {{related_post.price}} <span class="w3-small w3-text-gray">{{related_post.price-per}}</span> </b>
+        <br><strike class="w3-text-gray">INR {{related_post.price-strike}}</strike>  
       </div>
-      </div>
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        </a>
+        <div class="w3-row">
+          <div class="w3-col" style="width: 50px;">
+<a href="tel:{{site.phone1}}">
+            <button class="w3-button w3-small w3-border w3-border-teal"
+              style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
+              <i class="fa fa-phone w3-text-teal"></i>
+            </button></a>
+          </div>
+          <div class="w3-rest">
+            <button class="w3-card w3-button w3-small w3-teal" style="border-radius: 30px;">Request
+              Callback</button>
 
-  <!-- Initialize Swiper -->
+          </div>
+        </div>
+
+
+      </div>
+  
+    {% endfor %}
+</div>
+
+</div>
+{% endif %}
+
+
+
+
+
+<!-- Footer -->
+
+
+<!-- Footer -->
+ 
+{% include footer.md %}
+ 
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+ <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 'auto',
-      spaceBetween: 20,
-     
+    var swiper = new Swiper(".mySwiper4", {
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 10,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
     });
-
-    var swiper = new Swiper(".mySwiper2", {
+  </script>
+<script>
+  
+  var swiper = new Swiper(".mySwiper2", {
       slidesPerView: "auto",
       spaceBetween: 20,
       
@@ -400,19 +634,48 @@ c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-
         clickable: true,
       },
     });
-  </script>
-  <script>
-    // Used to toggle the menu on small screens when clicking on the menu button
-    function myFunction() {
-      var x = document.getElementById("navDemo");
-      if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-      } else {
-        x.className = x.className.replace(" w3-show", "");
-      }
+
+  var swiper2 = new Swiper(".mySwiper3", {
+    loop: true,
+    spaceBetween: 0,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">'  + "</span>";
+        },
+      },
+   
+  });
+</script>
+<script>
+  function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
     }
+  }
   </script>
 
+<script>
+  // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 290 || document.documentElement.scrollTop > 290) {
+      document.getElementById("Fixed").style.bottom = "0px";
+      
+    } else {
+      document.getElementById("Fixed").style.bottom = "-180px";
+     
+    }
+  }
+  </script>
 </body>
-
 </html>
