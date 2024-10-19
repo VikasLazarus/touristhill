@@ -328,12 +328,23 @@ top: 0;">
 
       <div class="w3-col s12 m3 l3 w3-center w3-white w3-container w3-hide-small"
         style="height: 50px; display: flex; align-items: center; justify-content: center;">
-        <div class="w3-col s6 m6 l6 w3-button w3-teal w3-small w3-border w3-border-teal" style="border-radius: 30px 0px 0px 30px;">
-          <strong>Tours</strong>
+        <div id="Explore" class="city">
+
+
+      <div class="w3-row  s12 m3 l3"
+        style="height: 50px; display: flex; align-items: center; justify-content: center; padding: 3px 20px;">
+        <div onclick="window.location.href='{{site.url}}'" class="w3-col  s4 m4 l4 w3-button w3-teal w3-small "
+          style=" border-radius: 30px 0px 0px 30px;">
+         <strong>Tours</strong>
         </div>
-        <div class="w3-col s6 m6 l6 w3-button w3-border w3-small" style="border-radius: 0px 30px 30px 0px;">
+         <div  onclick="window.location.href='{{site.url}}/hotels/index.html'" class="w3-col  s4 m4 l4 w3-button  w3-small w3-light-gray w3-border-right w3-border-left w3-border-white" style="border-radius: 0px 0px 0px 0px;">
+          <strong>Hotels</strong>
+        </div>
+        <div  onclick="window.location.href='{{site.url}}/activites/index.html'" class="w3-col  s4 m4 l4 w3-button  w3-small w3-light-gray" style="border-radius: 0px 30px 30px 0px;">
           <strong>Activites</strong>
         </div>
+
+      </div>
 
       </div>
 
