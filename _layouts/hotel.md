@@ -311,8 +311,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
               </div>
   <hr>
   <div class="w3-hide-large">
-          <p><b class="w3-xlarge">INR 36,000 <span class="w3-small w3-text-gray">Per Couple</span></b> 
-            <br><strike class="w3-text-gray">INR 46,000</strike></p>
+          <p><b class="w3-xlarge">{{ page.price }} <span class="w3-small w3-text-gray">{{ page.price-per }}</span></b> 
+            <br><strike class="w3-text-gray">{{ page.price-strike }}</strike></p>
           
   <hr>
   </div>
