@@ -311,8 +311,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
               </div>
   <hr>
   <div class="w3-hide-large">
-          <p><b class="w3-xlarge">{{ page.price }} <span class="w3-small w3-text-gray">{{ page.price-per }}</span></b> 
-            <br><strike class="w3-text-gray">{{ page.price-strike }}</strike></p>
+          <p><b class="w3-xlarge">INR {{ page.price }} <span class="w3-small w3-text-gray">{{ page.price-per }}</span></b> 
+            <br><strike class="w3-text-gray">INR {{ page.price-strike }}</strike></p>
           
   <hr>
   </div>
