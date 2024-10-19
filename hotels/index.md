@@ -27,7 +27,7 @@ permalink: /hotels/index.html
 <a href="{{ page.url }}">
 
             <div class="w3-row w3-display-container" style="height: 290px; width:100%;">
-              <img class="w3-border w3-border-light-gray" src="../images/shimla.jpg"
+              <img class="w3-border w3-border-light-gray"  alt="{{post.title}}" src="{{site.url}}/images/{{post.img1}}"
                 style=" border-radius: 10px; object-fit: cover; overflow: hidden; height: 100%; width: 100%;">
 
 

@@ -5,6 +5,11 @@ date:   2024-09-09 05:16:52 -0700
 categories: Hotels
 permalink: /hotels/glamoreo-glamp-shimla.html
 location: Shimla
+img1: placeholder.png
+img2: placeholder.png
+img3: placeholder.png
+img4: placeholder.png
+img5: placeholder.png
 ---
  <div class="w3-row-padding w3-padding-16 w3-container">
     <div class="w3-content">
