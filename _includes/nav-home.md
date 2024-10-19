@@ -285,7 +285,7 @@
 position: sticky;
 top: 0;">
     <div class="w3-row w3-content w3-row-padding" style="padding: 6px 0px;">
-      <div class="w3-col s12 m8 l8 w3-white w3-container">
+      <div class="w3-col s12 m9 l9 w3-white w3-container">
         <!-- Swiper -->
         <div class="swiper mySwiper w3-text-gray">
           <div class="swiper-wrapper">
@@ -326,24 +326,14 @@ top: 0;">
 
       </div>
 
-      <div class="w3-col s12 m4 l4 w3-right w3-white w3-hide-small"
+      <div class="w3-col s12 m3 l3 w3-center w3-white w3-container w3-hide-small"
         style="height: 50px; display: flex; align-items: center; justify-content: center;">
-        <div id="Explore" class="city">
-
-
-      
-        <div onclick="window.location.href='{{site.url}}'" class="w3-col  s4 m4 l4 w3-button w3-teal w3-small "
-          style=" border-radius: 30px 0px 0px 30px;">
-         <strong>Tours</strong>
+        <div class="w3-col s6 m6 l6 w3-button w3-teal w3-small w3-border w3-border-teal" style="border-radius: 30px 0px 0px 30px;">
+          <strong>Tours</strong>
         </div>
-         <div  onclick="window.location.href='{{site.url}}/hotels/index.html'" class="w3-col  s4 m4 l4 w3-button  w3-small w3-light-gray w3-border-right w3-border-left w3-border-white" style="border-radius: 0px 0px 0px 0px;">
-          <strong>Hotels</strong>
-        </div>
-        <div  onclick="window.location.href='{{site.url}}/activites/index.html'" class="w3-col  s4 m4 l4 w3-button  w3-small w3-light-gray" style="border-radius: 0px 30px 30px 0px;">
+        <div class="w3-col s6 m6 l6 w3-button w3-border w3-small" style="border-radius: 0px 30px 30px 0px;">
           <strong>Activites</strong>
         </div>
-
-      
 
       </div>
 
