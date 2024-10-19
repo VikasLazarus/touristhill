@@ -11,7 +11,7 @@ price-strike: "15,000"
 price-save: "3,000"
 reviews-count: 360
 rating: 4.5
-img1: placeholder.png
+img1: glamoreo-glamp-1.webp
 img2: placeholder.png
 img3: placeholder.png
 img4: placeholder.png
