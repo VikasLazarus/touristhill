@@ -285,7 +285,7 @@
 position: sticky;
 top: 0;">
     <div class="w3-row w3-content w3-row-padding" style="padding: 6px 0px;">
-      <div class="w3-col s12 m9 l9 w3-white w3-container">
+      <div class="w3-col s12 m8 l8 w3-white w3-container">
         <!-- Swiper -->
         <div class="swiper mySwiper w3-text-gray">
           <div class="swiper-wrapper">
@@ -326,7 +326,7 @@ top: 0;">
 
       </div>
 
-      <div class="w3-col s12 m3 l3 w3-center w3-white w3-container w3-hide-small"
+      <div class="w3-col s12 m4 l4 w3-center w3-white w3-container w3-hide-small"
         style="height: 50px; display: flex; align-items: center; justify-content: center;">
         <div id="Explore" class="city">
 
