@@ -331,8 +331,7 @@ top: 0;">
         <div id="Explore" class="city">
 
 
-      <div class="w3-row  s12 m3 l3"
-        style="height: 50px; display: flex; align-items: center; justify-content: center; padding: 3px 20px;">
+      
         <div onclick="window.location.href='{{site.url}}'" class="w3-col  s4 m4 l4 w3-button w3-teal w3-small "
           style=" border-radius: 30px 0px 0px 30px;">
          <strong>Tours</strong>
@@ -344,7 +343,7 @@ top: 0;">
           <strong>Activites</strong>
         </div>
 
-      </div>
+      
 
       </div>
 
