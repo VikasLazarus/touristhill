@@ -26,7 +26,7 @@ layout: home
 
 
 
-      <div class="w3-content w3-margin-top" style="padding: 6px 14px;">
+      <div class="w3-content w3-hide w3-margin-top" style="padding: 6px 14px;">
         <div class="w3-container w3-text-dark-gray w3-padding-16 w3-round w3-sand" style="border-radius: 15px;">
           <div class="w3-container w3-content w3-center w3-padding-16 w3-text-dark-gray">
             <p class="w3-margin">-- Hurry Limited Time Offer --</p>
