@@ -33,11 +33,11 @@ detail:
  <div class="w3-content">
         <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
 
-  {% for post in site.categories.Shimla %}
+  {% for page in site.categories.Hotel %}
     {% if post.url %}
         
         <div class="w3-third w3-row w3-margin-bottom">
-<a href="{{ post.url }}">
+<a href="{{ page.url }}">
 
             <div class="w3-row w3-display-container" style="height: 290px; width:100%;">
               <img class="w3-border w3-border-light-gray" src="../images/shimla.jpg"
@@ -63,7 +63,7 @@ detail:
             display: -webkit-box;
             -webkit-line-clamp: 2;
             font-weight: 700;
-            -webkit-box-orient: vertical;">{{ post.title }}</h3>
+            -webkit-box-orient: vertical;">{{ page.title }}</h3>
 
 <div class="w3-row" style="padding: 3px 12px; border-radius: 7px;background-image: linear-gradient(#f9f9f9, #ffffff00);">
 2D Shimla 2D Manali
