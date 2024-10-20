@@ -18,4 +18,4 @@ img4: glamoreo-glamp-4.webp
 img5: glamoreo-glamp-5.webp
 detail: "Snow Crest Retreat is a great choice for travellers looking for a star hotel in Kufri. This Hotel stands out as one of the highly recommended hotel in Kufri. Hotel is rated out of 5, which is considered as very good."
 ---
- <!--Related Packages-->
+
