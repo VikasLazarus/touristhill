@@ -298,8 +298,8 @@
 
       <span class="w3-bar-item w3-hide-medium w3-hide-large w3-right w3-hover-white">
 
-        <span class="w3-ro w3-sand" style="border-radius:30px ; padding: 0px 7.3px; padding-bottom: 4px; margin-right: 6px;">
-          <i class="w3-text-white  fa fa-phone w3-small" style="padding-left:2px ;"></i>
+        <span class="w3-ro w3-white" style="border-radius:30px ; padding: 0px 7.3px; padding-bottom: 4px; margin-right: 6px;">
+          <i class="w3-text-dark-gray  fa fa-phone w3-small" style="padding-left:2px ;"></i>
         </span>
       </span>
 
