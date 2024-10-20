@@ -19,14 +19,14 @@ img5: placeholder.png
 detail: 
 ---
 <!--Related Packages-->
-{% if site.related_page.size >= 1 %}
+{% if site.related_pages.size >= 1 %}
 <div class="w3-large w3-content w3-padding w3-text-dark-gray">
     <h2 class="w3-large w3-col s8 m8 l8"><strong>Related Packages</strong></h2>
   </div>
   <br>
 <div class="swiper mySwiper2 w3-content w3-padding">
     <div class="swiper-wrapper">
-    {% for related_post in site.related_page limit: 5 %}
+    {% for related_post in site.related_pages limit: 5 %}
     <div class="swiper-slide slide-2 w3-row" style="width:320px; height:520px;">
 
         <a href="{{ related_post.url }}.html">
