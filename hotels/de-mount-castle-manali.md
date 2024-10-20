@@ -26,12 +26,12 @@ detail:
   <br>
 <div class="swiper mySwiper2 w3-content w3-padding">
     <div class="swiper-wrapper">
-    {% for related_post in site.related_pages limit: 5 %}
+    {% for related_page in site.related_pages limit: 5 %}
     <div class="swiper-slide slide-2 w3-row" style="width:320px; height:520px;">
 
-        <a href="{{ related_post.url }}.html">
+        <a href="{{ related_page.url }}.html">
           <div class="w3-row w3-display-container" style="height: 290px; width:320px;">
-            <img class="w3-border w3-border-light-gray" alt="{{related_post.title}}" src="{{site.url}}/images/{{related_post.img1}}"
+            <img class="w3-border w3-border-light-gray" alt="{{related_page.title}}" src="{{site.url}}/images/{{related_page.img1}}"
               style=" border-radius: 10px; object-fit: cover; overflow: hidden; height: 100%; width: 100%;">
 
 
@@ -42,27 +42,27 @@ detail:
           <div class="w3-row">
 
             <div class="w3-row w3-margin-top">
-              <div class="w3-left w3-text-gray"><b><i class="fa fa-clock-o"></i> {{related_post.duration}}</b></div>
+              <div class="w3-left w3-text-gray"><b><i class="fa fa-clock-o"></i> {{related_page.duration}}</b></div>
               <div class="w3-right w3-text-gray">
                
-                <span class=""><i class="fa fa-star w3-text-green"></i> {{related_post.rating}} </span>(<span>{{related_post.reviews-count}}</span>)
+                <span class=""><i class="fa fa-star w3-text-green"></i> {{related_page.rating}} </span>(<span>{{related_page.reviews-count}}</span>)
               </div>
             </div>
             <h3 class="w3-text-dark-gray" style="font-size: 20px; margin: 8px 0px;  overflow: hidden;
           display: -webkit-box;
           -webkit-line-clamp: 2;
           font-weight: 700;
-          -webkit-box-orient: vertical; font-size:16px;">{{ related_post.title }}</h3>
+          -webkit-box-orient: vertical; font-size:16px;">{{ related_page.title }}</h3>
 
 <div class="w3-row" style="padding: 3px 12px; border-radius: 7px;background-image: linear-gradient(#f1f1f1, #ffffff00);" >
-{{related_post.duration-days}}
+{{related_page.duration-days}}
 </div>
 
             
 
 
-            <b class="w3-xlarge" style="margin-top: 0px;">INR {{related_post.price}} <span class="w3-small w3-text-gray">{{related_post.price-per}}</span> </b>
-        <br><strike class="w3-text-gray">INR {{related_post.price-strike}}</strike>  
+            <b class="w3-xlarge" style="margin-top: 0px;">INR {{related_page.price}} <span class="w3-small w3-text-gray">{{related_page.price-per}}</span> </b>
+        <br><strike class="w3-text-gray">INR {{related_page.price-strike}}</strike>  
       </div>
         </a>
         <div class="w3-row">
