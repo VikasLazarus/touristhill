@@ -202,7 +202,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 <div class="w3-row  w3-content w3-hide-small">
 <div class="w3-half" style="padding-right: 6px; padding-top: 8px; padding-left: 16px;"  >
 
-    <div class="w3-row "style="height: 320px; border-radius: 30px 0px 0px 30px;">
+    <div class="w3-row "style="height: 320px; border-radius: 10px 0px 0px 10px;">
         <img class="w3-border w3-border-light-gray" alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 30px 0px 0px 30px;" src="{{site.url}}/images/{{page.img1}}" />
       
     </div>
@@ -221,11 +221,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
     </div>
     <div class="w3-half" style="padding-top:8px; padding-left: 6px; padding-right: 6px;">
         <div class="w3-row " style="height: 157px;">
-            <img class="w3-border w3-border-light-gray" alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 0px 30px 0px 0px;" src="{{site.url}}/images/{{page.img4}}" />
+            <img class="w3-border w3-border-light-gray" alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 0px 10px 0px 0px;" src="{{site.url}}/images/{{page.img4}}" />
       
         </div>
         <div class="w3-row " style="height: 157px; margin-top: 6px;">
-            <img class="w3-border w3-border-light-gray" alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 0px 0px 30px 0px;" src="{{site.url}}/images/{{page.img5}}" />
+            <img class="w3-border w3-border-light-gray" alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 0px 0px 10px 0px;" src="{{site.url}}/images/{{page.img5}}" />
       
         </div>
     </div>
