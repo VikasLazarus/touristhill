@@ -52,9 +52,7 @@ permalink: /hotels/index.html
             font-weight: 700;
             -webkit-box-orient: vertical;">{{ page.title }}</h3>
 
-<div class="w3-row" style="padding: 3px 12px; border-radius: 7px;background-image: linear-gradient(#f9f9f9, #ffffff00);">
-{{ page.detail }}
-</div>
+
 
               
 
