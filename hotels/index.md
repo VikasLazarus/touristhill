@@ -53,14 +53,14 @@ permalink: /hotels/index.html
             -webkit-box-orient: vertical;">{{ page.title }}</h3>
 
 <div class="w3-row" style="padding: 3px 12px; border-radius: 7px;background-image: linear-gradient(#f9f9f9, #ffffff00);">
-2D Shimla 2D Manali
+{{ page.detail }}
 </div>
 
               
 
 
-              <b class="w3-xlarge" style="margin-top: 0px;">INR 36,000 <span class="w3-small w3-text-gray">Per Couple</span> </b>
-          <br><strike class="w3-text-gray">INR 46,000</strike>  
+              <b class="w3-xlarge" style="margin-top: 0px;">INR {{ page.price }} <span class="w3-small w3-text-gray">{{ page.price-per }}</span> </b>
+          <br><strike class="w3-text-gray">INR {{ page.price-strike }}</strike>  
         </div></a>
 
             <div class="w3-row">
