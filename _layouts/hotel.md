@@ -381,35 +381,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   
   <hr>
  {{page.content}}
-  
-  <hr>
-  <h2 class="w3-padding w3-text-dark-gray w3-large">
-    <strong>Why Choose This Shimla-Manali Getaway?</strong>
-  </h2>
-  
-    <ul>
-      <li>
-        Perfect Blend of Nature and Culture: Experience the beauty of the Himalayas while immersing yourself in local culture and traditions.
-      </li>
-      <li>
-        Thrilling Adventure Activities: Engage in a variety of adventure sports, from skiing to paragliding, to satisfy your adrenaline rush.
-        </li>
-        <li>
-          Relaxing and Scenic Surroundings: Enjoy the tranquility of the mountains and soak in the breathtaking views.
-        </li>
-        <li>
-          Comfortable Accommodation: Stay in comfortable hotels and enjoy excellent hospitality.
-      </li>
-      <li>
-        Expert Guidance: Benefit from the knowledge and expertise of local guides to make the most of your trip.
-      </li>
-    </ul>
-  
-  <hr>
-  <h2 class="w3-padding w3-text-dark-gray w3-large">
-    <strong>Book Your Trip Today!</strong>
-  </h2>
-  <p class="w3-padding">Don't miss the opportunity to create lasting memories in the enchanting region of Shimla-Manali. Book your 4-night, 5-day getaway now and embark on an unforgettable adventure.</p>
+   
   <hr>
   </div>
   
@@ -508,79 +480,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
 
 
-{% include inclusion-exclusion.md %}
 
-
-<!--Related Packages-->
-{% if site.related_pages.size >= 1 %}
-<div class="w3-large w3-content w3-padding w3-text-dark-gray">
-    <h2 class="w3-large w3-col s8 m8 l8"><strong>Related Hotels</strong></h2>
-  </div>
-  <br>
-<div class="swiper mySwiper2 w3-content w3-padding">
-    <div class="swiper-wrapper">
-    {% for related_pages in site.related_pages limit: 5 %}
-    <div class="swiper-slide slide-2 w3-row" style="width:320px; height:520px;">
-
-        <a href="{{ related_page.url }}.html">
-          <div class="w3-row w3-display-container" style="height: 290px; width:320px;">
-            <img class="w3-border w3-border-light-gray" alt="{{related_post.title}}" src="{{site.url}}/images/{{related_page.img1}}"
-              style=" border-radius: 10px; object-fit: cover; overflow: hidden; height: 100%; width: 100%;">
-
-
-
-
-          </div>
-
-          <div class="w3-row">
-
-            <div class="w3-row w3-margin-top">
-              <div class="w3-left w3-text-gray"><b><i class="fa fa-clock-o"></i> {{related_page.duration}}</b></div>
-              <div class="w3-right w3-text-gray">
-               
-                <span class=""><i class="fa fa-star w3-text-green"></i> {{related_page.rating}} </span>(<span>{{related_page.reviews-count}}</span>)
-              </div>
-            </div>
-            <h3 class="w3-text-dark-gray" style="font-size: 20px; margin: 8px 0px;  overflow: hidden;
-          display: -webkit-box;
-          -webkit-line-clamp: 2;
-          font-weight: 700;
-          -webkit-box-orient: vertical; font-size:16px;">{{ related_page.title }}</h3>
-
-<div class="w3-row" style="padding: 3px 12px; border-radius: 7px;background-image: linear-gradient(#f1f1f1, #ffffff00);" >
-{{related_page.duration-days}}
-</div>
-
-            
-
-
-            <b class="w3-xlarge" style="margin-top: 0px;">INR {{related_page.price}} <span class="w3-small w3-text-gray">{{related_page.price-per}}</span> </b>
-        <br><strike class="w3-text-gray">INR {{related_page.price-strike}}</strike>  
-      </div>
-        </a>
-        <div class="w3-row">
-          <div class="w3-col" style="width: 50px;">
-<a href="tel:{{site.phone1}}">
-            <button class="w3-button w3-small w3-border w3-border-teal"
-              style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
-              <i class="fa fa-phone w3-text-teal"></i>
-            </button></a>
-          </div>
-          <div class="w3-rest">
-            <button class="w3-card w3-button w3-small w3-teal" style="border-radius: 30px;">Request
-              Callback</button>
-
-          </div>
-        </div>
-
-
-      </div>
-  
-    {% endfor %}
-</div>
-
-</div>
-{% endif %}
 
 
 
