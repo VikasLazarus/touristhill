@@ -219,7 +219,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
       
         </div>
     </div>
-    <div class="w3-half" style="padding-top:8px; padding-left: 6px; padding-right: 6px;">
+    <div class="w3-half" style="padding-top:8px; padding-left: 6px; padding-right: 16px;">
         <div class="w3-row " style="height: 157px;">
             <img class="w3-border w3-border-light-gray" alt="Shimla Manali Adventure Package" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 0px 15px 0px 0px;" src="{{site.url}}/images/{{page.img4}}" />
       
