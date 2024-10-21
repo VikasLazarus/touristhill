@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>{{page.title}}</title>
-<link rel="icon" type="image/x-icon" href="{{site.url}}/images/favicon.svg">
+<link rel="icon" type="image/x-icon" href="{{site.url}}/images/logo.png">
 <meta name="description" content="{{page.discription}}">
   <meta name="keywords" content="{{page.keywords}}">
   <meta name="author" content="Tourist hill">

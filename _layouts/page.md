@@ -3,7 +3,7 @@
 
 <head>
   <title>About Us - Tourist Hill Travels</title>
-  <link rel="icon" type="image/x-icon" href="../images/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="../images/logo.png">
   <meta name="description"
     content="India travel packages, Himalayan treks, cultural tours, adventure tourism, personalized itineraries.">
   <meta name="keywords"
