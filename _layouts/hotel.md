@@ -18,7 +18,7 @@
     "@context" : "https://schema.org",
     "@type" : "WebSite",
     "name" : "Tourist Hill Travels",
-    "url" : "https://touristhill.in/"
+    "url" : "https://touristhill.in"
 }
 </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">

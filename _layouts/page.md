@@ -19,7 +19,14 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
+<script type="application/ld+json">
+{
+    "@context" : "https://schema.org",
+    "@type" : "WebSite",
+    "name" : "Tourist Hill Travels",
+    "url" : "https://touristhill.in/"
+}
+</script>
   <style>
     .w3-round {
       border-radius: 30px;

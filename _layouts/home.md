@@ -21,7 +21,7 @@
     "@context" : "https://schema.org",
     "@type" : "WebSite",
     "name" : "Tourist Hill Travels",
-    "url" : "https://touristhill.in/"
+    "url" : "https://touristhill.in"
 }
 </script>
 
