@@ -59,11 +59,15 @@ layout: home
     {% for post in category.last %}
     <div class="swiper-slide slide-2 w3-row">
 
-            <a href="{{ post.url }}.html">
+  <a href="{{ post.url }}.html">
               <div class="w3-row w3-display-container" style="height: 290px; width:320px;">
                 <img class="w3-border w3-border-light-gray" alt="{{post.title}}" src="{{site.url}}/images/{{post.img1}}"
                   style=" border-radius: 10px; object-fit: cover; overflow: hidden; height: 100%; width: 100%;">
-
+<div class="w3-display-topright" style="padding: 12px;">
+   <div style="background-color: #00000080; padding: 2.5px 7px; border-radius: 30px;">
+    <i style="margin-top: 6px;" class="w3-large w3-text-light-gray fa-regular fa-heart"></i>
+</div>
+</div>
 
 
 
