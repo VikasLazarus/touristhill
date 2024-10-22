@@ -1,21 +1,21 @@
+<!-- Navbar -->
   <div class="w3-row w3-white w3-border-bottom w3-border-light-gray" style="padding: 6px 0px;  z-index: 3;">
     <div class="w3-content w3-bar w3-white w3-left-align w3-large">
       <span class="w3-bar-item w3-hide-medium w3-hide-large w3-right ">
 
-        <span class="w3-ro w3-sand"
+         <a href="tel:+918219471645"><span class="w3-ro w3-sand"
           style="border-radius:30px ; padding: 0px 7.5px; padding-bottom: 4px; margin-right: 6px;">
-          <i class="w3-text-teal  fa fa-phone w3-small" style="padding-left:2px ;"></i>
-        </span>
+          <i class="w3-text-deep-orange  fa fa-phone w3-small" style="padding-left:2px ;"></i>
+        </span></a>
       </span>
-      
-       <a href="{{site.url}}" class="w3-bar-item w3-button w3-hover-none" style="padding:8px 12px;">
+      <a href="https://touristhill.in" class="w3-bar-item w3-button w3-white w3-hover-none" style="padding:8px 12px;">
         <div class="w3-large">
 
           <div class="w3-col" style="width: 36px; height: 36px;">
-            <img src="{{site.url}}/images/logo.png" width="36px" height="36px">
+            <img src="https://touristhill.in/images/logo.png" width="36px" height="36px">
           </div>
 
-          <span style=" font-size: 18px; padding:8px 5px;padding-top:16px;"> <b style="color:#515151;">TOURIST HILL</b></span>
+          <div class="w3-rest" style=" font-size: 18px; padding:8px 6px;padding-top:3px;"> <b style="color:#515151;">TOURIST HILL</b></div>
 
         </div>
       </a>
@@ -24,8 +24,8 @@
 
 
       <span
-        class="w3-small w3-right w3-bar-item w3-button w3-hide-smal w3-padding-large  w3-hover-text-teal">
-        <span class="w3-col" style="width:20px;">
+        class="w3-small w3-right w3-bar-item w3-button w3-hide-smal w3-padding-large  w3-hover-text-deep-orange w3-hover-none">
+        <span class="w3-col" style="width:20px; padding-top: 4px;">
           <?xml version="1.0" encoding="utf-8"?>
 
           <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
@@ -256,23 +256,23 @@
 
           </svg>
         </span>
-        <span class="w3-rest">
-          <b style="margin-left: 6px;">INR ₹</b></span></span>
+        <div class="w3-rest" style="padding-top: 4px;">
+          <b style="margin-left: 6px; margin-top: 4px;">INR ₹</b></div></span>
 
 
       <div class="w3-hide-small w3-bar-item w3-right">
-        <a href="mailto:touristhilltravels@gmail.com"><i class="fa fa-envelope w3-tiny w3-sand w3-text-teal"
+        <a href="mailto:touristhilltravels@gmail.com"><i class="fa fa-envelope w3-tiny w3-sand w3-text-deep-orange"
             style=" border-radius:30px;   padding:8px 8px; margin:3px 0px;"></i><strong
             class="w3-small w3-text-dark-gray"> Touristhilltravels@gmail.com</strong></a>
       </div>
       <div class="w3-hide-small w3-bar-item w3-right">
-        <a href="tel:+918219471645"><i class="fa fa-phone w3-tiny w3-sand w3-text-teal"
+        <a href="tel:+918219471645"><i class="fa fa-phone w3-tiny w3-sand w3-text-deep-orange"
             style=" border-radius:30px;  padding:8px 9px; margin:2px 0px;"></i><strong
             class="w3-small w3-text-dark-gray"> +91-82194-71645</strong></a>
       </div>
 
       <div class="w3-hide-small w3-bar-item w3-right">
-        <input class="w3-input w3-border w3-small w3-card"
+        <input class="w3-input w3-border w3-small w3-border-light-gray"
           style="width: 230px; height: 30px; margin-top: 2px; border-radius: 30px;" type="search" placeholder="Search">
       </div>
 
@@ -281,5 +281,3 @@
 
 
   </div>
-
-    

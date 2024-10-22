@@ -281,3 +281,67 @@
 
 
   </div>
+  <div class="w3-row w3-row-padding w3-border-bottom w3-border-light-gray w3-white" style="z-index: 50; position: -webkit-sticky;
+position: sticky;
+top: 0;">
+    <div class="w3-row w3-content w3-row-padding" style="padding: 6px 0px;">
+      <div class="w3-col s12 m9 l8 w3-white w3-container">
+        <!-- Swiper -->
+        <div class="swiper mySwiper w3-text-gray">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-deep-orange tablink w3-text-deep-orange"
+              onclick="openCity(event,'Explore')">
+              <i class="fas fa-fire w3-large"></i>
+              <br>
+
+              <strong>Explore</strong>
+            </div>
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-deep-orange tablink"
+              onclick="openCity(event,'London')">
+              <i class="fas fa-mountain w3-large"></i>
+              <br>
+              <strong>Shimla</strong>
+            </div>
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-deep-orange tablink"
+              onclick="openCity(event,'Paris')">
+              <i class="fas fa-skiing-nordic w3-large"></i><br>
+              <strong>Manali</strong>
+            </div>
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-deep-orange tablink"
+              onclick="openCity(event,'Tokyo')">
+              <i class="fa fa-heart w3-large" aria-hidden="true"></i> <br>
+              <strong>Honeymoon</strong>
+            </div>
+
+
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-deep-orange ">
+              <i class="fa-solid fa-mountain-sun w3-large"></i><br>
+              <strong>Dharamshala</strong>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+      <div class="w3-col s12 m3 l4 w3-center w3-white w3-container w3-hide-small"
+        style="height: 50px; display: flex; align-items: center; justify-content: center;">
+        <div onclick="window.location.href='https://touristhill.in'" class="w3-col  s4 m4 l4 w3-button w3-deep-orange w3-small "
+          style=" border-radius: 30px 0px 0px 30px;">
+         <strong>Tours</strong>
+        </div>
+         <div  onclick="window.location.href='https://touristhill.in/hotels/index.html'" class="w3-col  s4 m4 l4 w3-button  w3-small w3-light-gray w3-border-right w3-border-left w3-border-white" style="border-radius: 0px 0px 0px 0px;">
+          <strong>Hotels</strong>
+        </div>
+        <div  onclick="window.location.href='https://touristhill.in/activites/index.html'" class="w3-col  s4 m4 l4 w3-button  w3-small w3-light-gray" style="border-radius: 0px 30px 30px 0px;">
+          <strong>Activites</strong>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
