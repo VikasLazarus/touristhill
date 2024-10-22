@@ -10,6 +10,7 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3313624136394536"
      crossorigin="anonymous"></script>
 <meta charset="UTF-8">
+<link rel="canonical" href="{{site.url}}{{page.permalink}}" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="{{site.url}}/style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
