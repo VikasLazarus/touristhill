@@ -1,20 +1,21 @@
+<!-- Navbar -->
   <div class="w3-row w3-white w3-border-bottom w3-border-light-gray" style="padding: 6px 0px;  z-index: 3;">
     <div class="w3-content w3-bar w3-white w3-left-align w3-large">
       <span class="w3-bar-item w3-hide-medium w3-hide-large w3-right ">
 
-         <a href="tel:+91{{site.phone1}}"><span class="w3-ro w3-sand"
+         <a href="tel:+918219471645"><span class="w3-ro w3-sand"
           style="border-radius:30px ; padding: 0px 7.5px; padding-bottom: 4px; margin-right: 6px;">
-          <i class="w3-text-teal  fa fa-phone w3-small" style="padding-left:2px ;"></i>
+          <i class="w3-text-deep-orange  fa fa-phone w3-small" style="padding-left:2px ;"></i>
         </span></a>
       </span>
-      <a href="{{site.url}}" class="w3-bar-item w3-button w3-white w3-hover-none" style="padding:8px 12px;">
+      <a href="https://touristhill.in" class="w3-bar-item w3-button w3-white w3-hover-none" style="padding:8px 12px;">
         <div class="w3-large">
 
           <div class="w3-col" style="width: 36px; height: 36px;">
-            <img src="{{site.url}}/images/logo.png" width="36px" height="36px">
+            <img src="https://touristhill.in/images/logo.png" width="36px" height="36px">
           </div>
 
-          <span style=" font-size: 18px; padding:8px 5px;padding-top:16px;"> <b style="color:#515151;">TOURIST HILL</b></span>
+          <div class="w3-rest" style=" font-size: 18px; padding:8px 6px;padding-top:3px;"> <b style="color:#515151;">TOURIST HILL</b></div>
 
         </div>
       </a>
@@ -23,8 +24,8 @@
 
 
       <span
-        class="w3-small w3-right w3-bar-item w3-button w3-hide-smal w3-padding-large  w3-hover-text-teal w3-hover-none">
-        <span class="w3-col" style="width:20px;">
+        class="w3-small w3-right w3-bar-item w3-button w3-hide-smal w3-padding-large  w3-hover-text-deep-orange w3-hover-none">
+        <span class="w3-col" style="width:20px; padding-top: 4px;">
           <?xml version="1.0" encoding="utf-8"?>
 
           <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
@@ -255,17 +256,17 @@
 
           </svg>
         </span>
-        <span class="w3-rest">
-          <b style="margin-left: 6px;">INR ₹</b></span></span>
+        <div class="w3-rest" style="padding-top: 4px;">
+          <b style="margin-left: 6px; margin-top: 4px;">INR ₹</b></div></span>
 
 
       <div class="w3-hide-small w3-bar-item w3-right">
-        <a href="mailto:touristhilltravels@gmail.com"><i class="fa fa-envelope w3-tiny w3-sand w3-text-teal"
+        <a href="mailto:touristhilltravels@gmail.com"><i class="fa fa-envelope w3-tiny w3-sand w3-text-deep-orange"
             style=" border-radius:30px;   padding:8px 8px; margin:3px 0px;"></i><strong
             class="w3-small w3-text-dark-gray"> Touristhilltravels@gmail.com</strong></a>
       </div>
       <div class="w3-hide-small w3-bar-item w3-right">
-        <a href="tel:+91{{site.phone1}}"><i class="fa fa-phone w3-tiny w3-sand w3-text-teal"
+        <a href="tel:+918219471645"><i class="fa fa-phone w3-tiny w3-sand w3-text-deep-orange"
             style=" border-radius:30px;  padding:8px 9px; margin:2px 0px;"></i><strong
             class="w3-small w3-text-dark-gray"> +91-82194-71645</strong></a>
       </div>
@@ -279,69 +280,4 @@
     </div>
 
 
-  </div>
-
-    <div class="w3-row w3-row-padding w3-border-bottom w3-border-light-gray w3-white" style="z-index: 50; position: -webkit-sticky;
-position: sticky;
-top: 0;">
-    <div class="w3-row w3-content w3-row-padding" style="padding: 6px 0px;">
-      <div class="w3-col s12 m9 l8 w3-white w3-container">
-        <!-- Swiper -->
-        <div class="swiper mySwiper w3-text-gray">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink w3-text-teal"
-              onclick="openCity(event,'Explore')">
-              <i class="fas fa-fire w3-large"></i>
-              <br>
-
-              <strong>Explore</strong>
-            </div>
-            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink"
-              onclick="openCity(event,'London')">
-              <i class="fas fa-mountain w3-large"></i>
-              <br>
-              <strong>Shimla</strong>
-            </div>
-            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink"
-              onclick="openCity(event,'Paris')">
-              <i class="fas fa-skiing-nordic w3-large"></i><br>
-              <strong>Manali</strong>
-            </div>
-            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink"
-              onclick="openCity(event,'Tokyo')">
-              <i class="fa fa-heart w3-large" aria-hidden="true"></i> <br>
-              <strong>Honeymoon</strong>
-            </div>
-
-
-            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal ">
-              <i class="fa-solid fa-mountain-sun w3-large"></i><br>
-              <strong>Dharamshala</strong>
-            </div>
-          </div>
-
-        </div>
-
-
-
-      </div>
-
-      <div class="w3-col s12 m3 l4 w3-center w3-white w3-container w3-hide-small"
-        style="height: 50px; display: flex; align-items: center; justify-content: center;">
-        <div onclick="window.location.href='{{site.url}}'" class="w3-col  s4 m4 l4 w3-button w3-teal w3-small "
-          style=" border-radius: 30px 0px 0px 30px;">
-         <strong>Tours</strong>
-        </div>
-         <div  onclick="window.location.href='{{site.url}}/hotels/index.html'" class="w3-col  s4 m4 l4 w3-button  w3-small w3-light-gray w3-border-right w3-border-left w3-border-white" style="border-radius: 0px 0px 0px 0px;">
-          <strong>Hotels</strong>
-        </div>
-        <div  onclick="window.location.href='{{site.url}}/activites/index.html'" class="w3-col  s4 m4 l4 w3-button  w3-small w3-light-gray" style="border-radius: 0px 30px 30px 0px;">
-          <strong>Activites</strong>
-        </div>
-
-      </div>
-
-
-
-    </div>
   </div>
