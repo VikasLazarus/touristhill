@@ -132,8 +132,7 @@
 </head>
 
 <body>
-
-
+<h1 class="w3-hide">Tourist Hill Tour And Travels Shimla, Himachal Pradesh</h1>
 
 {% include top.md %}
   <!-- Navbar -->
