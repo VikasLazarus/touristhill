@@ -133,7 +133,7 @@
 
   {% include top.md %}
   <!-- Navbar -->
-{% include nav-pages.md %}
+{% include nav-home.md %}
 
   <!-- Header -->
 
