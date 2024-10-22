@@ -93,7 +93,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 .w3-bar,h1,button,p {font-family: "Poppins"}
 
 .w3-content{
-  max-width: 1100px;
+  max-width: 1200px;
 }
 
 
