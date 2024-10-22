@@ -5,9 +5,9 @@
   <title>{{site.title}}</title>
   <link rel="icon" type="image/x-icon" href="images/logo.png">
   <meta name="description"
-    content="India travel packages, Himalayan treks, cultural tours, adventure tourism, personalized itineraries.">
+    content="We Are TourIst Hill Tour And Travels From Shimla himachal Pradesh providing all Himachal Tour packages, Hotel Booking And Activity Booking Service in india.">
   <meta name="keywords"
-    content="Himachal Pradesh tourism, India travel packages, Shimla tour, Manali tour, Himalayan treks, cultural tours India, adventure tourism India, tailor-made travel India, experienced travel guides India, unforgettable travel experiences India">
+    content="Tourist Hill,Tourist Hill Travels,Tourist Hill Tour And Travels,Himachal Pradesh tourism,Himachal travel packages,Shimla tour,Manali tour,">
   <meta name="author" content="Tourist hill">
   <meta name="google-adsense-account" content="ca-pub-3313624136394536">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3313624136394536"
