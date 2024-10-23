@@ -6,6 +6,16 @@
 <meta name="description" content="{{page.discription}}">
   <meta name="keywords" content="{{page.keywords}}">
   <meta name="author" content="Tourist hill">
+  <meta name="copyright" content="Tourist Hill Travels" />
+<meta name="application-name" content="Tourist Hill Travels" />
+
+<!--FB Meta-->
+<meta property="og:title" content="{{page.title}}" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="{{site.url}}/images/{{page.img1}}" />
+<meta property="og:url" content="{{site.url}}{{page.url}}" />
+<meta property="og:description" content="{{page.dicription}}" />
+<!--Adsence-->
   <meta name="google-adsense-account" content="ca-pub-3313624136394536">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3313624136394536"
      crossorigin="anonymous"></script>
