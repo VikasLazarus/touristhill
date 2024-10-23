@@ -293,6 +293,24 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   
           <h1 class="w3-text-dark-gray" style=" font-size: 28px; margin: 2px 0px;
               font-weight: 700;">{{page.title}}</h1>
+
+   <div class="w3-row w3-margin-top">
+              <div class="w3-tag w3-sand w3-border w3-border-gray w3-small" style="border-radius:30px; padding:3px 12px;">
+              <i class="w3-text-dark-gray fa-solid fa-share-from-square"></i> Share
+              </div> - 
+<a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank">
+              <div class="w3-tag w3-white w3-border w3-border-gray w3-small" style="border-radius:30px; padding:3px 12px;">
+              <i class="w3-text-dark-gray fab fa-facebook"></i><b> Facebook</b>
+              </div></a>
+              <a href="whatsapp://send?text={{site.url}}{{page.url}}" data-action="share/whatsapp/share">
+
+<div class="w3-tag w3-white w3-border w3-border-gray w3-small" style="border-radius:30px; padding:3px 12px;">
+              <i class="w3-text-dark-gray fab fa-whatsapp"></i><b> Whatsapp</b>
+              </div>
+</a>
+
+              </div>
+
               <div class="w3-row w3-margin-top">
                 <span class="w3-tag w3-teal w3-col w3-center w3-card" style="margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
                 align-items: center;
