@@ -1,6 +1,7 @@
 ---
 layout: hotel
 title:  "De Mount Castle Manali"
+discription: ""
 date:   2024-09-09 05:16:52 -0700
 categories: Hotels
 permalink: /hotels/de-mount-castle-manali.html

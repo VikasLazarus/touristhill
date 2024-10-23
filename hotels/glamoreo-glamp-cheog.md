@@ -1,6 +1,7 @@
 ---
 layout: hotel
 title:  "Glamoreo Glamp Cheog Shimla"
+discription: "Glamoreo Glamp is the best location to stay in cheog shimla best picked Glamp by touist Hill travels For best experiance"
 date:   2024-09-09 05:16:52 -0700
 categories: Hotels
 permalink: /hotels/glamoreo-glamp-shimla.html
