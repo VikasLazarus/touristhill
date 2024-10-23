@@ -294,7 +294,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
               font-weight: 700;">{{page.title}}</h1>
               <div class="w3-row w3-margin-top">
               <div class="w3-tag w3-white w3-border w3-border-gray w3-small" style="border-radius:30px; padding:3px 12px;">
-              <i class="w3-text-dark-gray fa-regular fa-share-from-square"></i> Share
+              <i class="w3-text-dark-gray fa-regular fa-arrow-up-from-bracket"></i> Share On
               </div> - 
 
               <div class="w3-tag w3-white w3-border w3-border-gray w3-small" style="border-radius:30px; padding:3px 12px;">
