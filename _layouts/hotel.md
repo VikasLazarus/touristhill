@@ -292,6 +292,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   
           <h1 class="w3-text-dark-gray" style=" font-size: 28px; margin: 2px 0px;
               font-weight: 700;">{{page.title}}</h1>
+              <div class="w3-row">
+              <i class="fa-solid fa-share-from-square"></i>
+              </div>
               <div class="w3-row w3-margin-top">
                 <p>{{page.detail}}</p>
               </div>
