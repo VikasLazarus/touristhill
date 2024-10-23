@@ -298,7 +298,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
               </div> - 
 
               <div class="w3-tag w3-white w3-border w3-border-gray w3-small" style="border-radius:30px; padding:3px 12px;">
-              <i class="w3-text-dark-gray fab fa-facebook"></i> Share
+              <i class="w3-text-dark-gray fab fa-facebook"></i> Facebook
+              </div>
+<div class="w3-tag w3-white w3-border w3-border-gray w3-small" style="border-radius:30px; padding:3px 12px;">
+              <i class="w3-text-dark-gray fab fa-instagram"></i> Instagram
+              </div>
+<div class="w3-tag w3-white w3-border w3-border-gray w3-small" style="border-radius:30px; padding:3px 12px;">
+              <i class="w3-text-dark-gray fa-brands fa-x-twitter"></i> Twitter
               </div>
 
 
