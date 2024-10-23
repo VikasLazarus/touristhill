@@ -311,7 +311,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
               <i class="w3-text-dark-gray fab fa-facebook"></i> Facebook
               </div></a>
 <div class="w3-tag w3-white w3-border w3-border-gray w3-small" style="border-radius:30px; padding:3px 12px;">
-              <i class="w3-text-dark-gray fab fa-instagram"></i> Instagram
+              <i class="w3-text-dark-gray fab fa-whatsapp"></i> Instagram
               </div>
 
 
