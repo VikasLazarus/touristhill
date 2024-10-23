@@ -293,7 +293,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
           <h1 class="w3-text-dark-gray" style=" font-size: 28px; margin: 2px 0px;
               font-weight: 700;">{{page.title}}</h1>
               <div class="w3-row">
-              <div class="w3-tag w3-sand" style="borde-radius:30px;">
+              <div class="w3-tag w3-white w3-border w3-border-light-gray" style="borde-radius:30px; padding:3px 12px;">
               <i class="w3-text-dark-gray fa-solid fa-share-from-square"></i> Share
               </div>
               </div>
