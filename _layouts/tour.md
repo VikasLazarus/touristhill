@@ -295,7 +295,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
               font-weight: 700;">{{page.title}}</h1>
 
    <div class="w3-row w3-margin-top">
-              <div class="w3-tag w3-sand w3-border w3-border-gray w3-small" style="border-radius:30px; padding:3px 12px;">
+              <div class="w3-tag w3-sand w3-border w3-border-sand w3-small" style="border-radius:30px; padding:3px 12px;">
               <i class="w3-text-dark-gray fa-solid fa-share-from-square"></i> Share
               </div> - 
 <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank">
