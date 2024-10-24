@@ -11,7 +11,7 @@ permalink: /hotels/index.html
         
         
 
-        <h1 class="w3-text-dark-gray w3-xlarge"><strong>Explore Best Hotels In Himachal</strong></h1>
+        <h1 class="w3-text-dark-gray w3-xlarge"><strong>Explore Best Hotels</strong></h1>
  
         <p class="w3-text-grey">Experiance the best travel to Shimla with us.</p>
       <hr style="margin:2px 0px; border-top:2px solid #ff5722; border-radius:30px; width:40%;">
@@ -26,7 +26,7 @@ permalink: /hotels/index.html
               <i class="fas fa-fire w3-large"></i>
               <br>
 
-              <strong>Explore</strong>
+              <strong>View All</strong>
             </div>
             <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink"
               onclick="openCity(event,'London')">
