@@ -101,9 +101,9 @@ permalink: /hotels/index.html
             font-weight: 700;
             -webkit-box-orient: vertical;">{{ page.title }}</h3>
 
-<div class="w3-row">
+
 <p>{{page.discription}}</p>
-</div
+
 
               
 
