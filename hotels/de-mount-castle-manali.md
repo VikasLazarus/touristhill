@@ -1,7 +1,7 @@
 ---
 layout: hotel
 title:  "De Mount Castle Manali"
-discription: ""
+discription: "De Mount Castle manali hotel is a best place to stay in manali with best amanaties available"
 date:   2024-09-09 05:16:52 -0700
 categories: Hotels
 permalink: /hotels/de-mount-castle-manali.html
