@@ -14,7 +14,7 @@ permalink: /hotels/index.html
         <h1 class="w3-text-dark-gray w3-xlarge"><strong>Explore Best Hotels In Himachal</strong></h1>
  
         <p class="w3-text-grey">Experiance the best travel to Shimla with us.</p>
-      <hr style="margin:2px 0px; border:2px solid #ff5722; border-radius:30px; width:40%;">
+      <hr style="margin:2px 0px; border-top:2px solid #ff5722; border-radius:30px; width:40%;">
 <div class="w3-row">
 
       <div class="w3-col s12 m12 l12 w3-white" style="padding:0px 0px; padding-top:6px;">
