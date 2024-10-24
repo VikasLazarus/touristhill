@@ -1,7 +1,7 @@
   <!-- Footer -->
-  <footer class=" w3-padding-16 w3-text-dark-gray" style="border-top: #f1f1f1 solid 2px; background-color:white;">
+  <footer class=" w3-padding-16 w3-text-dark-gray w3-light-gray" style="border-top: #f1f1f1 solid 2px; background-color:white;">
     <!-- Footer -->
-    <div class="w3-padding-32" style="margin: 0px 12px; border-radius: 10px;">
+    <div class="w3-padding-32" style="margin: 0px 16px; border-radius: 10px;">
       <div class="w3-content">
           <div class="w3-third">
             <a href="{{site.url}}" class="w3-bar-item w3-xxlarge w3-button w3-white w3-hover-none" style="padding:8px 0px;">
