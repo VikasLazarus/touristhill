@@ -102,7 +102,7 @@ permalink: /hotels/index.html
             -webkit-box-orient: vertical;">{{ page.title }}</h3>
 
 
-<p>{{page.discription}}</p>
+<p style="line-height: 1.5em; height: 3em; overflow: hidden;">{{page.discription}}</p>
 
 
               
