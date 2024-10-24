@@ -153,4 +153,4 @@
 
   
 
- {% include nav-footer.md %}
+ {% include footer.md %}
