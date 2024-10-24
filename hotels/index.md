@@ -39,18 +39,7 @@ permalink: /hotels/index.html
               <i class="fas fa-skiing-nordic w3-large"></i><br>
               <strong>Manali</strong>
             </div>
-            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink"
-              onclick="openCity(event,'Tokyo')">
-              <i class="fa fa-heart w3-large" aria-hidden="true"></i> <br>
-              <strong>Honeymoon</strong>
-            </div>
-
-
-            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal ">
-              <i class="fa-solid fa-mountain-sun w3-large"></i><br>
-              <strong>Dharamshala</strong>
-            </div>
-          </div>
+            
 
         </div>
 
