@@ -15,6 +15,51 @@ permalink: /hotels/index.html
  
         <p class="w3-text-grey">Experiance the best travel to Shimla with us.</p>
       
+<div class="w3-row">
+
+      <div class="w3-col s12 m12 l12 w3-white w3-container">
+        <!-- Swiper -->
+        <div class="swiper mySwiper w3-text-gray">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink w3-text-teal"
+              onclick="openCity(event,'Explore')">
+              <i class="fas fa-fire w3-large"></i>
+              <br>
+
+              <strong>Explore</strong>
+            </div>
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink"
+              onclick="openCity(event,'London')">
+              <i class="fas fa-mountain w3-large"></i>
+              <br>
+              <strong>Shimla</strong>
+            </div>
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink"
+              onclick="openCity(event,'Paris')">
+              <i class="fas fa-skiing-nordic w3-large"></i><br>
+              <strong>Manali</strong>
+            </div>
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink"
+              onclick="openCity(event,'Tokyo')">
+              <i class="fa fa-heart w3-large" aria-hidden="true"></i> <br>
+              <strong>Honeymoon</strong>
+            </div>
+
+
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal ">
+              <i class="fa-solid fa-mountain-sun w3-large"></i><br>
+              <strong>Dharamshala</strong>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+</div>
+
         <hr>
  <div class="w3-content">
         <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
