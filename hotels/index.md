@@ -17,7 +17,7 @@ permalink: /hotels/index.html
       <hr style="border:2px solid #ff5722; border-radius:30px; width:50%;">
 <div class="w3-row">
 
-      <div class="w3-col s12 m12 l12 w3-white" style="padding:6px 0px;>
+      <div class="w3-col s12 m12 l12 w3-white" style="padding:6px 0px;">
         <!-- Swiper -->
         <div class="swiper mySwiper w3-text-gray">
           <div class="swiper-wrapper">
