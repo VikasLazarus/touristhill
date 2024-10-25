@@ -64,7 +64,7 @@ data: "glamoreo Glamp"
         <i class="w3-tiny fa fa-star w3-text-green"></i>
         <i class="w3-tiny fa fa-star w3-text-green"></i>
         <i class="w3-tiny fa fa-star w3-text-green"></i>
-        <p style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;">
+        <p  style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;">
           The place was immaculate & thoughtfully designed..The location was beautiful & peaceful..The food the room the amenities the staff the service was upto the mark..had a great time with my dog..The hosts were just amazing & provided the best of experience..would definitely be visiting again
         </p>
         <br>
