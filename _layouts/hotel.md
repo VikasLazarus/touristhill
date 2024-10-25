@@ -304,7 +304,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
               font-weight: 700;">{{page.title}}</h1>
               <div class="w3-row w3-margin-top">
               <div class="w3-tag w3-teal w3-border w3-border-sand w3-small" style="border-radius:30px; padding:3px 12px;">
-              <i class="w3-text-dark-gray fa-solid fa-share-from-square"></i><b> Share</b>
+              <i class="w3-text-white fa-solid fa-share-from-square"></i><b> Share</b>
               </div> - 
 <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank">
               <div class="w3-tag w3-light-gray w3-border w3-border-light-gray w3-small" style="border-radius:30px; padding:3px 12px;">
@@ -332,7 +332,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   
   </div>
 
-        <div class="w3-row">
+        <div class="w3-row"padding:0px 16px;>
     <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
       <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer Included</strong>
     </div>
