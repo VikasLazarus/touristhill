@@ -428,9 +428,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   
               <div class="w3-row w3-margin-bottom">
                 <div class="w3-col" style="width: 40px;">
-                  <button class="w3-button w3-small w3-sand" style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
+                  <a href="tel:{{site.phone}}"><button class="w3-button w3-small w3-sand" style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
                   <i class="fa fa-phone w3-text-teal"></i>
-                  </button>
+                  </button></a>
                 </div>
                 <div class="w3-rest">
                   <button class="w3-button w3-small w3-teal" style="border-radius: 30px;">Book Now</button>
