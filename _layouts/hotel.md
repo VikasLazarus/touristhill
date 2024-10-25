@@ -119,18 +119,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
    <!--bottom fixed-->
    <div id="Fixed" class="w3-display-container w3-row w3-white w3-border-top w3-border-light-gray w3-hide-large w3-hide-medium w3-animate-zoom" style="width: 100%; padding:12px; position: fixed; bottom: -190px; left: 0px; z-index: 30;">
-   <div class="w3-display-topright" style="padding: 0px 12px; margin-top: -96px;">
-   <a href="tel:{{site.phone1}}">
-   <div class="w3-ro w3-teal w3-card-4" style="border-radius:30px ; height: 40px; width: 40px;  padding: 8px 12px; margin-right: 6px; margin-bottom: 8px;">
-  <i class="w3-text-white  fa fa-phone small" style="padding-left:0px ;"></i>
-</div></a>
-<a href="https://wa.me/91{{site.phone1}}">
- <div class="w3-ro w3-green w3-card-4" style="border-radius:30px ; height: 40px; width: 40px; padding: 10px 12px; margin-right: 6px;">
-      <i class="w3-text-white  fab fa-whatsapp w3-large" style="padding-left:0px ;"></i>
-</div>
-</a>
-
-   </div>
+   
     <div class="w3-row">
       <div class="w3-col w3-right" style="width: 110px;">
         <button  onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-teal w3-small w3-card-4" style="border-radius: 30px;">Send Enquiry</button>
