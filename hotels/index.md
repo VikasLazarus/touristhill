@@ -68,7 +68,7 @@ permalink: /hotels/index.html
   {% for page in site.pages %}
       {% if page.categories contains 'Hotel' %}
         
-        <div class="w3-quarter w3-row w3-margin-bottom">
+        <div class="w3-third w3-row w3-margin-bottom">
 <a href="{{ page.url }}">
 
             <div class="w3-row w3-display-container" style="height: 290px; width:100%;">
