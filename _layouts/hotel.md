@@ -330,10 +330,25 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
   </div>
   
   
-        </div>
+  </div>
 
-        
-{{page.content}}
+        <div class="w3-row">
+    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
+      <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer Included</strong>
+    </div>
+    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
+      <i class="fas fa-bed w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay Included</strong>
+    </div>
+    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
+      <i class="fa-solid fa-utensils w3-text-gray" style="margin-right: 12px;"></i> <strong class="w3-text-gray">Breakfast & Dinner Included</strong>
+    </div>
+    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
+      <i class="fa-solid fa-images w3-text-gray" style="margin-right: 8px;"></i> <strong class="w3-text-gray">Sightseeing Included</strong>
+    </div>
+  </div>
+  
+  <hr>
+
   
  
   </div>
@@ -439,8 +454,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
 
 
-<!-- Footer -->
-
+<!-- Countent -->
+{{page.content}}
 
 <!-- Footer -->
  

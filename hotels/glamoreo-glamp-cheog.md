@@ -75,79 +75,124 @@ detail: "Snow Crest Retreat is a great choice for travellers looking for a star 
 
 
 
-<div class="w3-row">
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer Included</strong>
-    </div>
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fas fa-bed w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay Included</strong>
-    </div>
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fa-solid fa-utensils w3-text-gray" style="margin-right: 12px;"></i> <strong class="w3-text-gray">Breakfast & Dinner Included</strong>
-    </div>
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fa-solid fa-images w3-text-gray" style="margin-right: 8px;"></i> <strong class="w3-text-gray">Sightseeing Included</strong>
-    </div>
-  </div>
-  
-  <hr>
+
 
 <!--reviews-->
-<div class=" w3-padding-16">
-        <div class="">
-          <h3 class="w3-text-dark-gray">Hotel Rating And Reviews</h3>
+  <div class="w3-container w3-content">
+  
+
+   <div class="w3-padding">
+    <h3 class="w3-large"><strong>
+      Hotel Rating And Reviews
+        </strong></h3>
+        <p><b class="w3-xlarge w3-text-gray"><i class="fa fa-star"></i> 5.0 | 4 Reviews </b> 
+          </p>
+
+</div>
+
+    <div class="w3-third" style="padding: 4px;">
+      <div class="w3-row w3-padding w3-round">
+        <div class="w3-row">
+        <div class="w3-col" style="width: 40px;">
+          <img class="w3-green2 w3-border" style="border-radius: 30px;" src="https://a0.muscache.com/im/pictures/user/221d1eb4-44ce-442c-a52c-acd9c9055401.jpg?im_w=240" height="40px" width="40px">
+        
 
         </div>
-        <div class="w3-container w3-content w3-padding-16">
-          <div class="w3-third" style="padding: 4px;">
-            <div class="w3-row w3-padding  w3-round">
-              <img class="w3-green2 w3-border" style="border-radius: 30px;" src="https://lh3.googleusercontent.com/a/ACg8ocJMiA8pgc6_-_CErsIPahcf6CMzg0BFtpdCZxnn68U_Dg=s40-c-rp-mo-br100" height="50px" width="50px">
-              <p style="margin: 1px 1px;"><b>Kapil Kumar</b></p>
-              <i class="fa fa-star w3-text-green"></i>
-              <i class="fa fa-star w3-text-green"></i>
-              <i class="fa fa-star w3-text-green"></i>
-              <i class="fa fa-star w3-text-green"></i>
-              <i class="fa fa-star w3-text-green"></i><b>5/5</b>
-              <p style="margin: 1px 1px;">To stay in De mount castle was such a wonderful experience. Staffs were well behaved, rooms were cleaned &amp; spacious, moreover I really loved looking out from the balcony the view of the snow capped mountains were amazing. Highly recommended 👍
-              </p>
-              <br>
-
-            </div>
-          </div>
-          <div class="w3-third" style="padding: 4px;">
-            <div class="w3-row w3-padding w3-round">
-              <img class="w3-green2 w3-border" style="border-radius: 30px;" src="https://lh3.googleusercontent.com/a/ACg8ocJ6Ptlo5KyH107l5mdIqujO7yUaO-s-kLMsJtR7_6Gs=s40-c-rp-mo-br100" height="50px" width="50px">
-              <p style="margin: 1px 1px;"><b>Kiran Yadav</b></p>
-              <i class="fa fa-star w3-text-green"></i>
-              <i class="fa fa-star w3-text-green"></i>
-              <i class="fa fa-star w3-text-green"></i>
-              <i class="fa fa-star w3-text-green"></i>
-              <i class="fa fa-star w3-text-green"></i><b>5/5</b>
-              <p style="margin: 1px 1px;">It was really a fabulous experience , staying in De Mount Castle . The view was nice , the service , the location and the rooms were good . It has luxurious rooms , good food .😍</p>
-              <br>
-<br>
-<br>
-            </div>
-          </div>
-          <div class="w3-third" style="padding: 4px;">
-            <div class="w3-row w3-padding w3-round">
-              <img class="w3-green2 w3-border" style="border-radius: 30px;" src="https://lh3.googleusercontent.com/local-reviews/AJMZ0QcTxMb6osozedX8-L3ujk99WaCVJvJP4yfFBJ7gfQlx5FOAeuv4yoH2sOTYUS-F=s40-c-br100" height="50px" width="50px">
-              <p style="margin: 1px 1px;"><b>Nitin</b></p>
-              <i class="fa fa-star w3-text-green"></i>
-              <i class="fa fa-star w3-text-green"></i>
-              <i class="fa fa-star w3-text-green"></i>
-              <i class="fa fa-star w3-text-green"></i>
-              <i class="fa fa-star w3-text-green"></i><b>5/5</b>
-              <p style="margin: 1px 1px;">A good destination to stay in Manali. A cooperative hotel staff specially hotel manager Mr Vinod Thakur.. neat n clean rooms. good food except tea. overall a great experience. distance from mall road is near arround 2.5 km. a calm place out from noice and crowd.</p>
-              <br>
-
-            </div>
-          </div>
-          
+        <div class="w3-rest">
+       <p style="padding: 0px 6px;margin-top: 10px;"><b>Vishal</b></p>
 
         </div>
-        <div>
-          <a href="https://g.page/r/CduLjyjBynZ6EAg/review"><button class="w3-button w3-round w3-green2 w3-small w3-center">Give Ratting</button>
-          </a>
         </div>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <p style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;" class="w3-small">
+          The place was immaculate & thoughtfully designed..The location was beautiful & peaceful..The food the room the amenities the staff the service was upto the mark..had a great time with my dog..The hosts were just amazing & provided the best of experience..would definitely be visiting again
+        </p>
+        <br>
+
       </div>
+    </div>
+    <div class="w3-third" style="padding: 4px;">
+      <div class="w3-row w3-padding w3-round">
+        <div class="w3-row">
+        <div class="w3-col" style="width: 40px;">
+          <img class="w3-green2 w3-border" style="border-radius: 30px;" src="https://a0.muscache.com/im/pictures/user/User/original/259b48a5-64ea-4e68-a7a4-5ff20a644e98.jpeg?im_w=240" height="40px" width="40px">
+        
+
+        </div>
+        <div class="w3-rest">
+       <p style="padding: 0px 6px;margin-top: 10px;"><b>Drrohit</b></p>
+
+        </div>
+        </div>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <p style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;" class="w3-small">
+          Our experience at Glamoreo Glamp was one we’ll cherish forever. The views were stunning, with peaceful surroundings where you could hear the birds chirping. The weather was perfect, adding to the overall tranquility. Inside the glamp, the accommodations were both comfortable and uniquely designed, making our stay even more special. The host, a talented professional photographer, captured some beautiful moments for us, and we're eagerly looking forward to seeing the photos. We even got to pick apples straight from the trees, which was a delightful experience. We’re already planning our next visit!     </p>
+        <br>
+
+      </div>
+    </div>
+    <div class="w3-third" style="padding: 4px;">
+      <div class="w3-row w3-padding w3-round">
+        <div class="w3-row">
+        <div class="w3-col" style="width: 40px;">
+          <img class="w3-green2 w3-border" style="border-radius: 30px;" src="https://a0.muscache.com/im/pictures/user/5a8f2a48-e29f-43da-9200-c1948ab37bf5.jpg?im_w=240" height="40px" width="40px">
+        
+
+        </div>
+        <div class="w3-rest">
+       <p style="padding: 0px 6px;margin-top: 10px;"><b>Neha</b></p>
+
+        </div>
+        </div>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <p style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;" class="w3-small">
+          it's an amazing place with a great view, location is well described and everything was picture perfect like the dome ,view and best of all hot tub.Our experience was exceptionally good host was very friendly and always ready to help ,it's worth the price and it's a experience of a lifetime!!!
+         </p>
+        <br>
+
+      </div>
+    </div>
+    <div class="w3-third" style="padding: 4px;">
+      <div class="w3-row w3-padding w3-round">
+        <div class="w3-row">
+        <div class="w3-col" style="width: 40px;">
+          <img class="w3-green2 w3-border" style="border-radius: 30px;" src="https://a0.muscache.com/im/pictures/user/User-445311406/original/78fa258b-2c20-4173-879a-1cf0d883ca8d.jpeg?im_w=240" height="40px" width="40px">
+        
+
+        </div>
+        <div class="w3-rest">
+       <p style="padding: 0px 6px;margin-top: 10px;"><b>Nishant</b></p>
+
+        </div>
+        </div>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <i class="w3-tiny fa fa-star w3-text-green"></i>
+        <p style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;" class="w3-small">
+          The glamp was immaculately clean and tastefully decorated, providing a cozy and comfortable retreat throughout our stay. Ajay went above and beyond to ensure we had everything we needed, and his prompt communication made the entire experience seamless. The location was serene, peaceful and amidst apple orchard. Ajay’s mom made amazing Siddu and we tried it for the first time and fell in love with the Siddu. Also, experienced their Hot tub in night under clear sky which was just amazing. Overall, we had a wonderful time and would highly recommend Glamoreo to anyone looking for a memorable Glamping experience!
+         </p>
+        <br>
+
+      </div>
+    </div>
+
+     <div class="w3-padding w3-row">
+    <a href="https://g.page/r/CduLjyjBynZ6EAg/review"><button class="w3-button w3-round w3-teal w3-small w3-center" style="border-radius: 30px;">Write A Review</button>
+    </a>
+  </div>
+
+  </div>
