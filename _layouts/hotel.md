@@ -455,7 +455,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
             <form class="w3-margin-top w3-text-dark-gray w3-row w3-padding" onsubmit="alert('Thanks For Submiting The Form. Our Executives Will Reach To You Within 24 Hours');" method="page">
               <div style="margin-bottom: 6px;" class="elem-group w3-col s12 m12 l12">
   
-                <input style="border-radius: 15px;" class=" w3-input w3-round w3-tiny w3-border" type="text" id="name" name="visitor_name" placeholder="Full Name" pattern="[A-Z\sa-z]{3,20}" required="">
+                <input style="border-radius: 15px;" class="w3-margin-top w3-input w3-round w3-tiny w3-border" type="text" id="name" name="visitor_name" placeholder="Full Name" pattern="[A-Z\sa-z]{3,20}" required="">
               </div>
              <div class="elem-group w3-col s12 m12 l12" style="margin-bottom: 6px;">
   
@@ -471,13 +471,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
               </div>
               
              
-                <div class="w3-left">
-                  <label style="height: 35px; display: flex;
-                  align-items: center;
-                  justify-content: center;" class="w3-col s6 m6 l6" for="checkin-date">Travel date</label>
-                  <input  style="margin-bottom: 4px; border-radius: 15px;" class="w3-col s6 m6 l6 w3-input w3-round w3-tiny w3-border" type="date" id="checkout-date" name="checkout" required="">
-                </div>
-                <button class="w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Send Enquiry</button>
+                
+                <button class="w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Book Now</button>
               
               </div>
   
