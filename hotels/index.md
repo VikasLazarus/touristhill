@@ -26,7 +26,7 @@ permalink: /hotels/index.html
               <i class="fas fa-hotel w3-large"></i>
               <br>
 
-              <strong>Hotels</strong>
+              <strong>All Hotels</strong>
             </div>
             <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink"
               onclick="openCity(event,'London')">
