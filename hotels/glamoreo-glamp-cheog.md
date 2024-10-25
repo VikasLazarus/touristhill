@@ -133,7 +133,7 @@ detail: "Snow Crest Retreat is a great choice for travellers looking for a star 
     </div>
 
      <div class="w3-padding w3-row">
-    <a href="https://g.page/r/CduLjyjBynZ6EAg/review"><button class="w3-button w3-round w3-teal w3-small w3-center" style="border-radius: 30px;">Write A Review</button>
+    <a href=""><button class="w3-button w3-round w3-teal w3-small w3-center" style="border-radius: 30px;">Write A Review</button>
     </a>
   </div>
 
