@@ -31,6 +31,25 @@
     "url" : "https://touristhill.in"
 }
 </script>
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "{{page.title}}",
+  "description": "{{page.discription}}",
+  "author": {
+    "@type": "Person",
+    "name": "Tourist Hill"
+  },
+  "codeRepository": "{{site.url}}{{page.url}}",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{page.rating}},
+    "reviewCount": {{page.reviews-count}},
+    "bestRating": 5
+  }
+}
+</script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
