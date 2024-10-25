@@ -64,7 +64,7 @@ data: "glamoreo Glamp"
         <i class="w3-tiny fa fa-star w3-text-green"></i>
         <i class="w3-tiny fa fa-star w3-text-green"></i>
         <i class="w3-tiny fa fa-star w3-text-green"></i>
-        <p style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;" class="w3-small">
+        <p style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;">
           The place was immaculate & thoughtfully designed..The location was beautiful & peaceful..The food the room the amenities the staff the service was upto the mark..had a great time with my dog..The hosts were just amazing & provided the best of experience..would definitely be visiting again
         </p>
         <br>
@@ -89,7 +89,7 @@ data: "glamoreo Glamp"
         <i class="w3-tiny fa fa-star w3-text-green"></i>
         <i class="w3-tiny fa fa-star w3-text-green"></i>
         <i class="w3-tiny fa fa-star w3-text-green"></i>
-        <p style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;" class="w3-small">
+        <p style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;">
           Our experience at Glamoreo Glamp was one we’ll cherish forever. The views were stunning, with peaceful surroundings where you could hear the birds chirping. The weather was perfect, adding to the overall tranquility. Inside the glamp, the accommodations were both comfortable and uniquely designed, making our stay even more special. The host, a talented professional photographer, captured some beautiful moments for us, and we're eagerly looking forward to seeing the photos. We even got to pick apples straight from the trees, which was a delightful experience. We’re already planning our next visit!     </p>
         <br>
 
@@ -113,7 +113,7 @@ data: "glamoreo Glamp"
         <i class="w3-tiny fa fa-star w3-text-green"></i>
         <i class="w3-tiny fa fa-star w3-text-green"></i>
         <i class="w3-tiny fa fa-star w3-text-green"></i>
-        <p style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;" class="w3-small">
+        <p style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;">
           it's an amazing place with a great view, location is well described and everything was picture perfect like the dome ,view and best of all hot tub.Our experience was exceptionally good host was very friendly and always ready to help ,it's worth the price and it's a experience of a lifetime!!!
          </p>
         <br>
@@ -138,7 +138,7 @@ data: "glamoreo Glamp"
         <i class="w3-tiny fa fa-star w3-text-green"></i>
         <i class="w3-tiny fa fa-star w3-text-green"></i>
         <i class="w3-tiny fa fa-star w3-text-green"></i>
-        <p style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;" class="w3-small">
+        <p style="margin: 1px 1px; line-height: 1.5em; height: 6em; overflow: hidden;">
           The glamp was immaculately clean and tastefully decorated, providing a cozy and comfortable retreat throughout our stay. Ajay went above and beyond to ensure we had everything we needed, and his prompt communication made the entire experience seamless. The location was serene, peaceful and amidst apple orchard. Ajay’s mom made amazing Siddu and we tried it for the first time and fell in love with the Siddu. Also, experienced their Hot tub in night under clear sky which was just amazing. Overall, we had a wonderful time and would highly recommend Glamoreo to anyone looking for a memorable Glamping experience!
          </p>
         <br>
