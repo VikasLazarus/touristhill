@@ -328,76 +328,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
           
   <hr>
   </div>
-  <div class="w3-row">
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer Included</strong>
-    </div>
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fas fa-bed w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay Included</strong>
-    </div>
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fa-solid fa-utensils w3-text-gray" style="margin-right: 12px;"></i> <strong class="w3-text-gray">Breakfast & Dinner Included</strong>
-    </div>
-    <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fa-solid fa-images w3-text-gray" style="margin-right: 8px;"></i> <strong class="w3-text-gray">Sightseeing Included</strong>
-    </div>
-  </div>
   
-  <hr>
   
         </div>
 
         
-  <div class="w3-row">
-    <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Trip Duration</strong></h2>
-    <div style="padding: 0px 12px;">
-    <span class="w3-tag w3-light-gray w3-col w3-center w3-text-dark-gray" style="padding: 0px 20px; margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
-                align-items: center;
-                justify-content: center;"><strong>4 Nights | 5 Days</strong></span>
-                </div>
-  </div>
-  
-  <div class="w3-row ">
-    <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Destination Routes</strong></h2>
-    <div class="w3-row w3-light-gray w3-padding w3-margin" style="border-radius: 15px; padding: 0px 12px;">
-   <strong class="w3-text-dark-gray w3-small">Chandighrar <i class="fa-solid fa-arrow-right"></i> Shimla <i class="fa-solid fa-arrow-right"></i> Manali <i class="fa-solid fa-arrow-right"></i> Chandigarh </strong>
-                </div>
-  </div>
-  
-  <div class="w3-row ">
-    <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Stay Category</strong></h2>
-    <div class="w3-tag w3-light-gray w3-padding w3-margin" style="border-radius: 15px; padding: 0px 12px;">
-   <strong class="w3-text-dark-gray">Delux Property</strong>
-                </div>
-  </div>
-  
-  <hr>
-        <div class="w3-row">
-    <h2 class="w3-large w3-padding w3-text-dark-gray"><strong>Trip Hightlights</strong></h2>
-    <ul class="w3-text-gray">
-      <li>
-  <strong class="w3-text-dark-gray">Rohtang Pass:</strong> Drive to one of the highest motorable roads in the world and enjoy panoramic views.
-      </li>
-      <li>
-        <strong class="w3-text-dark-gray">Solang Valley:</strong> Engage in various adventure activities like paragliding, skiing, and zorbing.
-      </li>
-      <li>
-        <strong class="w3-text-dark-gray">Hadimba Temple:</strong> Visit this ancient temple dedicated to the goddess Hadimba and explore the surrounding Van Vihar.
-      </li>
-      <li>
-        <strong class="w3-text-dark-gray">Hadimba Temple:</strong> Visit this ancient temple dedicated to the goddess Hadimba and explore the surrounding Van Vihar.
-      </li>
-  <li>
-    <strong class="w3-text-dark-gray">Vashisht Village:</strong> Relax in the hot springs and visit the ancient Vashisht Temple.
-  </li>
-  <li>
-    <strong class="w3-text-dark-gray">Scenic Drives:</strong> Enjoy breathtaking views during your journey between Shimla and Manali.
-  </li>
-  <li>
-   <strong class="w3-text-dark-gray">Local Markets:</strong> Explore the vibrant markets of Shimla and Manali for souvenirs and local handicrafts.
-  </li>
-    </ul>
-  </div>
+{{page.content}}
   
  
   </div>
