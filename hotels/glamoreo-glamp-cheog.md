@@ -20,7 +20,25 @@ img5: glamoreo-glamp-5.webp
 detail: "Glamoreo Glamp is a great choice for travellers looking for a star hotel in Kufri. This Hotel stands out as one of the highly recommended hotel in Kufri. Hotel is rated out of 5, which is considered as very good."
 data: "glamoreo Glamp"
 ---
-
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "{{page.title}}",
+  "description": "{{page.discription}}",
+  "author": {
+    "@type": "Person",
+    "name": "Tourist Hill"
+  },
+  "codeRepository": "{{site.url}}{{page.url}}",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 4,
+    "bestRating": 5
+  }
+}
+</script>
    <div class="w3-row w3-white">
     <div class="w3-content">
      
