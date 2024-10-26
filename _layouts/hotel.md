@@ -170,7 +170,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
                 </div>
                 <hr>
-                <form id="Form1"  target="{{site.url}}/thanks.html" method="POST" action="https://script.google.com/macros/s/AKfycbyb8dnQYDtXXTf9zVw8zqWxUera5pVBG5EOC2H16pfEn4o7eNIdOGU0WqR6M3LJnpcn/exec" class="w3-text-dark-gray w3-row">
+                <form id="Form1" target="formResponse"
+  onsubmit="
+    formResponse.frameElement.onload = () => location.href = '/';
+    Array.from(this.elements).forEach(e => e.disabled = true);
+  " method="POST" action="https://script.google.com/macros/s/AKfycbyb8dnQYDtXXTf9zVw8zqWxUera5pVBG5EOC2H16pfEn4o7eNIdOGU0WqR6M3LJnpcn/exec" class="w3-text-dark-gray w3-row">
 
 
 <input style="border-radius: 15px;" class=" w3-hide" type="text" id="Hotel" name="Hotel" value="{{page.title}}" required="">
