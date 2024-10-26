@@ -190,7 +190,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
                  </div>
                     <div class="w3-row">
-                    <button type="submit"   window.location.href = '{{site.url}}/thank-you.html'; class="w3-large w3-mobile w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Connect With a Expert</button>
+                    <button type="submit" onclick='window.location.href='{{site.url}}/thank-you.html''   class="w3-large w3-mobile w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Connect With a Expert</button>
                 </div>  
                   </div>
 </form>
