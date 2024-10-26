@@ -170,7 +170,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
                 </div>
                 <hr>
-                <form method="POST" action="https://script.google.com/macros/s/AKfycbyb8dnQYDtXXTf9zVw8zqWxUera5pVBG5EOC2H16pfEn4o7eNIdOGU0WqR6M3LJnpcn/exec" class="w3-text-dark-gray w3-row">
+                <form id="Form1"  onsubmit="return redirect()" method="POST" action="https://script.google.com/macros/s/AKfycbyb8dnQYDtXXTf9zVw8zqWxUera5pVBG5EOC2H16pfEn4o7eNIdOGU0WqR6M3LJnpcn/exec" class="w3-text-dark-gray w3-row">
 
 
 <input style="border-radius: 15px;" class=" w3-hide" type="text" id="Hotel" name="Hotel" value="{{page.title}}" required="">
@@ -194,13 +194,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
                  </div>
                     <div class="w3-row">
-                    <button  onclick="myFunction5()" type="submit" class="w3-large w3-mobile w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Connect With a Expert</button>
+                    <button type="submit" class="w3-large w3-mobile w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Connect With a Expert</button>
                 </div>  
                   </div>
 </form>
 <script>
-function myFunction5() {
-window.location.href = "{{site.url}}thanks.html";
+window.onload=function() {
+  document.getElementById("Form1").onsubmit=function() {
+    window.location.replace("login.php");
+    return false;
+  }
 }
 </script>
          </div>
