@@ -170,7 +170,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
                 </div>
                 <hr>
-                <form type="post" action="https://script.google.com/macros/s/AKfycbzePwFG1Am3Lii2C81YvoJWVOtXecYwXR27LY9IjJ9PRWW917QLxtWN58tymWplBbk4/exec" class="w3-text-dark-gray w3-row" onsubmit="alert('Thanks For Submiting The Form. Our Executives Will Reach To You Within 24 Hours');" method="page">
+                <form type="POST" action="https://script.google.com/macros/s/AKfycbzePwFG1Am3Lii2C81YvoJWVOtXecYwXR27LY9IjJ9PRWW917QLxtWN58tymWplBbk4/exec" class="w3-text-dark-gray w3-row" onsubmit="alert('Thanks For Submiting The Form. Our Executives Will Reach To You Within 24 Hours');" method="page">
                   <div style="margin-bottom: 6px;" class="elem-group w3-col s12 m12 l12">
       <lable class="w3-small" style="margin-bottom: 4px;">Full Name <span class="w3-text-red">*</span></lable>
                     <input style="border-radius: 15px;" class=" w3-input w3-large w3-round w3-tiny w3-border" type="text" id="name" name="visitor_name" placeholder="Jonh Doe" pattern="[A-Z\sa-z]{3,20}" required="">
