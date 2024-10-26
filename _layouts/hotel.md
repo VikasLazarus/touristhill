@@ -170,7 +170,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
                 </div>
                 <hr>
-                <form method="POST" action="https://script.google.com/macros/s/AKfycbxBoS4J5eQE2pmJGz65qyOFswNrw4XU2nsVHzXOd59ksARb6v7KVbb8ayHMbl1I1rLi/exec" class="w3-text-dark-gray w3-row">
+                <form method="POST" action="https://script.google.com/macros/s/AKfycbyb8dnQYDtXXTf9zVw8zqWxUera5pVBG5EOC2H16pfEn4o7eNIdOGU0WqR6M3LJnpcn/exec" class="w3-text-dark-gray w3-row">
 
 
 <input style="border-radius: 15px;" class=" w3-hide" type="text" id="Hotel" name="Hotel" value="{{page.title}}" required="">
