@@ -173,17 +173,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
                 <form method="POST" action="https://script.google.com/macros/s/AKfycbx-EXLLTWzUgw_YAw3k7AtHMqVvMypo8khPWGbIpw3CPLme89bOk9lC4NONXAzmlQF-/exec" class="w3-text-dark-gray w3-row">
                   <div style="margin-bottom: 6px;" class="elem-group w3-col s12 m12 l12">
       <lable class="w3-small" style="margin-bottom: 4px;">Full Name <span class="w3-text-red">*</span></lable>
-                    <input style="border-radius: 15px;" class=" w3-input w3-large w3-round w3-tiny w3-border" type="text" id="name" name="Name" placeholder="Jonh Doe" pattern="[A-Z\sa-z]{3,20}" required="">
+                    <input style="border-radius: 15px;" class=" w3-input w3-large w3-round w3-tiny w3-border" type="text" id="Name" name="Name" placeholder="Jonh Doe" pattern="[A-Z\sa-z]{3,20}" required="">
                   </div>
                  <div class="elem-group w3-col s12 m12 l12" style="margin-bottom: 6px;">
                     <lable class="w3-small" style="margin-bottom: 4px;">Email Address <span class="w3-text-red">*</span></lable>
                     
-                    <input style="border-radius: 15px;" class=" w3-input w3-large w3-round w3-tiny w3-border" type="email" id="email" name="Email" placeholder="john.doe@email.com" required="">
+                    <input style="border-radius: 15px;" class=" w3-input w3-large w3-round w3-tiny w3-border" type="email" id="Email" name="Email" placeholder="john.doe@email.com" required="">
                   </div>
                   <div class="elem-group w3-col s12 m12 l12" style="margin-bottom: 6px;">
                     <lable class="w3-small" style="margin-bottom: 4px;">Contect Number <span class="w3-text-red">*</span></lable>
                     
-                    <input style="border-radius: 15px;" class="w3-input w3-large w3-round w3-tiny w3-border" type="tel" id="phone" name="Phone" placeholder="+91-" pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})" required="">
+                    <input style="border-radius: 15px;" class="w3-input w3-large w3-round w3-tiny w3-border" type="tel" id="Phone" name="Phone" placeholder="+91-" pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})" required="">
                   </div>
      
                 
