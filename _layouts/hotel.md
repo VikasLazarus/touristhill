@@ -22,6 +22,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="{{site.url}}/style.css">
+ <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <script type="application/ld+json">
 {
@@ -170,11 +171,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
                 </div>
                 <hr>
-                <form id="Form1" target="formResponse"
-  onsubmit="
-    formResponse.frameElement.onload = () => location.href = '/';
-    Array.from(this.elements).forEach(e => e.disabled = true);
-  " method="POST" action="https://script.google.com/macros/s/AKfycbyb8dnQYDtXXTf9zVw8zqWxUera5pVBG5EOC2H16pfEn4o7eNIdOGU0WqR6M3LJnpcn/exec" class="w3-text-dark-gray w3-row">
+                <form  id="frmSubmit" method="POST" class="w3-text-dark-gray w3-row">
 
 
 <input style="border-radius: 15px;" class=" w3-hide" type="text" id="Hotel" name="Hotel" value="{{page.title}}" required="">
@@ -195,14 +192,31 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
                   </div>
      
                 
-
+<div id="msg"></div>
                  </div>
                     <div class="w3-row">
-                    <button type="submit" class="w3-large w3-mobile w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Connect With a Expert</button>
+                    <button  id="btnSubmit" type="submit" class="w3-large w3-mobile w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Connect With a Expert</button>
                 </div>  
                   </div>
 </form>
-
+<script>
+	  jQuery('#frmSubmit').on('submit',function(e){
+		e.preventDefault();
+		jQuery('#msg').html('Please wait...');
+		jQuery('#btnSubmit').attr('disabled',true);
+		jQuery.ajax({
+			url:'https://script.google.com/macros/s/AKfycbyb8dnQYDtXXTf9zVw8zqWxUera5pVBG5EOC2H16pfEn4o7eNIdOGU0WqR6M3LJnpcn/exec',
+			type:'post',
+			data:jQuery('#frmSubmit').serialize(),
+			success:function(result){
+				jQuery('#frmSubmit')[0].reset();
+				jQuery('#msg').html('Thank You');
+				jQuery('#btnSubmit').attr('disabled',false);
+				window.location.href='{{site.url}}/thanks.html';
+			}
+		});
+	  });
+	  </script>
          </div>
         </div>
       </div>
