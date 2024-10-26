@@ -170,7 +170,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
                 </div>
                 <hr>
-                <form method="POST" action="https://script.google.com/macros/s/AKfycbx-EXLLTWzUgw_YAw3k7AtHMqVvMypo8khPWGbIpw3CPLme89bOk9lC4NONXAzmlQF-/exec" class="w3-text-dark-gray w3-row">
+                <form id="sheetdb-form" method="POST" action="https://script.google.com/macros/s/AKfycbx-EXLLTWzUgw_YAw3k7AtHMqVvMypo8khPWGbIpw3CPLme89bOk9lC4NONXAzmlQF-/exec" class="w3-text-dark-gray w3-row">
                   <div style="margin-bottom: 6px;" class="elem-group w3-col s12 m12 l12">
       <lable class="w3-small" style="margin-bottom: 4px;">Full Name <span class="w3-text-red">*</span></lable>
                     <input style="border-radius: 15px;" class=" w3-input w3-large w3-round w3-tiny w3-border" type="text" id="Name" name="Name" placeholder="Jonh Doe" pattern="[A-Z\sa-z]{3,20}" required="">
@@ -558,5 +558,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
     }
   }
   </script>
+  <script>
+  var form = document.getElementById('sheetdb-form');
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(form.action, {
+        method : "POST",
+        body: new FormData(document.getElementById("sheetdb-form")),
+    }).then(
+        response => response.json()
+    ).then((html) => {
+      // you can put any JS code here
+     window.location.href = '{{site.url}}/thank-you.html';
+    });
+  });
+</script>
 </body>
 </html>
