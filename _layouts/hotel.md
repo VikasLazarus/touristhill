@@ -183,17 +183,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
                   <div class="elem-group w3-col s12 m12 l12" style="margin-bottom: 6px;">
                     <lable class="w3-small" style="margin-bottom: 4px;">Contect Number <span class="w3-text-red">*</span></lable>
                     
-                    <input style="border-radius: 15px;" class="w3-input w3-large w3-round w3-tiny w3-border" type="tel" id="phone" name="Phone" placeholder="+91-81294-71645" pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})" required="">
+                    <input style="border-radius: 15px;" class="w3-input w3-large w3-round w3-tiny w3-border" type="tel" id="phone" name="Phone" placeholder="+91-" pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})" required="">
                   </div>
      
                 
 
                  </div>
                     <div class="w3-row">
-                    <button class="w3-large w3-mobile w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Connect With a Expert</button>
+                    <button type="submit" class="w3-large w3-mobile w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Connect With a Expert</button>
                 </div>  
                   </div>
-
+</form>
          </div>
         </div>
       </div>
