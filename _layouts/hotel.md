@@ -202,7 +202,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 <script>
 	  jQuery('#frmSubmit').on('submit',function(e){
 		e.preventDefault();
-		jQuery('#msg').html('Please wait...');
+		jQuery('#msg').html('<p>Please wait...</p>');
 		jQuery('#btnSubmit').attr('disabled',true);
 		jQuery.ajax({
 			url:'https://script.google.com/macros/s/AKfycbyb8dnQYDtXXTf9zVw8zqWxUera5pVBG5EOC2H16pfEn4o7eNIdOGU0WqR6M3LJnpcn/exec',
@@ -210,9 +210,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 			data:jQuery('#frmSubmit').serialize(),
 			success:function(result){
 				jQuery('#frmSubmit')[0].reset();
-				jQuery('#msg').html('Thank You');
+				jQuery('#msg').html('<p class="w3-text-green">Thank You. your Responce Has Been Recorded</p>');
 				jQuery('#btnSubmit').attr('disabled',false);
-				window.location.href='{{site.url}}/thanks.html';
+				//window.location.href='{{site.url}}/thanks.html';
 			}
 		});
 	  });
