@@ -446,7 +446,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
                       <br><strike class="w3-text-gray">INR {{page.price-strike}}</strike></p>
   
             </div>
-            <form id="frmSubmit" class="w3-margin-top w3-text-dark-gray w3-row w3-padding" method="POST">
+            <form id="frmSubmit2" class="w3-margin-top w3-text-dark-gray w3-row w3-padding" method="POST">
               <div style="margin-bottom: 6px;" class="elem-group w3-col s12 m12 l12">
   <input style="border-radius: 15px;" class=" w3-hide" type="text" id="Hotel" name="Hotel" value="{{page.title}}" required="">
 <input style="border-radius: 15px;" class=" w3-hide" type="text" id="Hotel" name="Type" value="New" required="">
@@ -462,10 +462,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
               </div>
   
             
-               <div id="msg"></div>
+               <div id="msg2"></div>
              
                 
-                <button  id="btnSubmit" class="w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Connect With a Expert</button>
+                <button  id="btnSubmit2" class="w3-button w3-round w3-text-white w3-margin-top w3-margin-bottom w3-left w3-teal w3-small" style="border-radius: 30px;" type="submit">Connect With a Expert</button>
               
               </div>
   
@@ -576,6 +576,24 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 				jQuery('#frmSubmit')[0].reset();
 				jQuery('#msg').html('<p class="w3-text-green">Thank You. your Responce Has Been Recorded</p>');
 				jQuery('#btnSubmit').attr('disabled',false);
+				//window.location.href='{{site.url}}/thanks.html';
+			}
+		});
+	  });
+	  </script>
+    <script>
+	  jQuery('#frmSubmit2').on('submit',function(e){
+		e.preventDefault();
+		jQuery('#msg2').html('<p>Please wait...</p>');
+		jQuery('#btnSubmit2').attr('disabled',true);
+		jQuery.ajax({
+			url:'https://script.google.com/macros/s/AKfycbyb8dnQYDtXXTf9zVw8zqWxUera5pVBG5EOC2H16pfEn4o7eNIdOGU0WqR6M3LJnpcn/exec',
+			type:'post',
+			data:jQuery('#frmSubmit2').serialize(),
+			success:function(result){
+				jQuery('#frmSubmit2')[0].reset();
+				jQuery('#msg2').html('<p class="w3-text-green">Thank You. your Responce Has Been Recorded</p>');
+				jQuery('#btnSubmit2').attr('disabled',false);
 				//window.location.href='{{site.url}}/thanks.html';
 			}
 		});
