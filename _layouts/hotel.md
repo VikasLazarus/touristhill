@@ -142,7 +142,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
    
     <div class="w3-row">
       <div class="w3-col w3-right" style="width: 110px;">
-        <button  onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-teal w3-small w3-card-4" style="border-radius: 30px;">Send Enquiry</button>
+        <button  onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-teal w3-small w3-card-4" style="border-radius: 30px;">Book Now</button>
       </div>
       <div class="w3-rest">
         <b class="w3-xlarge">INR {{page.price}} <span class="w3-small w3-text-gray">{{page.price-per}}</span></b>
@@ -185,19 +185,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
                     
                     <input style="border-radius: 15px;" class="w3-input w3-large w3-round w3-tiny w3-border" type="tel" id="phone" name="visitor_phone" placeholder="+91-81294-71645" pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})" required="">
                   </div>
-      <div class="w3-row">
-                  <div class=" w3-col s4 m4 l4" style="margin-bottom: 6px;">
-                    <lable class="w3-small" style="margin-bottom: 4px;">Traveller Count <span class="w3-text-red">*</span></lable>
-                  <input style="border-radius: 15px;" class=" w3-input w3-large w3-round w3-tiny w3-border" type="number" id="adult" name="total_adults" placeholder="Travelrs Count" min="1" required="">
-                  </div>
-
-                  <div class="w3-col s8 m8 l8" style="padding-left: 12px;">
-                    <lable class="w3-small" style="margin-bottom: 4px;">Travel Date <span class="w3-text-red">*</span></lable>
-                  
-                     <input  style="margin-bottom: 4px; border-radius: 15px;" class="w3-right-align w3-rest w3-input w3-large w3-round w3-tiny w3-border" type="date" id="checkout-date" name="checkout" required="">
-                    </div>
-
-                 </div>
+     
                 
 
                  </div>
