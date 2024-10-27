@@ -309,11 +309,12 @@
       </a>
 
 
-      <span class="w3-bar-item w3-hide-medium w3-hide-large w3-right w3-hover-white">
-
+      <span class="w3-bar-item w3-hide-medium w3-hide-large w3-right w3-hover-none">
+<a href="tel:{{site.phone1}}">
         <span class="w3-ro" style="background-color: #ffffff60; border-radius:30px ; padding: 0px 7.3px; padding-bottom: 4px; margin-right: 6px;">
           <i class="w3-text-white  fa fa-phone w3-small" style="padding-left:2px ;"></i>
         </span>
+        </a>
       </span>
 
       
