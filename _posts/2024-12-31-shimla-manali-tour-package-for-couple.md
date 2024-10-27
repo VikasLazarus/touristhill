@@ -1,11 +1,11 @@
 ---
 layout: tour
-title:  "Shimla Manali Tour Package For Couple"
-discription: "Shimla Manali Honeymoon Package From Chandigarh with a 4-night, 5-day Shimla Manali tour. Enjoy stunning views, thrilling activities, and unforgettable experiences."
-keywords: "Shimla Manali Honeymoon Package,Shimla Manali Honeymoon Package From Chandigarh 4 Nights 5 Days"
+title:  "Shimla Manali Tour Package For Couple From Delhi"
+discription: "Shimla Manali Tour Package For Couple From Delhi with a 4-night, 5-day Shimla Manali tour. Enjoy stunning views, thrilling activities, and unforgettable experiences."
+keywords: "Shimla Manali Tour Package For Couple From Delhi,Shimla Manali Tour Package For Couple"
 date:   2024-09-09 05:16:52 -0700
 categories: Shimla Manali Honeymoon
-permalink: /tours/:title
+permalink: /tours/shimla-manali-tour-package-for-couple.html
 duration: 4 Nights 5 Days
 duration-short: 4N | 5D
 duration-days: 2D Shimla 2D Manali
@@ -28,7 +28,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
 
 <div class="w3-row w3-padding">
     <h2 class="w3-large w3-text-dark-gray w3-margin-bottom"><strong>Tour Itinerary</strong></h2>
-    
+    <<h3 class="w3-large w3-text-dark-gray w3-margin-bottom">Shimla Manali Tour Package For Couple From Delhi</h3>
     <div class="w3-row w3-margin-top w3-margin-bottom">
       <span class="w3-tag w3-teal w3-col w3-center w3-card" style="margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
       align-items: center;
