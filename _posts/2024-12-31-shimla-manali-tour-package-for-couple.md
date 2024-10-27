@@ -28,7 +28,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
 
 <div class="w3-row w3-padding">
     <h2 class="w3-large w3-text-dark-gray w3-margin-bottom"><strong>Tour Itinerary</strong></h2>
-    <<h3 class="w3-large w3-text-dark-gray w3-margin-bottom">Shimla Manali Tour Package For Couple From Delhi</h3>
+    <h3 class="w3-large w3-text-dark-gray w3-margin-bottom">Shimla Manali Tour Package For Couple From Delhi</h3>
     <div class="w3-row w3-margin-top w3-margin-bottom">
       <span class="w3-tag w3-teal w3-col w3-center w3-card" style="margin-right: 6px; margin-top:10px; height: 31px; width: fit-content; border-radius: 15px; display: flex;
       align-items: center;
