@@ -39,17 +39,7 @@ permalink: /hotels/index.html
               <i class="fas fa-skiing-nordic w3-large"></i><br>
               <strong>Manali</strong>
             </div>
-            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal tablink"
-              onclick="openCity(event,'Tokyo')">
-              <i class="fa fa-heart w3-large" aria-hidden="true"></i> <br>
-              <strong>Honeymoon</strong>
-            </div>
-
-
-            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-teal ">
-              <i class="fa-solid fa-mountain-sun w3-large"></i><br>
-              <strong>Dharamshala</strong>
-            </div>
+    
           </div>
 
         </div>
@@ -63,26 +53,10 @@ permalink: /hotels/index.html
         <hr>
 
 <div class="w3-row w3-content">
-  <div id="London" class="w3-container w3-border city">
-    <h2>London</h2>
-    <p>London is the capital city of England.</p>
-  </div>
-
-  <div id="Paris" class="w3-container w3-border city" style="display:none">
-    <h2>Paris</h2>
-    <p>Paris is the capital of France.</p> 
-  </div>
-
-  <div id="Tokyo" class="w3-container w3-border city" style="display:none">
-    <h2>Tokyo</h2>
-    <p>Tokyo is the capital of Japan.</p>
-  </div>
-</div>
-
-
-
- <div class="w3-content">
-        <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
+  <div id="Explore" class="city">
+    <h2>All Hotels</h2>
+    
+<div class="w3-row w3-row-padding" style="margin: 0px -16px;">
 
   
   {% for page in site.pages %}
@@ -144,7 +118,23 @@ permalink: /hotels/index.html
 
           </div>
 
-      </div>
+
+  </div>
+
+  <div id="Paris" class="city" style="display:none">
+    <h2>Hotels In Shimla</h2>
+    <p>Paris is the capital of France.</p> 
+  </div>
+
+  <div id="Tokyo" class="city" style="display:none">
+    <h2>Hotels In Manali</h2>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+</div>
+
+
+
+
 
 
        </div>
