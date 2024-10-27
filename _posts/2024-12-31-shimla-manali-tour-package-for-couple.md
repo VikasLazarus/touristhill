@@ -45,7 +45,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
       <div class="w3-row w3-display-bottomleft w3-padding w3-text-white" style="width: 100%; border-radius: 15px; background-image: linear-gradient(#ffffff00, #000000);">
         <span class="w3-xxxlarge w3-col" style="width:fit-content; padding-right: 6px;"><strong>2</strong></span> <span class="w3-col w3-small" style="width: 200px; padding-top: 13px;"><strong>Days In<br><span class="w3-large">SHIMLA</span></strong></span>
       </div>
-    <img alt="{{page.title}}" src="{{site.url}}/images/shimla-manali-adventure-package-from-chandigarh-4-Nights-5-Days-4.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
+    <img alt="{{page.title}}" src="{{site.url}}/images/shimla-manali-adventure-package-from-Delhi-4-Nights-5-Days-4.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
     </div>
     
     <div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray">
@@ -81,7 +81,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
     
       <div class="w3-col" style="width: fit-content; padding-right: 18px;">
         From <br>
-        <sapn class="w3-large w3-text-gray"><strong>Chandigarh</strong></sapn>
+        <sapn class="w3-large w3-text-gray"><strong>Delhi</strong></sapn>
       </div>
       
       <div class="w3-col" style="width: fit-content; padding-right: 18px;">
@@ -428,7 +428,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
         
         <div class="w3-col" style="width: fit-content; padding-right: 18px;">
           To <br>
-          <sapn class="w3-large w3-text-gray"><strong>Chandigarh</strong></sapn>
+          <sapn class="w3-large w3-text-gray"><strong>Delhi</strong></sapn>
         </div>
       </div>
       <hr>
