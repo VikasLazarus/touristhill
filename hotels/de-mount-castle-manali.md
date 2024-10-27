@@ -12,10 +12,10 @@ price-strike: "27,000"
 price-save: "10,000"
 reviews-count: 360
 rating: 4.5
-img1: placeholder.png
-img2: placeholder.png
-img3: placeholder.png
-img4: placeholder.png
-img5: placeholder.png
+img1: de-mount-castle-manali-1
+img2: de-mount-castle-manali-2
+img3: de-mount-castle-manali-3
+img4: de-mount-castle-manali-4
+img5: de-mount-castle-manali-5
 detail: 
 ---
