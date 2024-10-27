@@ -54,7 +54,7 @@ permalink: /hotels/index.html
 
 <div class="w3-row w3-content">
   <div id="Explore" class="city">
-    <h2>All Hotels</h2>
+    <h2 class="w3-large w3-margin-bottom"><strong>All Hotels</strong></h2>
     
 <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
 
@@ -122,7 +122,7 @@ permalink: /hotels/index.html
   </div>
 
   <div id="Shimla" class="city" style="display:none">
-    <h2>Hotels In Shimla</h2>
+    <h2 class="w3-large w3-margin-bottom"><strong>Hotels In Shimla</strong></h2>
    
 <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
 
@@ -191,7 +191,7 @@ permalink: /hotels/index.html
   </div>
 
   <div id="Manali" class="city" style="display:none">
-    <h2>Hotels In Manali</h2>
+    <h2 class="w3-large w3-margin-bottom"><strong>Hotels In Manali</strong></h2>
     
 <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
 
