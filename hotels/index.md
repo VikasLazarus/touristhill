@@ -61,6 +61,26 @@ permalink: /hotels/index.html
 </div>
 
         <hr>
+
+<div class="w3-row w3-content">
+  <div id="London" class="w3-container w3-border city">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+  </div>
+
+  <div id="Paris" class="w3-container w3-border city" style="display:none">
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p> 
+  </div>
+
+  <div id="Tokyo" class="w3-container w3-border city" style="display:none">
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+</div>
+
+
+
  <div class="w3-content">
         <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
 
