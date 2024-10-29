@@ -1,8 +1,8 @@
 
  <ul>
-{% for data in site.data.hotel-reviews.[page.title] %}
+{% for member in site.data.hotel-reviews.[page.title] %}
   <li>
-    <p>{{ data.name }} - {{ data.review }}</p>
+    <p>{{ member.name }} - {{ member.review }}</p>
   </li>
 {% endfor %}
 </ul>
