@@ -20,7 +20,7 @@ img5: de-mount-castle-manali-5.jpg
 detail: 
 ---
 <ul>
-{% for member in site.data.members %}
+{% for member in site.data.members.yml %}
   <li>
     <a href="https://github.com/{{ member.github }}">
       {{ member.name }}
