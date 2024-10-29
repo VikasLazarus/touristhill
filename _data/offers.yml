@@ -1,8 +1,8 @@
 De Mount Castle Manali:
     icon: pizza-slice
     text: Meal
-    icon2: pizza-slice
-    text2: Kitchen
+    icon1: pizza-slice
+    text1: Meal
     icon2: pizza-slice
     text2: Kitchen
     icon3: pizza-slice
@@ -19,23 +19,23 @@ De Mount Castle Manali:
     text8: Kitchen
 
 Glamoreo Glamp Cheog Shimla:
-    icon1: pizza-slice
-    text1: Kitchen
+    icon: pizza-slice
+    text: Kitchen
     icon1: hot-tub
     text1: Hot Tub
     icon2: wifi
     text2: wifi
-    icon2: parking
-    text2: Free Parking
-    icon3: laptop-house
-    text3: Workspace
-    icon4: tv
-    text4: HD TV
-    icon5: wind
-    text5: Dryer
-    icon6: paw
-    text6: Pets allowed
-    icon7: soap
-    text7: washing machine
-    icon8: fan
-    text8: Air conditioning
+    icon3: parking
+    text3: Free Parking
+    icon4: laptop-house
+    text4: Workspace
+    icon5: tv
+    text5: HD TV
+    icon6: wind
+    text6: Dryer
+    icon7: paw
+    text7: Pets allowed
+    icon8: soap
+    text8: washing machine
+    icon9: fan
+    text9: Air conditioning
