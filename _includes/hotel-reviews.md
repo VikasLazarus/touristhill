@@ -1,11 +1,11 @@
 
- <ul>
-{% for member in site.data.hotel-reviews %}
-  <li>
+ 
+{% for member in site.data.hotel-reviews | where "newhire","true" %}
+ 
     <p>{{ member.name }} - {{ member.review }}</p>
-  </li>
+  
 {% endfor %}
-</ul>
+
 
 
 <div class="w3-row w3-content">
