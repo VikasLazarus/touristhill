@@ -27,11 +27,7 @@ data: "glamoreo Glamp"
 
 
 
-{% for new in site.data.hotel-reviews %}
- 
-    <p>{{ new.name }} {{ new.review }}</p>
-  
-{% endfor %}
+
 
 
 

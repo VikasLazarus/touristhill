@@ -19,8 +19,7 @@ img4: de-mount-castle-manali-4.jpg
 img5: de-mount-castle-manali-5.jpg
 detail: 
 ---
-{% for new in site.data.hotel-reviews %}
- 
-    <p>{{ new.name }} {{ new.review }}</p>
-  
-{% endfor %}
+{% assign author = site.data.people[page.title] %}
+
+   <P> {{ author.name }}</p>
+
