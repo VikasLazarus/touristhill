@@ -7,7 +7,7 @@
     <i class="fas fa-{{ new.icon2 }} w3-text-dark-gray" style="margin-right: 6px;"></i> <strong class="w3-text-dark-gray">{{ new.text2 }}</strong>
   </div>
   <div class="w3-col s6 m4 l4" style="padding: 6px 0px;">
-    <i class="fa-solid fa-{{ new.icon }} w3-text-dark-gray" style="margin-right: 12px;"></i> <strong class="w3-text-dark-gray">{{ new.text3 }}</strong>
+    <i class="fa-solid fa-{{ new.icon3 }} w3-text-dark-gray" style="margin-right: 12px;"></i> <strong class="w3-text-dark-gray">{{ new.text3 }}</strong>
   </div>
   <div class="w3-col s6 m4 l4" style="padding: 6px 0px;">
     <i class="fa-solid fa-{{ new.icon4 }} w3-text-dark-gray" style="margin-right: 8px;"></i> <strong class="w3-text-dark-gray">{{ new.text4 }}</strong>
