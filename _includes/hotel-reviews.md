@@ -1,6 +1,6 @@
 
  
-{% for new in site.data.hotel-reviews | where "title","{{page.title}}" %}
+{% for new in site.data.hotel-reviews | where "title","[page.title]" %}
  
     <p>{{ new.name }} {{ new.review }}</p>
   
