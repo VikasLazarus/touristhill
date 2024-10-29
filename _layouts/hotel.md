@@ -484,7 +484,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 {{page.content}}
 
 <!-- Footer -->
- 
+ <ul>
+{% for member in site.data.members %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 {% include footer.md %}
  
 <!-- Swiper JS -->

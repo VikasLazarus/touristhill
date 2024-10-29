@@ -19,12 +19,3 @@ img4: de-mount-castle-manali-4.jpg
 img5: de-mount-castle-manali-5.jpg
 detail: 
 ---
-<ul>
-{% for member in site.data.members %}
-  <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
