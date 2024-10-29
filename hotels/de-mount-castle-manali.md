@@ -20,10 +20,10 @@ img5: de-mount-castle-manali-5.jpg
 detail: 
 ---
 <ul>
-{% for reviews in site.data.hotel-reviews %}
+{% for review in site.data.hotelreviews %}
   <li>
-    <a href="https://github.com/{{ reviews.github }}">
-      {{ reviews.name }}
+    <a href="https://github.com/{{ review.github }}">
+      {{ review.name }}
     </a>
   </li>
 {% endfor %}
