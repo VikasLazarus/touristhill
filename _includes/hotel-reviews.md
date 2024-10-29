@@ -1,6 +1,6 @@
 
  <ul>
-{% for member in site.data.hotel-reviews.[page.title] %}
+{% for member in site.data.hotel-reviews %}
   <li>
     <p>{{ member.name }} - {{ member.review }}</p>
   </li>
