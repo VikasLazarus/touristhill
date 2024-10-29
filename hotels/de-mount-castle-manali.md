@@ -26,4 +26,5 @@ detail:
       {{ reviews.name }}
     </a>
   </li>
-{% endf
+{% endfor %}
+</ul>
