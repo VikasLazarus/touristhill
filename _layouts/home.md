@@ -10,9 +10,8 @@
     content="Tourist Hill,Tourist Hill Travels,Tourist Hill Tour And Travels,Himachal Pradesh tourism,Himachal travel packages,Shimla tour,Manali tour,">
   <meta name="author" content="Tourist hill">
   <link rel="canonical" href="{{site.url}}" />
-  <meta name="google-adsense-account" content="ca-pub-3313624136394536">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3313624136394536"
-     crossorigin="anonymous"></script>
+
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
