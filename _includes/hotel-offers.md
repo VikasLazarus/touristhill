@@ -1,6 +1,6 @@
-{% assign author = site.data.offers[page.title] %}
+{% assign new = site.data.offers[page.title] %}
  <div class="w3-col s6 m4 l4" style="padding: 6px 0px;">
-    <i class="fa-solid fa-pizza-slice w3-text-dark-gray" style="margin-right: 6px;"></i> <strong class="w3-text-dark-gray">Kitchen</strong>
+    <i class="fa-solid fa-{{ author.icon1 }} w3-text-dark-gray" style="margin-right: 6px;"></i> <strong class="w3-text-dark-gray">{{ author.text1 }}</strong>
   </div>
   <div class="w3-col s6 m4 l4" style="padding: 6px 0px;">
     <i class="fas fa-hot-tub w3-text-dark-gray" style="margin-right: 6px;"></i> <strong class="w3-text-dark-gray">Hot Tub</strong>
@@ -30,4 +30,4 @@
     <i class="fa-solid fa-fan w3-text-dark-gray" style="margin-right: 8px;"></i> <strong class="w3-text-dark-gray">Air conditioning</strong>
   </div>
 
-   <P> {{ author.name }}</p>
+  
