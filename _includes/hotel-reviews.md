@@ -1,8 +1,8 @@
 
  
-{% for member in site.data.hotel-reviews | where "newhire","true" %}
+{% for new in site.data.hotel-reviews | where "title","{{page.title}}" %}
  
-    <p>{{ member.name }} - {{ member.review }}</p>
+    <p>{{ new.name }} {{ new.review }}</p>
   
 {% endfor %}
 
