@@ -19,7 +19,7 @@ img4: de-mount-castle-manali-4.jpg
 img5: de-mount-castle-manali-5.jpg
 detail: 
 ---
-{% assign author = site.data.people[page.title] %}
+{% assign author = site.data.offers[page.title] %}
 
    <P> {{ author.name }}</p>
 
