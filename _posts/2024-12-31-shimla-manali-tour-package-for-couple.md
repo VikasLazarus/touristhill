@@ -5,7 +5,7 @@ discription: "Shimla Manali Tour Package For Couple From Delhi with a 4-night, 5
 keywords: "Shimla Manali Tour Package For Couple From Delhi,Shimla Manali Tour Package For Couple"
 date:   2024-09-09 05:16:52 -0700
 categories: Shimla Manali Honeymoon
-permalink: /tours/shimla-manali-tour-package-for-couple.html
+permalink: /tours/shimla-manali-tour-package-for-couple
 duration: 4 Nights 5 Days
 duration-short: 4N | 5D
 duration-days: 2D Shimla 2D Manali
