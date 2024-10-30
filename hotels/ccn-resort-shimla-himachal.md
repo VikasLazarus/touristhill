@@ -1,8 +1,8 @@
 ---
 layout: hotel
 title:  "CCN Resort Shimla Ghanahatti"
-discription: "CCN Resort Shimla is the best hotel in shimla to stay with family and friend best price and goog amenities available book now"
-date:   2024-09-09 05:16:52 -0700
+discription: "CCN Resort Shimla is the best hotel in shimla to stay with family and friend best price and good amenities available book now"
+date:   2024-10-09 05:16:52 -0700
 categories: Hotels
 permalink: /hotels/ccc-resort-shimla.html
 location: Shimla
@@ -10,28 +10,17 @@ price: "3,000"
 price-per: Per Night 
 price-strike: "5,000"
 price-save: "2,000"
-reviews-count: 71
-rating: 4.8
+reviews-count: 4
+rating: 5.0
 img1: ccn-resort-shimla-1.webp
 img2: ccn-resort-shimla-2.webp
 img3: ccn-resort-shimla-3.webp
 img4: ccn-resort-shimla-4.webp
 img5: ccn-resort-shimla-5.webp
 detail: "CCN Resort is located in Shimla the one of best hotels to stay in shimla with best service and rooms nice outside view and best amenitis available book now. super delux to premium sute is available in CCN Resort Shimla"
-data: ""
+data: "CCN Resort"
 ---
  
-  
-
-
-
-
-
-
-
-
-
-
 
 <!-- Content -->
 <div class="w3-row w3-content">
