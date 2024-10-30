@@ -19,14 +19,14 @@ img4: de-mount-castle-manali-4.jpg
 img5: de-mount-castle-manali-5.jpg
 detail: 
 data: "glamoreo Glamp"
-p1: "Indulge in the ultimate luxury camping experience at Glamoreo Glamp Cheog, Shimla. Nestled amidst the breathtaking Himalayan landscapes, our luxurious tents offer a perfect blend of comfort, style, and adventure."
-p2:
-p3:
-wc1: "<b>Luxurious Tents:</b> Immerse yourself in the lap of luxury with our spacious and elegantly furnished tents."
-wc2: "<b>Panoramic Views:</b> Wake up to stunning views of the snow-capped mountains and lush valleys."
-wc3: "<b>Gourmet Dining:</b> Savor delectable meals prepared by our expert chefs, using fresh, local ingredients."
-wc4: "<b>Personalized Service:</b> Our dedicated staff is committed to providing you with exceptional service."
-wc5: "<b>Bone Fire</b> Glamo home Kufri provides bone fire and hot tub bath best experiance available."
+p1: "De Mount Castle ManliHotel is a Delux property with best nice view outside with balcony at manali. This property offers the best service. De mount castle is located in Aleo, Manali. This hotel is best to stay in Manali."
+p2: "Mount castle is Have Suite Rooms like Family Suite, Executive Rooms, And Honeymoon Suite. Hotel provides the best food And Amenities to thair clints. You can enjoy the ambiance of the manali with De Mount Castle Manali hotel."
+p3: "Free Wifi, HD TV, Free Parking is also available in the Hotel. This Hotel Is budget Friendly And Don't Cost Much. Book Now And Enjoy Best stay at manali with tourist Hill Travels."
+wc1: "<b>Free PArking:</b> It has free parking and provide no extra cost for parking your vahical. Parking is secure and good in size so your vahical can easily rest there."
+wc2: "<b>Mauntain Views:</b> Nice View of snow covered mauntains can be enjoyed from the balcony of the hotel with the brakefast. The ambiance is good and nature lovers will definatly love this property."
+wc3: "<b>Best Rated:</b> This propery has best rating of 4.5 on google so you will enjoy your stay. This hotel provide delux to premium suite rooms."
+wc4: "<b>Personalized Service:</b> De Mount Castle provides the personalized service."
+wc5: "<b>Ppolution Free Environment :</b> Hotel is setuated in polution free environment so you can enjoy the stunning view of snow coverd mauntains in front of you."
 
 ---
 
