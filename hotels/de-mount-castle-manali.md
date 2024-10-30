@@ -6,12 +6,12 @@ date:   2024-09-09 05:16:52 -0700
 categories: Hotels
 permalink: /hotels/de-mount-castle-manali.html
 location: Manali
-price: "1,300"
+price: "3,500"
 price-per: Per Night 
-price-strike: "27,000"
-price-save: "10,000"
-reviews-count: 360
-rating: 4.5
+price-strike: "4,000"
+price-save: "500"
+reviews-count: 4
+rating: 5.0
 img1: de-mount-castle-manali-1.jpg
 img2: de-mount-castle-manali-2.jpg
 img3: de-mount-castle-manali-3.jpg
