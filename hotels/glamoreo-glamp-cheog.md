@@ -26,7 +26,7 @@ p3: "Dome Stay Shimla has the best rating and revies of 5 out of 5 and highly re
 wc1: "<b>Luxurious Tents:</b> Immerse yourself in the lap of luxury with our spacious and elegantly furnished tents."
 wc2: "<b>Panoramic Views:</b> Wake up to stunning views of the snow-capped mountains and lush valleys."
 wc3: "<b>Gourmet Dining:</b> Savor delectable meals prepared by our expert chefs, using fresh, local ingredients."
-wc4: "<b>Personalized Service:</b> Our dedicated staff is committed to providing you with exceptional service."
+wc4: "<b>Personalized Service:</b> glamoreo dedicated staff is committed to providing you with exceptional service."
 wc5: "<b>BonFire</b> Glamo home Kufri provides bonfire and hot tub bath best experiance available."
 
 ---
