@@ -2,6 +2,7 @@
 layout: hotel
 title:  "Forest Hill Hotel Shimla Himachal"
 discription: "Forest Hill Hotel Shimla is nice place to sty in shimla with range from delux to premium suite rooms nice view outside with balcony and free amenities available Book Now"
+keywords: "forest hill, forest hill shimla, hotel forest hill, hotel forest hill shimla"
 date:   2024-10-09 05:16:52 -0700
 categories: Hotels
 permalink: /hotels/forest-hill-shimla.html

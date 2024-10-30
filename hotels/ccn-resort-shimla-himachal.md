@@ -2,6 +2,7 @@
 layout: hotel
 title:  "CCN Resort Shimla Ghanahatti"
 discription: "CCN Resort Shimla is the best hotel in shimla to stay with family and friend best price and good amenities available book now"
+keywords: "ccn resort shimla, ccn resort, shimla hotel, hotel shimla"
 date:   2024-10-09 05:16:52 -0700
 categories: Hotels
 permalink: /hotels/ccc-resort-shimla.html

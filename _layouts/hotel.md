@@ -346,16 +346,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
 <hr>
 <div class="w3-padding">
-  <p>Indulge in the ultimate luxury camping experience at Glamoreo Glamp Cheog, Shimla. Nestled amidst the breathtaking Himalayan landscapes, our luxurious tents offer a perfect blend of comfort, style, and adventure.</p>
 
-<h3 class="w3-large"><strong>Why Choose Glamoreo Glamp Cheog?</strong></h3>
+  <p>{{page.p1}}</p>
+  <p>{{page.p2}}</p>
+  <p>{{page.p3}}</p>
 
+<h3 class="w3-large"><strong>Why Choose This Accommodation</strong></h3>
 <ul>
-<li><p><b>Luxurious Tents:</b> Immerse yourself in the lap of luxury with our spacious and elegantly furnished tents.</p></li>
-<li><p><b>Panoramic Views:</b> Wake up to stunning views of the snow-capped mountains and lush valleys.</p></li>
-<li><p><b>Gourmet Dining:</b> Savor delectable meals prepared by our expert chefs, using fresh, local ingredients.</p></li>
-<li><p><b>Personalized Service:</b> Our dedicated staff is committed to providing you with exceptional service.</p></li>
-
+<li><p>{{page.wc1}}</p></li>
+<li><p>{{page.wc2}}</p></li>
+<li><p>{{page.wc3}}</p></li>
+<li><p>{{page.wc4}}</p></li>
+<li><p>{{page.wc5}}</p></li>
 </ul>
 </div>
 <hr>

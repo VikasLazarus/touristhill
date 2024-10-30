@@ -19,6 +19,15 @@ img4: glamoreo-glamp-4.webp
 img5: glamoreo-glamp-5.webp
 detail: "Glamoreo Glamp is a great choice for travellers looking for a star hotel in Kufri. This Hotel stands out as one of the highly recommended hotel in Kufri. Hotel is rated out of 5, which is considered as very good."
 data: "glamoreo Glamp"
+p1: "Indulge in the ultimate luxury camping experience at Glamoreo Glamp Cheog, Shimla. Nestled amidst the breathtaking Himalayan landscapes, our luxurious tents offer a perfect blend of comfort, style, and adventure."
+p2:
+p3:
+wc1: "<b>Luxurious Tents:</b> Immerse yourself in the lap of luxury with our spacious and elegantly furnished tents."
+wc2: "<b>Panoramic Views:</b> Wake up to stunning views of the snow-capped mountains and lush valleys."
+wc3: "<b>Gourmet Dining:</b> Savor delectable meals prepared by our expert chefs, using fresh, local ingredients."
+wc4: "<b>Personalized Service:</b> Our dedicated staff is committed to providing you with exceptional service."
+wc5: ""
+
 ---
  
   
