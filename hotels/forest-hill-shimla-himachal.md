@@ -1,6 +1,6 @@
 ---
 layout: hotel
-title:  "CCN Resort Shimla Ghanahatti"
+title:  "Forest Hill Hotel Shimla Himachal Pradesh"
 discription: "Forest Hill Hotel Shimla is nice place to sty in shimla with range from delux to premium suite rooms nice view outside with balcony and free amenities available Book Now"
 date:   2024-10-09 05:16:52 -0700
 categories: Hotels
@@ -18,7 +18,7 @@ img3: forest-hill-shimla-3.jpg
 img4: forest-hill-shimla-4.jpeg
 img5: forest-hill-shimla-5.jpeg
 detail: "Forest Hill Shimla is a best hotel in Shimla with delux to premium sute rooms available to stay in shimla best location with nice outside view of forest and mauntains"
-data: "CCN Resort shimla"
+data: "Forest Hill Shimla"
 ---
  
 
