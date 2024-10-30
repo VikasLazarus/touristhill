@@ -4,7 +4,7 @@ title:  "CCN Resort Shimla Ghanahatti"
 discription: "CCN Resort Shimla is the best hotel in shimla to stay with family and friend best price and goog amenities available book now"
 date:   2024-09-09 05:16:52 -0700
 categories: Hotels
-permalink: /hotels/:title
+permalink: /hotels/ccc-resort-shimla.html
 location: Shimla
 price: "3,000"
 price-per: Per Night 
