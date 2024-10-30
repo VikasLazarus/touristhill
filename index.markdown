@@ -9,8 +9,8 @@ layout: home
     <div id="Explore" class="city">
 
 
-      <div class="w3-row w3-white s12 m3 l3 w3-center  w3-container w3-hide-large w3-hide-medium"
-        style="background:url({{site.url}}/images/texture.png); height: 50px; display: flex; align-items: center; justify-content: center; padding: 3px 20px;">
+      <div class="w3-row w3-light-gray s12 m3 l3 w3-center  w3-container w3-hide-large w3-hide-medium"
+        style="height: 50px; display: flex; align-items: center; justify-content: center; padding: 3px 20px;">
         <div onclick="window.location.href='{{site.url}}'" class="w3-col  s4 m4 l4 w3-button w3-teal w3-small "
           style=" border-radius: 30px 0px 0px 30px;">
          <strong>Tours</strong>
