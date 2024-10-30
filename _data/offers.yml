@@ -1,24 +1,47 @@
 De Mount Castle Manali:
     icon: pizza-slice
-    text: Meal
-    icon1: pizza-slice
-    text1: Meal
-    icon2: pizza-slice
-    text2: Kitchen
-    icon3: pizza-slice
-    text3: Kitchen
-    icon4: pizza-slice
-    text4: Kitchen
-    icon5: pizza-slice
-    text5: Kitchen
-    icon6: pizza-slice
-    text6: Kitchen
-    icon7: pizza-slice
-    text7: Kitchen
-    icon8: pizza-slice
-    text8: Kitchen
+    text: Kitchen
+    icon1: hot-tub
+    text1: Hot Tub
+    icon2: wifi
+    text2: wifi
+    icon3: parking
+    text3: Free Parking
+    icon4: laptop-house
+    text4: Workspace
+    icon5: tv
+    text5: HD TV
+    icon6: wind
+    text6: Dryer
+    icon7: paw
+    text7: Pets allowed
+    icon8: soap
+    text8: washing machine
+    icon9: fan
+    text9: Air conditioning
 
 Glamoreo Glamp Cheog Shimla:
+    icon: pizza-slice
+    text: Kitchen
+    icon1: hot-tub
+    text1: Hot Tub
+    icon2: wifi
+    text2: wifi
+    icon3: parking
+    text3: Free Parking
+    icon4: laptop-house
+    text4: Workspace
+    icon5: tv
+    text5: HD TV
+    icon6: wind
+    text6: Dryer
+    icon7: paw
+    text7: Pets allowed
+    icon8: soap
+    text8: washing machine
+    icon9: fan
+    text9: Air conditioning
+CCN Resort Shimla Ghanahatti:
     icon: pizza-slice
     text: Kitchen
     icon1: hot-tub
