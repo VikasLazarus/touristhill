@@ -18,7 +18,7 @@ img3: ccn-resort-shimla-3.webp
 img4: ccn-resort-shimla-4.webp
 img5: ccn-resort-shimla-5.webp
 detail: "CCN Resort is located in Shimla the one of best hotels to stay in shimla with best service and rooms nice outside view and best amenitis available book now. super delux to premium sute is available in CCN Resort Shimla"
-data: "CCN Resort"
+data: "CCN Resort shimla"
 ---
  
 
