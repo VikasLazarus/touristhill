@@ -469,7 +469,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
   
   {% for page in site.pages limit:5 %}
-      {% if page.category contains 'Hotel' %}
+      {% if page.categories contains 'Hotel' %}
         
         <div class="w3-third w3-row w3-margin-bottom">
 <a href="{{ page.url }}">
