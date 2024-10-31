@@ -116,7 +116,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
       </div>
     
     
-    <div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray">
+    <div style="border-radius: 15px; padding: 6px 0px; width: 100%;" class=" w3-margin-bottom w3-row">
       <div>
       <div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 30px;">
       <strong>Day-2</strong></div> 
@@ -125,10 +125,11 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
     </div>
       <div id="day2" class="w3-row">
         <hr>
-        <p></p>
+        <p>On Secound day of your Shimla Manali couple tour visit Kufri a nearby advenure location at Shimla. Kufri is famous for nice natur view and adventure activits and horse riding. Our cab will take you to the kufri horse riding point and than after you will visit kufri fun world and zoo of kufri.</p>
+        <p>Aftrt all The nature sightseen and adventure activites our cab will take you back to the hotel where you can relax for the further jaurny for the next day. Stay will be the same property with included dinner and brakefast.</p>
     <hr>
       <!--transfers-->
-    <div class="w3-row w3-padding">
+    <div class="w3-row">
       <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
         <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer By Cab</strong>
       </div>
@@ -160,7 +161,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
     
       </div>
       <hr>
-      <div class="w3-row w3-padding"></div>
+      <div class="w3-row"></div>
       <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
         <i class="fas fa-bed w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay At Shimla</strong>
       </div>
