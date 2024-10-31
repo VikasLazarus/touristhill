@@ -48,8 +48,8 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
     <img alt="{{page.title}}" src="{{site.url}}/images/{{page.img1}}" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
     </div>
     
-    <div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray">
-      <div onclick="myFunction('day1')">
+    <div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row">
+      <div>
       <div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
       <strong>Day-1</strong></div> 
       <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
