@@ -48,7 +48,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
     <img alt="{{page.title}}" src="{{site.url}}/images/{{page.img1}}" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
     </div>
     
-    <div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row">
+    <div style="border-radius: 15px; padding: 6px 0px; width: 100%;" class=" w3-margin-bottom w3-row">
       <div>
       <div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
       <strong>Day-1</strong></div> 
@@ -64,7 +64,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
     <!--stay-->
     <!--end-->
     <!--transfers-->
-    <div class="w3-row w3-padding">
+    <div class="w3-row">
     <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
       <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer By Cab</strong>
     </div>
@@ -81,7 +81,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
       </div>
     </div>
     <hr>
-    <div class="w3-row w3-padding"></div>
+    <div class="w3-row"></div>
     <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
       <i class="fas fa-bed w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay At Shimla</strong>
     </div>
