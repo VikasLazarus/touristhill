@@ -457,7 +457,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
   
   {% for page in site.pages %}
-      {% if page.location contains [page.location] %}
+      {% assign new = site.pages.location[page.location] %}
         
         <div class="w3-third w3-row w3-margin-bottom">
 <a href="{{ page.url }}">
