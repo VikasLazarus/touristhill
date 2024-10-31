@@ -450,7 +450,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
     </div>
 
 <!--RELATED-->
- <div id="Shimla" class="city" style="display:none">
+ <div>
     <h2 class="w3-large w3-margin-bottom"><strong>Hotels In Shimla</strong></h2>
    
 <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
