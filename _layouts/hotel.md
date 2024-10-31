@@ -449,15 +449,27 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
     </div>
 
+
+
+
+
+
+
+
+
+{{page.content}}
+
+<hr>
+
 <!--RELATED-->
  <div class="w3-row w3-content w3-padding">
-    <h2 class="w3-large w3-margin-bottom"><strong>Hotels In Shimla</strong></h2>
+    <h2 class="w3-large w3-margin-bottom"><strong>View More Hotels</strong></h2>
    
 <div class="w3-row w3-row-padding" style="margin: 0px -16px;">
 
   
-  {% for page in site.pages %}
-      {% assign new = site.pages.location[page.location] %}
+  {% for page in site.pages limit:5 %}
+      {% if page.category contains 'Hotel' %}
         
         <div class="w3-third w3-row w3-margin-bottom">
 <a href="{{ page.url }}">
@@ -518,14 +530,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins"}
 
 
   </div>
-
-
-
-
-
-<hr>
-
-{{page.content}}
 
 <!-- Footer -->
 {% include footer.md %}
