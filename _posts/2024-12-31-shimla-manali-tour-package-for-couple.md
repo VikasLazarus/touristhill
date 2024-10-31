@@ -52,13 +52,13 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
       <div>
       <div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
       <strong>Day-1</strong></div> 
-      <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
+       
       <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Arrival in Shimla form Delhi</div>
     </div>
       <div id="day1" class="w3-row">
     
         <hr>
-      <p>Start your jaurny from Delhi airport or  railway station to Shimla in provided Cab and enjoy the stuning view acroce your jaurny towords the Shimla.It Is Around 345 KM from Delhi to Shimla. Enjoy your tour and have welcome drink on arival to shimla and check in the provided hotle in the customized tour itenary.</p>
+      <p>Start your jaurny from Delhi airport or  railway station to Shimla in provided Cab and enjoy the stuning view acroce your jaurny towords the Shimla. It Is Around 345 KM from Delhi to Shimla. Enjoy your tour and have welcome drink on arival to shimla and check in the provided hotel in the customized tour itenary.</p>
       <p>After Checking in get some drink and relax than visit nearby locations to enjoy shimla manali tour. You can visit <b>Jhaku Temple</b>, <b>Mall Road Shimla</b>, <b>Jhansi Park</b> Etc. After That Come Back to hotel And stay there Overnight. Your stay Property is a premium suite room at hotel with balcony enjoy out side view with nice Room Service and Meal Included.</p>
     <hr>
     <!--stay-->
@@ -66,46 +66,46 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
     <!--transfers-->
     <div class="w3-row">
     <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer By Cab</strong>
+      <i class="fa-solid fa-taxi w3-text-dark-gray" style="margin-right: 6px;"></i> <strong class="w3-text-dark-gray">Transfer By Cab</strong>
     </div>
     <div class="w3-row">
     
       <div class="w3-col" style="width: fit-content; padding-right: 18px;">
         From <br>
-        <sapn class="w3-large w3-text-gray"><strong>Delhi</strong></sapn>
+        <sapn class="w3-large w3-text-dark-gray"><strong>Delhi</strong></sapn>
       </div>
       
       <div class="w3-col" style="width: fit-content; padding-right: 18px;">
         To <br>
-        <sapn class="w3-large w3-text-gray"><strong>Shimla</strong></sapn>
+        <sapn class="w3-large w3-text-dark-gray"><strong>Shimla</strong></sapn>
       </div>
     </div>
     <hr>
     <div class="w3-row"></div>
     <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
-      <i class="fas fa-bed w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay At Shimla</strong>
+      <i class="fas fa-bed w3-text-dark-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay At Shimla</strong>
     </div>
     
     <div class="w3-row">
       <div class="w3-col" style="width: fit-content; padding-right: 18px;">
         Nights <br>
-        <sapn class="w3-large w3-text-gray"><strong>2 NIGHTS</strong></sapn>
+        <sapn class="w3-large w3-text-dark-gray"><strong>2 NIGHTS</strong></sapn>
       </div>
     
       <div class="w3-col" style="width: fit-content; padding-right: 18px;">
         Check In <br>
-        <sapn class="w3-large w3-text-gray"><strong>8 PM</strong></sapn>
+        <sapn class="w3-large w3-text-dark-gray"><strong>8 PM</strong></sapn>
       </div>
       
       <div class="w3-col" style="width: fit-content; padding-right: 18px;">
         Check Out <br>
-        <sapn class="w3-large w3-text-gray"><strong>9 AM</strong></sapn>
+        <sapn class="w3-large w3-text-dark-gray"><strong>9 AM</strong></sapn>
       </div>
     </div>
     
     <div class="w3-row w3-light-gray w3-padding w3-margin-top" style="border-radius: 10px;">
       <div class="w3-col s12 m12 l12" style="padding: 6px 0px;">
-        <i class="fa-solid fa-utensils w3-text-gray" style="margin-right: 12px;"></i> <strong class="w3-text-gray">Breakfast &amp; Dinner Included</strong>
+        <i class="fa-solid fa-utensils w3-text-dark-gray" style="margin-right: 12px;"></i> <strong class="w3-text-dark-gray">Breakfast &amp; Dinner Included</strong>
       </div>
     </div>
     
@@ -117,13 +117,13 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
     
     
     <div style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray">
-      <div  onclick="myFunction('day2')">
+      <div>
       <div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 30px;">
       <strong>Day-2</strong></div> 
       <div class="w3-col w3-right" style="width: 10px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
       <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Shimla Sightseeing</div>
     </div>
-      <div id="day2" class="w3-row w3-hide">
+      <div id="day2" class="w3-row">
         <hr>
         <p></p>
     <hr>
@@ -206,7 +206,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
     <div  style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray">
       <div onclick="myFunction('day3')" ><div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
       <strong>Day-3</strong></div> 
-      <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
+       
       <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Journey to Manali</div>
      </div>
       <div id="day3" class="w3-row w3-hide">
@@ -287,7 +287,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
     <div  onclick="myFunction('day4')">
     <div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
     <strong>Day-4</strong></div> 
-    <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
+     
     <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Manali Adventure</div>
    </div>
    <div id="day4" class="w3-row w3-hide">
@@ -379,7 +379,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
       <div onclick="myFunction('day5')">
       <div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
       <strong>Day-5</strong></div> 
-      <div class="w3-col w3-right" style="width: 15px; padding-right: 5px;"><i class="fa-solid fa-caret-down w3-text-dark-gray"></i></div> 
+       
       <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Departure</div>
      </div>
      <div id="day5" class="w3-row w3-hide">
