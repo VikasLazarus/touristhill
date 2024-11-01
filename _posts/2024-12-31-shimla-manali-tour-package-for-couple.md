@@ -204,13 +204,13 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
     <img alt="{{page.title}}" src="{{site.url}}/images/manali.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
     </div>
     
-    <div  style="border-radius: 15px; padding: 6px 0px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray">
+    <div  style="border-radius: 15px; padding: 6px 0px; width: 100%;" class=" w3-margin-bottom w3-row">
       <div><div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
       <strong>Day-3</strong></div> 
        
       <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Journey to Manali</div>
      </div>
-      <div id="day3" class="w3-row w3-hide">
+      <div id="day3" class="w3-row">
         <hr>
     <p></p>
     <p></p>
