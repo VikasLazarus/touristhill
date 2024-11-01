@@ -204,31 +204,26 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
     <img alt="{{page.title}}" src="{{site.url}}/images/manali.jpg" class="w3-border w3-border-light-gray" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%; border-radius: 15px;">
     </div>
     
-    <div  style="border-radius: 15px; padding: 6px 7px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray">
-      <div onclick="myFunction('day3')" ><div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
+    <div  style="border-radius: 15px; padding: 6px 0px; width: 100%;" class=" w3-margin-bottom w3-row w3-light-gray">
+      <div><div class="w3-col w3-button w3-teal" style="width: 80px; padding: 2px 16px; border-radius: 10px;">
       <strong>Day-3</strong></div> 
        
       <div class="w3-rest w3-text-gray w3-large" style="padding: 0px 6px;">Journey to Manali</div>
      </div>
       <div id="day3" class="w3-row w3-hide">
         <hr>
-      <ul>
-        <li>
-          Scenic Drive: Embark on a scenic drive from Shimla to Manali, passing through charming villages, lush forests, and breathtaking landscapes.</li>
-    <li>
-      Check-in to Your Hotel: Arrive in Manali, the "Valley of Gods," and check into your hotel.
-    </li>
-    
-    </ul>
+    <p></p>
+    <p></p>
+    <p></p>
     
     <div class="w3-row w3-sand w3-padding w3-margin-top" style="border-radius: 10px;">
       <div class="w3-col s12 m12 l12" style="padding: 6px 0px;">
-        <strong class="w3-text-gray">Check Out from Deluxe Hotel in Shimla</strong>
+        <strong class="w3-text-dark-gray">Check Out from Deluxe Hotel in Shimla</strong>
       </div>
     </div>
     
     <hr>
-    <div class="w3-row w3-padding">
+    <div class="w3-row">
       <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
         <i class="fa-solid fa-taxi w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Transfer By Cab</strong>
       </div>
@@ -245,7 +240,7 @@ img5: shimla-manali-tour-package-for-couple-5.jpeg
         </div>
       </div>
       <hr>
-      <div class="w3-row w3-padding"></div>
+      <div class="w3-row"></div>
       <div class="w3-col s12 m4 l4" style="padding: 6px 0px;">
         <i class="fas fa-bed w3-text-gray" style="margin-right: 6px;"></i> <strong class="w3-text-gray">Stay At Manali </strong>
         <p class="w3-large w3-text-gray"><strong>Check-in at Deluxe Hotel in Manali</strong></p>
