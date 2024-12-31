@@ -8,6 +8,7 @@
   <meta name="author" content="Tourist hill">
   <meta name="copyright" content="Tourist Hill Travels" />
 <meta name="application-name" content="Tourist Hill Travels" />
+<meta name="google-adsense-account" content="ca-pub-3313624136394536">
 
 <!--FB Meta-->
 <meta property="og:title" content="{{page.title}}" />
