@@ -8,8 +8,9 @@
   <meta name="author" content="Tourist hill">
   <meta name="copyright" content="Tourist Hill Travels" />
 <meta name="application-name" content="Tourist Hill Travels" />
-<meta name="google-adsense-account" content="ca-pub-3313624136394536">
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2891130628806136"
+     crossorigin="anonymous"></script>
 <!--FB Meta-->
 <meta property="og:title" content="{{page.title}}" />
 <meta property="og:type" content="article" />
