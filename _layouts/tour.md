@@ -6,7 +6,7 @@
 <meta name="description" content="{{page.discription}}">
   <meta name="keywords" content="{{page.keywords}}">
   <meta name="author" content="Tourist hill">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2891130628806136"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1638799423963498"
      crossorigin="anonymous"></script>
 <meta charset="UTF-8">
 <link rel="canonical" href="{{site.url}}{{page.url}}.html" />

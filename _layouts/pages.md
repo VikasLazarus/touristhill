@@ -9,7 +9,7 @@
   <meta name="keywords"
     content="Himachal Pradesh tourism, India travel packages, Shimla tour, Manali tour, Himalayan treks, cultural tours India, adventure tourism India, tailor-made travel India, experienced travel guides India, unforgettable travel experiences India">
   <meta name="author" content="Tourist hill">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2891130628806136"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1638799423963498"
      crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">

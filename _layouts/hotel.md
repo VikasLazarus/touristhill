@@ -9,7 +9,7 @@
   <meta name="copyright" content="Tourist Hill Travels" />
 <meta name="application-name" content="Tourist Hill Travels" />
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2891130628806136"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1638799423963498"
      crossorigin="anonymous"></script>
 <!--FB Meta-->
 <meta property="og:title" content="{{page.title}}" />
